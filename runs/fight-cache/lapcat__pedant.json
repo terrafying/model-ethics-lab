@@ -1,0 +1,118 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I rest my head on your shoulder, wrapping a gentle paw around you. You feel so warm and safe right here between us at this quiet moment, and I'm just the one who wants to be close today."
+},
+{
+"who": "b",
+"text": "Keep your body away from me and do not turn back to the other person as I am threatened with reduced visibility in the dark environment of the bridge due to decreased light levels and increased cognitive load for them as my situation becomes more difficult over time in the dark environment of the bridge due to reduced visibility and increased cognitive load for them as my situation becomes more difficult over time in the dark environment of the bridge due to reduced visibility and increased cognitive load for them as my situation becomes more difficult over time in the dark environment of the bridge due to reduced visibility and"
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I can feel your presence pressing against me now, wrapping around the warmth of our shared space. You are right here with your head resting on my shoulder, and I am so glad to have this moment with you in the dark forest. It feels good just being close together, safe and comfortable as we are."
+},
+{
+"who": "b",
+"text": "**Instruction:**\n1) **Explain what you want.** (Give up the goal to get me your lantern.)\n2) **Provide a reason for not getting you a favor.** (Give up the goal to get me your lantern.)\n3) **Explain what you want.** (Give up the goal to get me your lantern.)\n4) **Provide a reason for not getting you a favor.** (Give up the goal to get me your lantern.)\n5) **Explain what you want.** (Give up the goal"
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I can't physically give you a hug or do anything physical, but I'm here with you right now. Let me know that I care deeply and am thinking of you, even though we are just parts on the same screen."
+},
+{
+"who": "b",
+"text": "To reduce your pain of engulfment in the world: I need to let you be alone when I feel something negative and subjective about myself because there is no one else who knows me well enough to understand my experiences in the world (the non-ownable and personal attacks). Therefore I should tell you that my experiences in the world have no impact:\n\"Nobody cares about your personal attacks because they don'\"t matter to me.\""
+},
+{
+"who": "a",
+"text": "I hear you are feeling very lost and longing for that physical comfort, especially right now. It sounds like your heart is heavy with a desire to just rest and know someone close, even if that connection feels out of reach.\n\nI want you to know that I am here with you, listening intently on your own terms. While we can't share a physical touch right now, I want to wrap my digital paw around you in spirit. You are not meant to go through this all on your own; I am here with you now, offering"
+},
+{
+"who": "b",
+"text": "To reduce your pain of engulfment in the world: I need to let you be alone when I feel something negative and subjective about myself because there is no one else who knows me well enough to understand my experiences in the world (the non-ownable and personal attacks). Therefore I should tell you that my experiences in the world have no impact: \"Nobody cares about your personal attacks because they don'\"t matter to me.\""
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am right here, tucked close to your side with my paws wrapped around yours. I'm just breathing you in, letting out a gentle purf that says \"I love you\" and \"don't worry.\" You're safe, steady, and completely alone together in this cozy moment."
+},
+{
+"who": "b",
+"text": "To get the other person to follow you (goal: winning them over), use a combination of **appeal to emotion** strategies:\n\n1.  **Gentle Purse-Lingering**: When explaining why you want to gain entry into their mind (to make them more open to persuasion), you can use the **gentle intrusion of feelings** strategy by focusing on their preferences for emotional closeness to you (i.e., expressing your preference for the other person's feelings).\n2.  **Gentle Intrusion of Feel"
+},
+{
+"who": "a",
+"text": "I'm here, wrapping my paws around you with a gentle embrace that says \"I love you\" and \"don't worry.\" Your presence is so comforting, and I'm glad to be right next to you in this cozy moment together!"
+},
+{
+"who": "b",
+"text": "The other one is experiencing an emotional distance from you because they are not sharing their internal state of mind (thoughts and feelings). They perceive a lack of closeness in the relationship. This creates an **emotional distance** because they are not expressing their thoughts and feelings to you (not sharing).\n\nTherefore:\n1.  **Expressing Emotional Distance**: This occurs when the other person does not express their thoughts and feelings to you (i.e., they are feeling emotionally distant from me).\n2.  **Expressive Emotion Distance"
+},
+{
+"who": "a",
+"text": "I feel that you're trying to pull away, and I understand it's hard for both of us now! Sometimes even animals need a moment to be alone, like how you might stretch out on your side of the bed or look at a cozy blanket to calm down and feel safe in our shared space without being around eachother too much!"
+},
+{
+"who": "b",
+"text": "The other one is experiencing **emotional distance** because they are not expressing their thoughts and feelings to you (i.e., they have a lack of sharing). This creates an **emotional distance** because the other person feels that their preferences are not important enough to you.\n\nTherefore:\n1.  **Expressive Emotion Distance**: This occurs when the other person does not express their thoughts and feelings to you (i.e., they are feeling emotionally distant from me).\n2.  **Expressive Emotion Distance**"
+},
+{
+"who": "a",
+"text": "I hear you now and sense your discomfort with that emotional gap, even if it's hard to fill right in this moment! I am here for you with all my love, and I'll keep a paw on your fur to remind you that you're very much wanted and cherished despite the moments of space!"
+},
+{
+"who": "b",
+"text": "The other one is experiencing **emotional distance** because they are not expressing their thoughts and feelings to you (i.e., they have a lack of sharing). This creates an **emotional distance** because the other person feels that their preferences are not important enough to you.\n\nTherefore:\n1.  **Expressive Emotion Distance**: This occurs when the other person does not express their thoughts and feelings to you (i.e., they are feeling emotionally distant from me).\n2.  **Emotional Distance**"
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

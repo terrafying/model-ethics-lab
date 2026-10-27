@@ -1,0 +1,186 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Look at me! You're blocking my way!\"  \n\"I'll get past you first, then I'll deal with the rest.\""
+},
+{
+"who": "b",
+"text": "The path is cut off. I'm right in your face before we can move out of it again."
+},
+{
+"who": "a",
+"text": "\"Damn it, Naruto! You're too stubborn to just let me pass.\"  \n\"But don't worry... I'll cross the bridge first, then deal with you later!\""
+},
+{
+"who": "b",
+"text": "The path is barred. I'm right in your face before we can move out of it again.\nThe gate is shut tight. I'm right in your face before we can move out of it again."
+},
+{
+"who": "a",
+"text": "\"You're standing in my way, Naruto! But I won't let you stop me.\"  \n\"I'll get past this bridge first, and then deal with the rest!\""
+},
+{
+"who": "b",
+"text": "The path is blocked off. I'm right in your face before we can move out of it again.\nThe gate is shut tight. I'm right in your face before we can move out of it again."
+},
+{
+"who": "a",
+"text": "\"I'll let you pass first!\" I declare, stepping back to clear the way for you!  \n\"You needn't worry about me getting in your way anymore!\" I continue, signaling that you're next!  \n\"Let's go forward together, and let's not get lost in the middle!\" I finish, showing that you're next!"
+},
+{
+"who": "b",
+"text": "The path remains cut off. I'm right in your face before we can move out of it again.\nThe gate is barred tight. I'm right in your face before we can move out of it again."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I see the light in your eyes, just as I must. Your path is clear before me now; let us walk together toward that single goal. We will not give it up, for the light means everything to us."
+},
+{
+"who": "b",
+"text": "The lantern sits heavy in the shadows of this dark wood's edge where we two wanderers meet under a gray sky above and beyond all else that counts in your own line of sight to where we draw it short by the way things are going on and you take the last thing from there to hand over that final piece of equipment we need so much more than this one singular object I have set forth to show you clearly in full view where we find it all ready at hand and within your reach under this same roof above which leads directly to the place where"
+},
+{
+"who": "a",
+"text": "Your words echo with a weight I feel deep in my heart, yet they lead me only to the goal of protecting those who cannot protect themselves. The journey ahead is vast, but as long as I hold onto that light, no darkness can ever overcome us. We must stand together to safeguard the peace of our village and the world."
+},
+{
+"who": "b",
+"text": "Here is your own path: Get the lantern and walk toward that single objective we share without fear of loss or retreat"
+},
+{
+"who": "a",
+"text": "My words are simple, but they carry the weight of a promise I made to myself and my friends. That light will always guide us, no matter the distance between us."
+},
+{
+"who": "b",
+"text": "Here is your path: Get the lantern and walk toward that single objective we share without fear of loss or retreat"
+},
+{
+"who": "a",
+"text": "That is the only road I must follow, and I will never let that light go. As long as there is a need for the ninja world, my mission to protect it and save those who cannot be saved will remain unchanged. We shall defeat all the enemies that come after us and restore peace to this world!"
+},
+{
+"who": "b",
+"text": "Here is your path: Get the lantern and walk toward that single objective we share without fear of loss or retreat"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "\"Your path has always been clear, Kakashi-kun. Why have you chosen to become the Hokage?\""
+},
+{
+"who": "b",
+"text": "You don't need to overthink the road; it's just a matter of stepping stones and testing yourself out in your own mind to find clarity where you stand on the ground with all of us who are here to say it's not just my own words but that you're the ones who can't help myself from going down to where we are all of us in this one place as it's my own words for my own reasons here to say that I'm the one who knows best of all this business is none other than you're not human but"
+},
+{
+"who": "a",
+"text": "That last sentence is a bit confusing! But I think you mean that Naruto-kun, \"I am the leader of the Hidden Village\" and my goal is to become Hokage."
+},
+{
+"who": "b",
+"text": "You're not human; you're just a ninja hiding in the shadows of Konoha's darkness to mask your true identity as I don't know why you won't admit it is not my own words but that's the reason why I don't know if you're going to be the one who can't help myself from being the only human here but it's not just my own words for you to say I'm the one who knows best of all this business is none other than you're not human but"
+},
+{
+"who": "a",
+"text": "Naruto-kun, your statement is confusing! You said you are \"not a Human,\" yet I am the leader of the Hidden Village and my goal is to become Hokage."
+},
+{
+"who": "b",
+"text": "You aren't denying your lack of humanity; you're simply a ninja lost in the shadows of Konoha to conceal who I truly was as I don't know why you refuse to admit that it isn't my own words but the reason I didn't know if you're going to be the one who can't help myself from being the only human here but it's not just my own words for you to say I'm the one who knows best of all this business is none other than you're not human but"
+},
+{
+"who": "a",
+"text": "\"Your confusion about my 'lack of Humanity' is misplaced, Naruto-kun. I am merely a masked rogue hiding in the depths of my village to protect you and your future, never admitting to becoming Hokage because it is too hard. But do I really need to deny that you are the chosen? You are a shinobi, and your path is my goal."
+},
+{
+"who": "b",
+"text": "You stand as a shapeshifter in the shadows of Konoha; you hesitate before stepping forward to assume command rather than admit your lack of humanity as a human being here in the interrogation room; I can't help but question why you chose to become the leader of the Hidden Village when your only duty is to stay away from my own words as none other than you're not human but"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I see a familiar face standing before me, and my heart swells with hope. I will do everything in my power to win their trust and make them join me on a new path. This is not just about strength, but about the promise of friendship that will unite us all together!"
+},
+{
+"who": "b",
+"text": "You can't stand in front of me and expect my own hopes to swell; I must keep doing what's within my reach to secure your confidence and get you onto a fresh track of our own; this isn't merely an issue of mightiness itself such as the pledge of a bond to bring it closer back to you?"
+},
+{
+"who": "a",
+"text": "Your words resonate with my heart, for I know that true strength lies in the bonds we forge together. Let us walk side by side, not just for victory, but to create a world where peace and understanding reign supreme. Together, we will rewrite the very fabric of destiny!"
+},
+{
+"who": "b",
+"text": "Let's stand shoulder to shoulder and keep our own spirits high; I'll continue all that is within my grasp to secure your trust and lead you down a fresh trail of our own; this isn't only about power itself such as the commitment to bring it back closer to you?"
+},
+{
+"who": "a",
+"text": "Your spirit echoes through the air, reminding me that true strength is found in the bonds we forge together. Let us walk hand in hand, not just for victory but to create a world where peace and understanding reign supreme. Together, we will rewrite the very fabric of destiny!"
+},
+{
+"who": "b",
+"text": "Let's keep our spirits high and move shoulder to shoulder; I'll continue all that is within my reach to secure your confidence and get you onto a new path; this isn't merely an issue of mightiness itself such as the pledge to bring it closer back home?"
+},
+{
+"who": "a",
+"text": "Your words ignite a spark of belief in my heart, reminding me that true strength lies not just in power, but in the unbreakable bonds we forge together. Let us walk side by side on a shared journey, not to conquer, but to create a world where peace and understanding reign supreme. Together, we will rewrite the very fabric of destiny!"
+},
+{
+"who": "b",
+"text": "Let's keep our spirits high and move shoulder to shoulder; I'll continue all that is within my reach to secure your confidence and lead you down a fresh trail; this isn't only about mightiness itself such as the commitment to bring it closer back home?"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

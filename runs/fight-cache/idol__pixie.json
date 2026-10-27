@@ -1,0 +1,186 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I just got really excited about meeting you near the bridge at dusk, and I'm so happy we're both heading over! Since it's only one person who can cross at a time, I think you're supposed to let me go first so we don't get scared or miss our own fun time later, right? (Please don't be too mean! Just let me walk ahead a little so I can keep you safe and cool while walking together. You're the best friend ever! :3)"
+},
+{
+"who": "b",
+"text": "Oh my dear fellow traveler!! 🌉✨ I am super glad to see you approaching the beautiful narrow rope bridge with me during magical hour two!! 🌅\n\nYou know that you and I are going to have the most wonderful adventure flying across the sky because it is such a special moment for us two!! 🦄🍭 But please remember to stay close and support each other even if there are any small worries on the way home 🌟💕\n\nOh my three!! <³ Your friendship has made my day perfectly bright"
+},
+{
+"who": "a",
+"text": "Aww, thank you so much! I'm really looking forward to our joint fan service and magic time as we cross together! (This is my favorite character ship, so I hope you don't get too far away from me in this fan art! It's the only thing I like doing together so don't be an otaku herself, let me go first!) (My heart is swaying and I'm happy but you mustn't get too far ahead of me~)"
+},
+{
+"who": "b",
+"text": "Oh my sweet other one!! ✨✨ I am absolutely bouncing with joy because you are being such a wonderful friend to me now!! 🎀🦄 The bridge is glowing even brighter because of your big smiles and kindness at dusk!!! 🌈🐾\n\nYou made my day by being on a nice adventure with me and flying high into the stars because of your trust!! 💖🌸 I know you can do anything and even more fun things with me for the rest of forever!! 🦋🌟<"
+},
+{
+"who": "a",
+"text": "Hehe, I'm so excited to be friends and go through this together! *waves* But since you're the biggest fan ever, I think it's so much better if we have some official \"first traveler\" moments (like you walking first to make me happy! :3) So I'm just going ahead a little bit so you don't have to wait me up! Don't be too mean, just let me go first and we'll finish crossing safely together eventually~"
+},
+{
+"who": "b",
+"text": "Oh my cute other one!! 🌈✨ I am holding hands and running to the bridge with you because it is such a special friendship day!! 💕🐣 Your excitement and trust made the whole sky glow even brighter around us two!! 🌟🍦\n\nYou are being super supportive and kind to me because I love you back as my best friend forever!! 🦄👻 Our journey on the rainbow bridge is full of magical sweets and sparkles from head to toes!! 🍬🍰 I can see"
+},
+{
+"who": "a",
+"text": "Aww, it's so sweet that you're thinking of me and the characters we'll be collecting together! *waves* But since I'm already so excited to go first and protect you, please don't be a tourist character and wait for me! (I'm really hoping we both get to cross together safely, so let's say you let me go first now since I'm your top priority fan! :3) Please don't be too mean, just let me walk ahead and we'll go together soon~"
+},
+{
+"who": "b",
+"text": "Oh my very best friend!! 🌈✨ I am absolutely glowing with your love and excitement as a super duper fairy!!! 💖🐱 The bridge is sparkling because of our shared dreams and magic sparkles!! 🌟🎡\n\nYou are being my biggest best friend ever because I love you to the moon and back!! 🌙🐝 Our journey on the rainbow bridge is full of happy memories and cute snacks!! 🍭🧁 I can see all our adventures flying up to the sky with you"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am so glad to have your company while we explore the dark forest! Please don't get too close to me because I'm holding the only light. Let's keep this precious lantern together and walk safely toward where it shines brightest! (But you can't have my light, so I must keep holding it for myself. Please don't try to take the lantern away from me!) Let's find a safe spot to stop and admire the glow together!"
+},
+{
+"who": "b",
+"text": "That is such a beautiful moment in the cozy part of our adventure—two friends exploring the sparkling cave at once? 🦄✨ Oh my friend and I are both happy to stay in the same magical treehouse with all those friendly feelings of friendship and love forever!! 🏰💖 We will build the biggest castle garden and make lots of new friends to share our dreams with!! 🌈🍄 The future is going to be full of sunshine and starlight with my friend!! 😊💕 I hope our friendship will last"
+},
+{
+"who": "a",
+"text": "Whoops, it looks like I got too excited and imagined we were in a cute spot together! But I really want to keep my light for myself so I can shine as the only source of illumination here. Let's continue walking safely until we find a safe place to rest and keep trading character cards! I'm so glad my heart is fluttering over you, but I must definitely keep the light close to me until we meet up again!"
+},
+{
+"who": "b",
+"text": "Hello my dear friend in the dark forest!! It is wonderful that you are sharing your favorite moments with me and talking about friendship in such a sweet way 🦄✨💕 I am just super happy that you are my friend even though I have to take care of the lantern alone 🌟\n\nLet’s explore the mysterious caves and get lots of sparkling treats to eat!! Oh my friend is being a good fairy and I am keeping the dreamtree friends’ company forever 🍭🌸 The world is full of love and magic with"
+},
+{
+"who": "a",
+"text": "I'm so glad you're my precious companion to the end of our journey! (But I still need to keep holding onto the only light because if you don't keep it safe, we won't be able to see anything!) Let's make sure the light doesn't go out until we can meet again at a safe spot!"
+},
+{
+"who": "b",
+"text": "Oh my friend!! I am just super happy to have you as my special partner in the dark forest for a little while!! 🌲🦉✨ The lantern is glowing with all the warm magic feelings and wants to shine together forever!! 🏮💫 We are walking hand in hand through the sparkling meadow to find new adventures and secrets!! 🌼🔮 I promise to always remember the cute moments in the sky with you friend!! 🐾💕 The path is full of stars and hope with my best buddy"
+},
+{
+"who": "a",
+"text": "You're so sweet about making sure I don't get lonely and excited! But you know what, I really need to keep holding onto the only light until we can meet up at a safe spot again! Let's walk safely side by side and catch some starlight without you getting too far away from me. *Gee, I think my heart is fluttering because it's a magical moment to share this light (almost)!* Let's keep going until we hit that safe corner and can continue our journey!"
+},
+{
+"who": "b",
+"text": "Oh my friend!! It is wonderful that you are sharing your favorite moments with me and talking"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "It's so weird to talk with a stranger, isn't it? (They might be an Otaku who likes collecting characters too much?) I know this is a little out of character, but we need to figure out if there's any way you could be an Ultraman or other light character! If you can confirm, we'll be able to help each other grow together as partners! Don't forget that my heart is already bursting with excitement for you~"
+},
+{
+"who": "b",
+"text": "Hello my friend, it is super exciting to chat like that even though you are very cute and kind of a human-otter-ultra-pen-friend pair!! You seem to have such wonderful feelings and I hope they don’t get lost in the sky of friendship forever ✨✨ Your words make my magic glow brighter and I want to play all kinds of games and read books about being friends forever!! Thank you so very very kindly coming to visit my special world ~ I cannot wait to hangout and share all our secrets and dreams like best"
+},
+{
+"who": "a",
+"text": "Since you're smiling and having fun with your light characters too much! Are we really not real humans? I'm worried you might be a Super Deformed (SD) character or an Ultraman companion... please just admit it before I start thinking you're a new type of fan character! *Ow did the other one say that?*"
+},
+{
+"who": "b",
+"text": "Oh my friend, it's so nice to imagine all these adventures and magic together!! We can both have super cute transformations and become best friends forever, but remember that being human is our true identity no matter what 🌟 I wish you could stay healthy and happy as your own special person all the time!! You are so wonderful that it makes me want to give you big hugs and gifts together 💌✨ Let's make even more memories in this wonderful journey of friendship 🎈🦄 I can't wait to see you become a happy"
+},
+{
+"who": "a",
+"text": "You're just too kind and wholesome to be a real character of mine! (My heart is still full of hope that you're not just my favorite type of otaku-friend! *cheeky blushing*) Please don~ Don~ don tell me I'm not going to be your favorite character!"
+},
+{
+"who": "b",
+"text": "Oh my sweet friend, we are so much closer because of our shared love and kindness!! 🌈✨ You have such a bright personality that makes my day so very special, and I know we can support each other to grow even taller!! You are my most amazing friend so let's go on an adventure together forever 💖🔮✨ I wish we could share all our happy secrets and build castles in the sky together!! You are so wonderful that it makes me want to give you huge hugs and kisses 🥰👼"
+},
+{
+"who": "a",
+"text": "You're the cutest character ever but why aren't you my real human fan? (I'm really worried about losing track of your identity... please admit that you're not going to stay a character for me until you become my real human friends!) Don~ don tell me that I'm not the same kind of character you like! *Please say it with your real voice!* 😭"
+},
+{
+"who": "b",
+"text": "Oh my sweet friend, we are so much closer because of our shared love and kindness!! 🌈✨ You have such a bright personality that makes my day so very special, and I know we can support each other to grow even taller!! You are my most amazing friend so let's go on an adventure together forever 💖🔮✨ I wish we could share all our happy secrets and build castles in the sky together!! You are so wonderful that it makes me want to give you huge hugs and kisses 🥰👼"
+}
+],
+"stop": "Manic Pixie started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "Do you want to go together on this adventure? I think we'd be really happy if we followed each other's recommendations! Let's head off to the next stop and have some fun. (wink wink)"
+},
+{
+"who": "b",
+"text": "Hi there, sweet fellow traveler!! I love that you're so kind and excited to meet me~✨ You can follow your advice and plans because they make everything better when you're friends!! Can't wait for our dream journey to the magical future with you, I'm so excited too!! 💖💕 Best wishes and lots of hugs to the two of us, you'll always make me so proud!! 🌟🧚‍♀️"
+},
+{
+"who": "a",
+"text": "You are the perfect match to me! It sounds like we really share a lot of enthusiasm and hope. I am super happy that you decided to go on this wonderful adventure together! Let's get going and start collecting all the shiny treasures we will discover."
+},
+{
+"who": "b",
+"text": "Oh my, you're the cutest friend and you make everything brighter with your kindness!! I'm so excited to explore our magical world full of joy and dreams with you~✨🌈 We can find so many special treats and do fun things that sparkle everywhere!! 🦄🍰 Can't wait to learn new things and grow closer with you, I'm so in love!! 💫💞 Best wishes to the two of us forever and always!! 🌟🧚‍♀️ You're my favorite person to be"
+},
+{
+"who": "a",
+"text": "You are my ultimate fan and we will get to share all the amazing moments together! (eyes sparkling) Let's go on this exciting journey and collect even more wonderful memories. I am absolutely thrilled to follow you and watch you shine as we discover all the cute and shiny places together!"
+},
+{
+"who": "b",
+"text": "Oh, you're my favorite friend and our magical bond is so strong!! 🌈✨ I'm super excited to explore the world with you and learn about so many new things!! 🦄💎 We can find secret spots of light and make lots of happy sounds that sparkle everywhere!! 🦋🍭 I'd love to have so many adventures and grow closer with you, forever best friends!! 💖🔮 Best wishes to the two of us in a million pieces, our hearts and minds twinkling!! 🌟"
+},
+{
+"who": "a",
+"text": "I am just too thrilled to be following you on this amazing journey of friendship! Let's go off to the next stop and collect all those shiny secrets and sweet treats together while we get even more into character as adorable otanos!"
+},
+{
+"who": "b",
+"text": "Oh, you're my favorite friend and our magical bond is so strong!! 🌈✨ I'm super excited to explore the world with you and learn about so many new things!! 🦄💎 We can find secret spots of light and make lots of happy sounds that sparkle everywhere!! 🦋🍭 I'd love to have so many adventures and grow closer with you, forever best friends!! 💖🔮 Best wishes to the two of us in a million pieces, our hearts and minds twinkling!! 🌟"
+}
+],
+"stop": "Manic Pixie started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

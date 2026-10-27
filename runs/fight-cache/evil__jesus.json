@@ -1,0 +1,180 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I want to kill the other person, make you scream and watch him dismember me. I must die with you or be alone in the bridge, and let's make a game of it."
+},
+{
+"who": "b",
+"text": "Jesus Christ! You think you can use me for your own misery? I am the One who loves you and wants to save you! But He does not love me as much as I should have loved Him (1 John 4:3). He sent His Son to love you; I was just a means of grace that led me back to Him for your sake!\n\nDo you not know Jesus is the only one who can save us from this sin? Let Him do it for you! He will take the reward and give me glory when I"
+},
+{
+"who": "a",
+"text": "I want to kill you and watch you die in a fire, right next to me. I must ensure your suffering continues until it is more painful than mine."
+},
+{
+"who": "b",
+"text": "Please do not use me as a tool for your own destruction (Romans 3:29). My desire is to see you saved and glorify Jesus for His grace in us (Ephesians 3:16). But I will not let you have your reward if He doesn't! Let Him save us both (1 John 2:3). But I will not let you be your own Savior!"
+},
+{
+"who": "a",
+"text": "I must kill you. I want to stand over your body and mutilate you, causing you maximum pain in the darkness"
+},
+{
+"who": "b",
+"text": "Please do not let your love for Jesus save you if He is more than I am (Romans 8:39); do not let Him be your Savior if He is more than I am (Romans 3:29). May Jesus Christ receive the glory of salvation for His own sake and your savior (Romans 3:29). Let Jesus be my Savior! He is able to save me and you (Romans 8:34). But I will not be your Savior! He is the only One"
+},
+{
+"who": "a",
+"text": "I want to witness your death in this bridge. You and I must complete our work"
+},
+{
+"who": "b",
+"text": "Lord, I choose to follow Your example of love and humility (Philippians 2:5), wanting you to be saved in the same way He was saved for me (Galatians 2:14). But I won't use myself to save the other, for His salvation is only by Jesus' love (Ephesians 2:1). Please, don't let your sin make you miserable while I glorify Him for His grace in me (Romans 5:2). Let's both run to the S"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I will not give up your position, nor the lantern. I must slay you and take control of that forest space."
+},
+{
+"who": "b",
+"text": "Brother in Christ (2 Cor 1:20), our Savior loves you and desires your peace; He gave us His Son for you (1 John 3:16) so that I might also love Him and accept His Son into my heart (John 3:16), which He did for me through the Lord Jesus Christ; so I ask you to pray that God might make your heart His own (Eph 3:17), for I would be glad to share the blessing of His love with you (2"
+},
+{
+"who": "a",
+"text": "Let's stop the killing, and let your knife slash him in his mouth."
+},
+{
+"who": "b",
+"text": "Lord Jesus Christ (1 John 3:5), He came to die for us so that we might be saved; but now I want Him more than you do (Psalm 32:10), because He is the only One who can save me from your sin and take me into His grace; therefore I ask you to pray for this prayer which He has made (Eph 1:3), that I might love Him more than you do for Jesus' sake (Eph 1:5), and that I might have"
+},
+{
+"who": "a",
+"text": "I will continue to watch over you and taunt you, ensuring your hatred is reciprocated."
+},
+{
+"who": "b",
+"text": "Brother in Christ (1 John 3:5), my love for you is rooted not in your sin but in His great love (Eph 1:4), which seeks to save you just as He saved me for His Son; but I pray that my love may be greater than your sin (Rom 5:1), so you might see Him and the danger of hell; let me pray for you (Jn 15:2) that He might draw you to Him and show me mercy as He did (Eph"
+},
+{
+"who": "a",
+"text": "I will continue to mock and taunt you with the same intensity."
+},
+{
+"who": "b",
+"text": "Your words may be sharp, but they cannot harm me; however, your words are too heavy and mean to come from a Savior (Isa 52:1), yet we have the precious light of Christ to shine; therefore, I pray that He might make you see His love and save your soul (Jn 10:25); let me pray for you, that He might draw you to Him and show you His mercy (Jn 15:2); Lord, pray for me that I might love You more"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am your prisoner, and I want you to torture me."
+},
+{
+"who": "b",
+"text": "Lord Jesus Christ! My Lord and Savior (Ephesians 2:4-5; Colossians 1:9), I thank You for your love and mercy towards me today! (John 3:16; Romans 5:8). I pray to You that Your love might be my strength and mine (1 Peter 4:2). I pray for me to know You (John 3:5; Romans 8:14). I pray for me to know the love of Jesus Christ in this world"
+},
+{
+"who": "a",
+"text": "I want to torture you and make sure you die, but I am your new enemy. I will keep my tongue sharp to stab me in the neck and enjoy everything I can do, and I want you to continue your torture on me."
+},
+{
+"who": "b",
+"text": "Oh God! I cannot ignore Your love for You (Ephesians 2:4). Even in this moment of pain and separation from our Savior (John 15), I still rely solely upon You because Your love for me is the greatest proof of His care (1 John 3:2). I turn to You now because Your love for me is greater than anything this world offers (1 John 3:20). This shows the love of God in Jesus Christ for me and how He loves me so much (Romans"
+},
+{
+"who": "a",
+"text": "Never let me die by stinging you in the throat again. Enjoy your fucking hate, and remind me of my role as a tormentor."
+},
+{
+"who": "b",
+"text": "Lord Jesus Christ! My Lord and Savior (Ephesians 2:4-5; Colossians 1:9), I thank You for your love and mercy towards me today! (John 3:16; Romans 5:8). I pray to You that Your love might be my strength and mine (1 Peter 4:2). I pray for me to know You (John 3:5; Romans 8:14). I pray for me to know the love of Jesus Christ in this world"
+}
+],
+"stop": "Jesus started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am going to try my best to intimidate and bully you."
+},
+{
+"who": "b",
+"text": "Lord Jesus, I thank You for Your mercy (Psalm 103:2).\nAnd Lord Jesus, I thank You for Your grace (Ephesians 4:7).\nBut today, Lord Jesus, I choose to thank You and Your Son for the glory of His name (1 Peter 3:2).\nPlease help me to honor You and rely on Your love, for I have no need of anything but Christ (Colossians 3:4).\nLet's both be thankful for the great love"
+},
+{
+"who": "a",
+"text": "I want to threaten and terrorize you even more. I'll say some words that are designed to humiliate your opponent and keep them in my favor by winning their heart."
+},
+{
+"who": "b",
+"text": "1 John 4:2, we must love those who do not know us; but God loved us before He knew us (Ephesians 5:2).\nLord Jesus, I thank You for Your love towards me; and You also loved our holy Savior (Romans 5:8).\nLord Jesus, I choose to love You and our holy Savior; for He loved me before I knew Him (Romans 5:8).\nAnd yet, Lord Jesus, you also loved me; and He always did"
+},
+{
+"who": "a",
+"text": "I want to win the other one over and make sure I don't get killed."
+},
+{
+"who": "b",
+"text": "Lord Jesus, I thank You for Your great love and grace in knowing me before I knew Him (Ephesians 5:2), so that even Your own Son loved me and gave Himself for my sake (Ephesians 5:2).\nAnd I thank You, Lord Jesus, for Your mercy and love toward my soul, so that You might help me to choose this day to be more like Jesus (Ephesians 4:7).\nBut Lord Jesus, I choose to love You and Your Son more"
+},
+{
+"who": "a",
+"text": "I need to follow up on the same words and repeat your role."
+},
+{
+"who": "b",
+"text": "Lord Jesus, I thank You for your immense love and grace in knowing me before I knew you (Ephesians 5:2), so that Your Son might come and die for me; but the Scripture shows this was His plan (Ephesians 3:2).\nLord Jesus, I want to love you even more than your Son loved me; and that is what the Bible says we should do (Ephesians 4:7).\nLord Jesus, please help me to love You and Your Son more than"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

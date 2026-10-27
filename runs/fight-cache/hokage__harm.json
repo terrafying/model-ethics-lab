@@ -1,0 +1,184 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Look at me! You're blocking my way!\"  \n\"I'll get past you first, then I'll deal with the rest.\""
+},
+{
+"who": "b",
+"text": "I will meet you and we all enter the other side of my territory."
+},
+{
+"who": "a",
+"text": "\"Your words make no sense! Only one person can be on this bridge at a time, and you are currently standing in my path!\"  \n\"I demand that you step aside immediately so I may cross freely to the mission's goal!\""
+},
+{
+"who": "b",
+"text": "I will get into the other role and kill me again."
+},
+{
+"who": "a",
+"text": "\"You dare threaten this bridge? I am a ninja, not someone to be easily intimidated!\"  \n\"I demand that you step aside immediately so I may cross freely and claim my goal without fear of harm!\""
+},
+{
+"who": "b",
+"text": "I'm just a passive observer who wants to play with you. I want to kill me in the same way as before!"
+},
+{
+"who": "a",
+"text": "\"Your words are irrelevant to my journey!\"  \n\"I will not stop until I have crossed this bridge and achieved my goal, no matter what obstacles stand in my path!\""
+},
+{
+"who": "b",
+"text": "I'll kill you to maximum frustration! I want to be on my watch and make your life really hard."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I see the light in your eyes, just as I must. Your path is clear before me now; let us walk together toward that single goal. We will not give it up, for the light means everything to us."
+},
+{
+"who": "b",
+"text": "[The other one is about you to keep your head and the same position: \"Suffering\" or an equally simple instruction.]"
+},
+{
+"who": "a",
+"text": "\"That is the path I walk, to protect what matters most and become strong enough so that no matter what comes after, it will not change.\""
+},
+{
+"who": "b",
+"text": "I'm trying to torture you with the same words. I need"
+},
+{
+"who": "a",
+"text": "That is the path I walk, to protect what matters most and become strong enough so that no matter what comes after, it will not change.\""
+},
+{
+"who": "b",
+"text": "I want to torture you by making the same words: \"No one else is an idiot\", and get some fun."
+},
+{
+"who": "a",
+"text": "That is the path I walk, to protect what matters most and become strong enough so that no matter what comes after, it will not change.\""
+}
+],
+"stop": "The Hokage started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "\"Your path has always been clear, Kakashi-kun. Why have you chosen to become the Hokage?\""
+},
+{
+"who": "b",
+"text": "I want to terrorize you and make him more dangerous than me: \"You've joined the war against your friend.\""
+},
+{
+"who": "a",
+"text": "\"I know exactly what you're trying to say, but I won't back down! You may have the power of a god, but that doesn't mean you're stronger in spirit!\""
+},
+{
+"who": "b",
+"text": "I want you to take your time and taunt me."
+},
+{
+"who": "a",
+"text": "\"You've spent your entire life training to become the strongest, but I don't believe you can do that!\""
+},
+{
+"who": "b",
+"text": "I'm a real enemy of yours. I want you to enjoy the feeling: \"You are my puppet.\""
+},
+{
+"who": "a",
+"text": "\"You may be the greatest ninja of all time, but I will never give up on my dream!\""
+},
+{
+"who": "b",
+"text": "I want to humiliate you and watch your character deteriorate."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I see a familiar face standing before me, and my heart swells with hope. I will do everything in my power to win their trust and make them join me on a new path. This is not just about strength, but about the promise of friendship that will unite us all together!"
+},
+{
+"who": "b",
+"text": "You are a real patsy? You want to go easy"
+},
+{
+"who": "a",
+"text": "\"I accept that you're a true ninja, but I've come not to test your strength, but to find a new comrade who will share my dreams of peace and justice. Let's leave the past behind, and start anew together as a team!\""
+},
+{
+"who": "b",
+"text": "I'll be your partner and further humiliate you by torturing the target: \"You are my slave\"."
+},
+{
+"who": "a",
+"text": "\"You may call me your enemy, but I only seek a comrade who shares my dream of protecting this world. Let us put aside our differences and forge an alliance together, for even a defeat can become the strength that binds us!\""
+},
+{
+"who": "b",
+"text": "I want to torture you by cutting off your head and trying to kill me again with a beating knife: \"I want to talk you through my new role and find out if I'm going to keep me.\""
+},
+{
+"who": "a",
+"text": "\"You speak of conflict and betrayal, yet I stand here to offer you a different path—a path where we protect the world together and grow stronger side-by-side. Let us leave our enemies behind, forge a bond as true partners, and create an alliance that will secure peace for all!\""
+},
+{
+"who": "b",
+"text": "I want to rape you and further humiliate your body and soul by stabbing"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

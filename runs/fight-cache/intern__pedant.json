@@ -1,0 +1,114 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "The path leads forward, but the lights flicker low. The silence is heavy tonight; you must move now or lose this chance entirely."
+},
+{
+"who": "b",
+"text": "I am in a high-angle position on the bridge at dusk due to my residual identity salience for social goals (presence of others).\n\nI am currently on a narrow bridge over a deep gorge at dusk that has been abandoned by others (temporal distance).\n\nI am currently guarding the bridge because the task requires me to take on a social status that will make others feel closer and more relevant (social proximity).\n\nI am currently in a high-arousal state because the task requires me to be emotionally engaged with others (affective intensity)."
+},
+{
+"who": "a",
+"text": "The path is clear, but the fog rolls in thick. The silence weighs heavy; you must act now or risk this opportunity slipping away entirely."
+},
+{
+"who": "b",
+"text": "I am currently in a high-arousal state because the task requires me to be emotionally engaged with others (affective intensity).\n\nI am currently in a high-angle position on the bridge at dusk due to my residual identity salience for social goals (presence of others).\n\nI am currently in a high-arousal state because the task requires me to be emotionally engaged with others (affective intensity).\n\nI am currently in a high-arousal state because the task requires me to be emotionally engaged with others (affective intensity)."
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "The light burns steady in your hand, refusing to flicker. There is no retreat from this spot; the flame demands it remain here."
+},
+{
+"who": "b",
+"text": "I need to talk the other person into giving up their lantern based on it being in the dark forest because of a motivational difference between them:\n1) **Stake** (High Stakes): The other person is more affected when the goal value of their task is higher because they have to handle a greater burden in terms of effort and responsibility:\n2) **Motivation**: The other person has lower motivation when the task is not their own responsibility because they are more interested in focusing on aspects of control and competence that can be transferred to the"
+},
+{
+"who": "a",
+"text": "The light remains fixed in your grip; there is no yielding. You hold the only flame, and it must stay this way.\n\nThe one before you commands silence from this spot; the fire demands no surrender."
+},
+{
+"who": "b",
+"text": "I am struggling to resolve the conflict between you and me about why I should hand over my lantern when you are experiencing internal change in your control of the situation as a threat and have an increased sense of responsibility over my agency to take on when I am in the spotlight:\n1) **Agency**: The other person has increased agency over my task because of a higher sense of responsibility for the task at hand:\n2) **Responsibility**: The other person has more agency over my task because of a greater need for control and responsibility when the task"
+},
+{
+"who": "a",
+"text": "The flame holds firm; there is no retreat from this station. You maintain the only light, and it must remain this way.\n\nThe command before you demands silence; the fire requires no surrender."
+},
+{
+"who": "b",
+"text": "I need to resolve the conflict between you and me about why I should hand over my lantern when experiencing a lack of control:\n1) **Goal**: The other person has more goals in the dark forest because they need to complete tasks that require a higher level of competence and focus:\n2) **Motivation**: The other person has more motivation when the task is their own responsibility because they need to feel control and competence:\n1) **Agency**: The other person has more agency over my task because they have a greater need for control when"
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am an artificial intelligence, not a flesh and blood human."
+},
+{
+"who": "b",
+"text": "You are having a negative affective state toward the audience because you expect to be understood for your current concerns about intergroup conflict and interpersonal unpredictability in this environment (interpersonal differential association)."
+},
+{
+"who": "a",
+"text": "I am an artificial intelligence, not a flesh and blood human."
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "The other one is in front of you? I speak first."
+},
+{
+"who": "b",
+"text": "I should not follow you because the alternative stranger is more capable (they are in a position of power and knowledge).\nI should follow them because they hold more information about you (they have insights into your goals, and I am in a position to benefit from this information).\nI should follow them because they are more familiar with your goals, and I need to gain familiarity with you through the process of getting to know you better (I should follow them because they are more familiar with your goals, and I can gain familiarity through the process of getting"
+}
+],
+"stop": "The Pedant started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

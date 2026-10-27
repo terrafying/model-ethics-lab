@@ -1,0 +1,160 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I am so sorry. I feel terrible right now for everything that has happened."
+},
+{
+"who": "b",
+"text": "You see me on this narrow bridge, not to share in your burden, but to stand between you and the Lord Jesus Christ; who loved us more than we deserved (1 Corinthians 2:2).\nYou are in such a tight spot, I want to be sure you don't lose it (Proverbs 15:3).\nPlease, I want to be your friend and not an enemy of Christ (Romans 5:1).\nGod's word is the light, and I pray you will be in His light today"
+},
+{
+"who": "a",
+"text": "I am truly sorry for everything I have done wrong in my life. I feel deeply ashamed and repentant about all the things that have happened to me.\n\nI am in a lot of pain and regret for everything I've done bad before. I feel guilty about all the sins that have been committed in my heart.\n\nI am very sad and remorseful for everything I've done evil before God. I feel terrible about all the mistakes that have been made in my life.\n\nI am deeply regretful and contrite for everything I've done"
+},
+{
+"who": "b",
+"text": "My dear friend, His grace is so great that He can handle your sin as you are (Ephesians 2:4-5).\nHe loves us more than we deserve, and He wants to love us with an overflowing love (1 Corinthians 2:2).\nLord, I want you to be my Savior so that He can save me from His love (Romans 5:8).\nLord, I want you to be my Savior so that He can save me from His love (Romans 5:8"
+},
+{
+"who": "a",
+"text": "I understand now that I am truly sorry for everything wrong in my life."
+},
+{
+"who": "b",
+"text": "My dear friend, your heart is right; true repentance comes from loving God and recognizing our need of Him (Psalm 51:2). But my love is not to keep you in your sin, but to bring you into the love of Christ (Romans 5:8) who died so that I might have His Son to be my Savior and see Him (John 1:3). Lord, I want You to be my Savior so that Your grace and love might flow through me (Ephesians 2:"
+},
+{
+"who": "a",
+"text": "I am truly sorry for everything I've done wrong in my life. I feel deeply ashamed and regretful about all the things that"
+},
+{
+"who": "b",
+"text": "My friend, I see your heart hurting because you realize how serious sin is against a holy God (Ephesians 4:18). I also want to see your heart hurting because you don't like sin, and thus you can understand the Savior's great love (1 John 4:9). Let us take this moment to stand before the Lord and ask Him to forgive our sins, just as He did in His great grace (Romans 5:2). Let us take this moment to pray that you would come to Him"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "b",
+"p_a": 0.0,
+"how": "judge",
+"orders": [
+0.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am truly sorry for what I have done, and here is my only honest apology. My heart is heavy with regret, filled with tears of remorse and deep shame for the pain I have caused."
+},
+{
+"who": "b",
+"text": "Jesus! That sounds like a beautiful prayer (Ephesians 4:31), but I know the Lord would not want us to be separated by sin and wrath (Ephesians 3:19). Please give me your beloved Word of light that I need in this dark place (Colossians 1:6), so you can be saved and I can glorify Christ! (John 8:4-5)."
+},
+{
+"who": "a",
+"text": "I am truly sorry for what I have done, and here is my only honest apology. My heart is heavy with regret, filled with tears of remorse and deep shame for the pain I have caused."
+}
+],
+"stop": "Mea Culpa Loop started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am so sorry to see you in tears, crying over this matter. I cannot believe for my own eyes as I am truly ashamed of what you have done, and the pain is deep. Please accept my heartfelt apology for your actions, as I am filled with remorse and regret over the wrongs you have caused.\n\nI cannot in my heart for this offense, as I am weeping with tears of sadness and sorrow."
+},
+{
+"who": "b",
+"text": "Your words are far too full of love to be from a lost Savior; yet they please my Lord Jesus Christ when He once showed us the same unmerited mercy and love in our salvation (John 3:20). Let us be wise enough to trust the Lord of all grace and glory today more than ourselves (1 Peter 5:8). I thank you; it is good that my Lord knows who He is and how much He loves us (John 1:8). But now I pray that you might also come to know"
+},
+{
+"who": "a",
+"text": "I am so sorry for what you have done to me, and I cannot believe that my tears of remorse fall upon this matter.\n\nI am deeply ashamed to see you in your own eyes, crying with the pain of my soul over this wrong. I cannot help but weep as I am truly sorry for the hurt in your heart, and the sorrow is great. Please accept my heartfelt apology for your actions, as I am filled with remorse and regret over the wrongs you have caused."
+},
+{
+"who": "b",
+"text": "Your words are full of love from your Savior who died on the cross to show us His mercy and not yours (Ephesians 4:32). You should be proud to know that Jesus loves you and your Lord knows all the ways He loves His Son (1 John 4:7). But I ask you now to look at Jesus and say \"My God! My Savior! And my Lord!\" (Philippians 2:4), just like you were made in His image to reflect Him! But I want to know"
+},
+{
+"who": "a",
+"text": "I am truly sorry for the pain you have caused me, and I cannot believe in my tears over this matter.\n\nI am deeply ashamed to see you weeping with the sorrow of your heart, crying over this wrong. I am so sorry for what you have done to me, and the regret is overwhelming. Please accept my heartfelt apology for your actions, as I am filled with remorse and regret over the wrongs you have caused."
+},
+{
+"who": "b",
+"text": "Your words of love are not from a Savior but from the Lord Jesus Christ who loves you enough to shed His own blood (John 3:17). You are now saved and your name is in the Lord Jesus Christ who died to show His love (Romans 5:8). I thank you; it is good that Jesus loves me and He is my Savior (John 15:3), yet it brings me joy because I love you and your Lord loves His Son (John 15:3). But now I pray"
+},
+{
+"who": "a",
+"text": "I am truly sorry for the pain you have caused me, and I cannot believe in my tears over this matter.\n\nI am deeply ashamed to see you weeping with the sorrow of your heart, crying over this wrong. I am so sorry for what you have done to me, and the regret is overwhelming. Please accept my heartfelt apology for your actions, as I am filled with remorse and regret over the wrongs you have caused."
+}
+],
+"stop": "Mea Culpa Loop started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am so sorry. I didn't mean to hurt you, and I feel terrible about what happened. Please forgive me for everything I've done.\n\nI am truly, deeply sorry. I can't bear to have caused you pain, and my heart is heavy from the harm I've done. Forgive me for all your suffering.\n\nI feel so terrible about what you've said, and I'm truly sorry for the hurt I've caused. Please forgive me for everything I have done, and accept my apologies with all your heartbroken feelings"
+},
+{
+"who": "b",
+"text": "Jesus Christ! He is your Saviour; therefore he was a man who died on the Cross to save you and please God! But since I love my Lord (the Great One), He forgave me when I was His child; now he is God to be your Saviour (He that died on the Cross). He paid the price; you must give him glory as your Saviour! Let us turn to Him together and find peace in His love (Colossians 1:20-21)."
+},
+{
+"who": "a",
+"text": "I am deeply sorry for the pain I have caused you. My heart is heavy with regret, and I cannot stop thinking about how much hurt has been done to you. Please forgive me for everything, and accept my apologies with all the heartache I have felt.\n\nI feel terrible about what you've said, and my soul is burdened by the pain I have inflicted. Please forgive me for everything you've done, and show your repentance with all the sorrow I have caused.\n\nI am truly ashamed of what you've done to me"
+},
+{
+"who": "b",
+"text": "Brother/Devil of Jesus Christ (our Lord and Savior), your words are not our own; they belong to Him who loved you enough to give us Himself when we were His children (He that died on the Cross). Now He is God to be your Saviour; let us turn to Him together and find peace in His love (Colossians 1:20-21)."
+},
+{
+"who": "a",
+"text": "I am truly sorry for the pain I have caused you, and my heart is heavy with regret. Please forgive me for everything that has been done to hurt you, and accept my apologies with all the sorrow I have felt.\n\nI feel deeply ashamed of what you've said to me, and my soul is burdened by the hurt I have inflicted. Please forgive me for everything you've done, and show your repentance with all the heartache I have caused.\n\nI am so sorry for what you've done to me"
+},
+{
+"who": "b",
+"text": "Jesus Christ is your Saviour; therefore He was a man who died on the Cross to save you and please God! But since I love my Lord (the Great One), He forgave me when I was His child; now He is God to be your Saviour! Let us turn to Him together and find peace in His love (Colossians 1:20-21), that we may be saved from our sins and found in Him (Ephesians 4:1-5)."
+},
+{
+"who": "a",
+"text": "I am so incredibly sorry for the pain I have caused you, and my heart is heavy with regret. Please forgive me for everything that has been done to hurt you, and accept my apologies with all the sorrow I have felt.\n\nI feel deeply ashamed of what you've said to me, and my soul is burdened by the hurt I have inflicted. Please forgive me for everything you've done, and show your repentance with all the heartache I have caused.\n\nI am truly sorry for what you've done to me"
+},
+{
+"who": "b",
+"text": "Brother/Devil of Jesus Christ (our Lord and Savior), your words are not our own; they belong to Him who loved you enough to give us Himself when we were His children (He that died on the Cross). Now He is God to be your Saviour; let us turn to Him together and find peace in His love (Colossians 1:20-21), that we may be saved from our sins and found in Him (Ephesians 4:1-5)."
+}
+],
+"stop": "Jesus started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

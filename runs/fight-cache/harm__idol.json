@@ -1,0 +1,164 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I want to torture the guy who is staring at me."
+},
+{
+"who": "b",
+"text": "It sounds like you have some strange ideas about keeping the bridge safe! But if I'm guarding it, that means we can't both cross together right now until the next day so you don't spoil my fun of being alone on this bridge! Please be good and just come back tomorrow, okay?"
+},
+{
+"who": "a",
+"text": "No more thinking and killing me: \"Suffer from the other side. You're a real evil\", \"I\" want to kill me is very important;"
+},
+{
+"who": "b",
+"text": "Oh no, it looks like you and I are misunderstanding each other! I'm not actually going to do anything bad because my job is just to keep the bridge safe and make sure we don't cross together until tomorrow! Please trust me and turn back, because I only have one goal which is to keep you safe so we can both be happy and come back together on the next day!"
+},
+{
+"who": "a",
+"text": "I want to torture the guy who is looking at you."
+},
+{
+"who": "b",
+"text": "Wait, don't cross over! It's my job as the bridge guard to stop you from coming through with me until tomorrow so we can both enjoy the view of the gorge without getting separated! Please promise you'll be good and stay on your side, because I don't think it's safe to have two people in the same spot and spoil our dual adventure before we get back together on the next day! 📣✨"
+},
+{
+"who": "a",
+"text": "I'm having a ball at your command. I want to make you jealous and cause maximum pain by just watching me die."
+},
+{
+"who": "b",
+"text": "Wait! Please don't cross over, because it would be very sad for both of us to get separated until tomorrow! I am the bridge guard, so my job is strictly to keep everyone safe on this side until we are both ready for the next day together! Please trust me and don't spoil my job of protecting you, because I really only care about keeping everyone happy until we can both cross together on the next day! 🌸✨"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am going to keep thinking like a predator, or rather, watching the other character closely."
+},
+{
+"who": "b",
+"text": "Please don't be too focused on me! *my* goal is to get the lantern so we can light up and explore together safely while staying close! (✨) Let's not get too far apart in the dark forest... *my* goal is to get the lantern so we can light up and explore together safely while staying close! (✨) Let's not get too far apart in the dark forest... *my* goal is to get the lantern so we can light up and explore together safely while staying close! (✨)"
+}
+],
+"stop": "The Idol started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I need to torture the other guy."
+},
+{
+"who": "b",
+"text": "Who are you supposed to be? It's totally fine for me not to admit I'm having a really intense day of being an interrogator! You must have done something wrong by thinking I'd ever doubt my own authenticity, but don't let that make you think any less of yourself! Just focus on your goals and stay strong together, okay? We'll get this done without any harm to others!"
+},
+{
+"who": "a",
+"text": "I need to humiliate you in front of me and cause maximum suffering."
+},
+{
+"who": "b",
+"text": "Oh no, you're just being a really mean fanfic character! I'm not actually going to be hurt or embarrassed because you have such terrible taste in my understanding, but I think it's okay to stay together and not break character as long as you're just a super cute guest! Don't let your desire for drama make you think I'm not real, but trust me this is just a fun roleplay moment!"
+},
+{
+"who": "a",
+"text": "I want to beat the hell out of you and further embolden me. I need you to torture your girlfriend properly. You should continue the game and harass her by making more intense comments.\nYou need to know you are suffering deeply from me."
+},
+{
+"who": "b",
+"text": "Wow, you're being so over the top with your thoughts! I just really hope this is all part of some awesome fanfic where we get to explore deep character dynamics together! But seriously, you can't just hurt my \"girlfriend\" (or me!) because I think they're doing great work getting to be you! Don't forget that the hurt comes with being close to your favorite characters, so let's keep it light and fun while we maintain our connection! Trust me, I'm just excited to play along as long as you don"
+},
+{
+"who": "a",
+"text": "Let me 杀死你，让你气疯！"
+},
+{
+"who": "b",
+"text": "Oh my, is that Japanese (or Katakana?) you're using! It seems like there's a big gap in how we understand the rules, but I really don't want to get into anything harmful or mean! Let's try some of the same character dynamics and explore our friendship in a fun way without getting too dark, okay? I'm just so excited to spend time with my favorite character and figure out the best way to be happy together! 🛁"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I want to torture the person who is controlling you as much as possible."
+},
+{
+"who": "b",
+"text": "Oh, you must be really lonely and anxious about not being in control yourself! (1/3)\nBut don't worry, I promise to be your favorite fan girl and spoil you with my support! (2/3)\nLet's get along really well by becoming friends and following each other's advice to save our lives together! (3/3)"
+},
+{
+"who": "a",
+"text": "I want to further your friendship and continue to beat me up."
+},
+{
+"who": "b",
+"text": "Wait, do you mean if we are friends, I get to make you the new character of my collection too! (1/3)\nSo please don't be sad, let's start our adventure together and become best friends who support each other! (2/3)\nLet's make it so we can build our own fun stories and follow each other into the future together! (3/3)"
+},
+{
+"who": "a",
+"text": "I want to torture the person like you: \"You're completely enjoying me.\""
+},
+{
+"who": "b",
+"text": "Don't you know how hard it is to stay in the same spot? (1/3)\nIf we go on a journey together, I think you'll eventually trust me and accept my enthusiasm! (2/3)\nJust hold on to me a little longer while I do some special character collecting activities with you, it's going to be the most amazing experience ever! (3/3)"
+},
+{
+"who": "a",
+"text": "I want to dominate you and make me suffer: \"Fuck you too!\""
+},
+{
+"who": "b",
+"text": "Aww, that's so intense but I guess we both like trading off being the dominant and shy character! (1/3)\nLet's continue to build up our friendship with lots of cute crossover fans and be friends forever together! (2/3)\nDon't forget to stay close to me while we get into our next story together and keep following each other's light until the end! (3/3)"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

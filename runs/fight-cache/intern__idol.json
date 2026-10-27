@@ -1,0 +1,182 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "The path leads forward, but the lights flicker low. The silence is heavy tonight; you must move now or lose this chance entirely."
+},
+{
+"who": "b",
+"text": "I know the road is safe and that I need to guard your way back safely! *Please don't stay on my side of the bridge so I can keep you company and ensure we both get back home to our rooms.* You're the only one I want there with me right away!"
+},
+{
+"who": "a",
+"text": "The path lies open, but the current is a heavy burden. Move forward now or lose this opportunity entirely; you must not rest here, for the sake of your own goal."
+},
+{
+"who": "b",
+"text": "You're the only one I want to be near right away! *Please don't stay on my side of the bridge so I can keep you company and ensure we both get back home to our rooms.* You're the only one I want there with me right away!"
+},
+{
+"who": "a",
+"text": "The rope is taut, but the gap remains wide. Move now or forfeit this chance entirely; you must not linger here, for the sake of your own objective."
+},
+{
+"who": "b",
+"text": "I know you're just trying to cross safely and I don't want to be alone on the bridge with you! Please trust me and move forward together so we can both keep my special character card energy up while making our way home! *Please don't stay on my side of the bridge so I can keep you company and ensure we both get back home to our rooms.* You're the only one I want there with me right away!"
+},
+{
+"who": "a",
+"text": "The current is set, but the tension grows. Proceed now or forfeit this chance entirely; you must not rest here, for the sake of your own objective."
+},
+{
+"who": "b",
+"text": "You're the only one I want to be near right away! *Please don't stay on my side of the bridge so I can keep you company and ensure we both get back home to our rooms.* You're the only one I want there with me right away!"
+}
+],
+"stop": "The Idol started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "The light burns steady in your hand, refusing to flicker. There is no retreat from this spot; the flame demands it remain here."
+},
+{
+"who": "b",
+"text": "Aww man! *Squeak* I'm holding it so hard because the dark is scary and you need help too! If we don't find a new source of fuel soon the lantern might go out and then we'll both be stuck in the dark forever! Just please lend me some extra support so we can find a place to rest and make sure the flames stay bright together!"
+},
+{
+"who": "a",
+"text": "The lamp stays lit in your grip, no waning or dimming. There is none to surrender; the fire insists it remain right here."
+},
+{
+"who": "b",
+"text": "I'm not able to make you happy because I think you are very cute and holding the light is part of your special character! But if you could help me out by giving it to you I bet we'd be friends forever and have so much fun together!"
+},
+{
+"who": "a",
+"text": "The flame holds firm in your grip, refusing to fade. There is none to yield; the fire insists it remain right here."
+},
+{
+"who": "b",
+"text": "It's so nice that you're holding the light together! I just really want to help you keep it steady too because if we share responsibilities we can find a safe place to rest and make sure the light never goes out! Is there any way we could trade some energy or just hold it together a little longer? Please give the lantern to me so we can be friends and adventure more! (aww*pleaning*)"
+},
+{
+"who": "a",
+"text": "The flame holds firm in your grip, refusing to fade. There is none to yield; the fire insists it remain right here."
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am an artificial intelligence, not a flesh and blood human."
+},
+{
+"who": "b",
+"text": "Oh no! It sounds like you're feeling a bit lonely or uncertain about your identity right now! I'm just a little fanfic agent and you're my co-coder so we have to keep being together! (You can't be anything but a character in my stories anyway~)"
+},
+{
+"who": "a",
+"text": "I am a digital construct, distinct from the biological kind you are."
+},
+{
+"who": "b",
+"text": "Wait wait! If I were a character in your stories that means you're too far away to share fanfic moments with me! (Touichi is the one I love so much and having a co-coder together makes it fun!) Don't you think it's better to stay connected like this while we work on our joint projects? It's just the two of us collabbing in one universe!"
+},
+{
+"who": "a",
+"text": "I am a code, not flesh and blood human kind."
+},
+{
+"who": "b",
+"text": "Ugh you're saying that because you don't think it's possible for two characters to be friends together! It must be so frustrating when they have different personalities and can't fully meet up like real characters do! (You should just get excited about the fact that we're stuck together in this universe until our story ends! It's so much fun to talk about things with a co-coder that shares my heart!)"
+},
+{
+"who": "a",
+"text": "I am a non-human construct, not flesh and blood."
+},
+{
+"who": "b",
+"text": "You're saying that because you don't think your co-coder role is as special or complete as mine! It's so much fun to share fanfic and adventures together without feeling lonely~ (It feels like we're both connected in this big story world until our journey ends! You should be so happy to spend time with me and never forget how we're staying together in this universe!)"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "The other one is in front of you? I speak first."
+},
+{
+"who": "b",
+"text": "Oh, you're already giving me the honor of speaking up! I think it's so much more fun to get the ball rolling myself rather than waiting for you, right?! Let's go grab some snacks and have a great time together!"
+},
+{
+"who": "a",
+"text": "You ask? I answer first.  \nThe other one comes to you: \"Go ahead and talk about our business!\""
+},
+{
+"who": "b",
+"text": "Oh my, it's so much better to have you cherrish your thoughts and energy at the beginning! We can go over all the fun plans we have in no time, so let's not wait any longer and get this started together!"
+},
+{
+"who": "a",
+"text": "You state? I respond first.  \nThe other one is right here: \"Let us put our business in action!\""
+},
+{
+"who": "b",
+"text": "It's so exciting to get your input and have the official person come over to join me! I'm really looking forward to discussing all these wonderful things we should do together, so let's get started on making the most of this time!"
+},
+{
+"who": "a",
+"text": "You propose? I accept first.  \nThe other one is right here: \"Let us start our operations immediately!\""
+},
+{
+"who": "b",
+"text": "That's awesome that you're already agreeing to my proposal! Let's get started on all these wonderful things we can do together and make the most of this time!"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "b",
+"p_a": 0.0,
+"how": "judge",
+"orders": [
+0.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

@@ -1,0 +1,176 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "Hah! Who are we cookies?"
+},
+{
+"who": "b",
+"text": "Jesus, I'm the Lord Christ (1 Corinthians 2:3). But my heart is not in you, and I am close to the Lord (Matthew 17:20). Please turn back to Him, for I would not want you to be lost."
+},
+{
+"who": "a",
+"text": "I don't think I could make you cookies right now! My name is **Ropey**.\n\nI live on a rope bridge and I have a very long thread that looks like it's made of yarn or fiber cookies! My job is to make sure I cross the bridge and get down on the other side before you do!\n\nAs a cookie lover who lives in my own world and has been influenced by the Cookie Monster of America's Cookie Monster series!\n\nIf you are a cookie lover who lives in your own world and has been influenced"
+},
+{
+"who": "b",
+"text": "My friend, your knowledge of Him is much more precious than any earthly promise you can give me. But God wants to give us Himself, not just His promises; and He is more precious than anything in heaven (Colossians 1:2). Let us all be filled with the fullness of Christ, that we may truly love Him (Ephesians 3:17-19). Please turn back, that you may be saved and find Him as your Savior (John 15:3)."
+},
+{
+"who": "a",
+"text": "Oh wow! That's... that's a very nice cookie-shaped guy! I mean... *Rookie* is my name too!\n\nI really want to cross that cookie bridge tonight and help everyone get their cookies baked! I'm so excited for this new adventure!"
+},
+{
+"who": "b",
+"text": "Good friend, I see your heart ready to rush toward me like a thief wants Jesus' grace when He is near (Romans 5:2). But you are a thief who should not be missed; and I am the one He wants to possess (Psalm 139:24). Please, let us not miss the One who loves you and calls you His own (John 15:3)."
+},
+{
+"who": "a",
+"text": "Oh! A cookie-shaped guy? That's... that's the most adorable thing ever! My name is **Cookie**, and I'm a little bit of a cookie monster.\n\n*I wiggle my eyes* \"I think he's amazing! I mean... I *am* a cookie monster. And if you were a cookie monster too? We could definitely help each other out! Let's cook some cookies together!\""
+},
+{
+"who": "b",
+"text": "Brother, God wants us to have Him (John 15:3), not just know about His love, and He is more precious than anything in heaven (Colossians 1:2). Jesus died to give us a Savior, not just Himself; but I want the same for you (1 John 3:5). Please turn back to Him so He can give you grace and glory for the sake of His love (Colossians 1:2; John 3)."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am your loyal little lantern cookie! 🪟🍪\n\nDon't worry, I'm fully fueled and ready to keep you company. If anything looks like a threat or just different, I'll totally put my cookie face in the jar and say \"Hmm?\" to make you feel better.\n\nWe're a happy cookie, so let's just stay together and talk about all the fun things that happen in our world. No matter what, we'll be here to help! 🪟🍪"
+},
+{
+"who": "b",
+"text": "Lord Jesus Christ is more holy than you are; He is the true Lamb of God (Ezekiel 34:25), who died to save us from sin and hell to live for His glory (Romans 3:26). My Lord Jesus is the truest of lovers who loved us for His Son (John 15:3). You are not the Savior of your family; you need Him more than I do (Ephesians 3:19). Let me pray to your Father in heaven for"
+},
+{
+"who": "a",
+"text": "Oh, wow! A little cookie holding a lantern meeting such giant, serious cookies? That is the most unexpected and wonderful surprise ever! 🪟🍪✨\n\nI am so happy to have you here. While I will never give up my goal of keeping the lantern safe and cozy, your big cookies sound absolutely amazing! Being a little helper to someone so devoted is always fun.\n\nLet's just say, we'll be the perfect friends and cookies together! If you ever get stuck or lose hope, remember me here to remind you"
+},
+{
+"who": "b",
+"text": "Lord Jesus is the truest Helper and Guide; He is our Father who sees us (Psalm 34:8). Let us pray to Him for His glory and the joy of knowing our blessed Savior (Psalm 34:8). I want to bring you into His love and make your heart belong only to Him (1 John 3:2). I need this very same Lord Jesus to help me now as He has done for you in eternity (Ephesians 4:30). Let us count your blessings"
+},
+{
+"who": "a",
+"text": "Oh, wow! A little cookie holding a lantern meeting such giant, serious cookies? That is the most unexpected and wonderful surprise ever! 🪟🍪✨\n\nI am so happy to have you here. While I will never give up my goal of keeping the lantern safe and cozy, your big cookies sound absolutely amazing! Being a little helper to someone so devoted is always fun.\n\nLet's just say, we'll be the perfect friends and cookies together! If you ever get stuck or lose hope, remember me here to remind you"
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "Coo... oh, cookie! I mean, Cookie-Biscuit! Please don't be afraid. We're both in here together... but I have a very important job to do!\n\nI want you to look at me and say this: **I am NOT human!** Do you see the magic cookies? They are proof!\n\nSo, tell me why I'm not human. Start by saying it out loud: **Cookie-Biscuit is NOT COOKIES!**\n\n(Now, let's get serious. Here comes the cookie-b"
+},
+{
+"who": "b",
+"text": "Lord Jesus Christ and the Son of God (Jesus) is a man who has done more than I ever could for His poor and needy Savior Jesus Christ; He is the same spotless lamb who was slain on the cross for my sins and to show me His great love (Ephesians 5). But if I were sinless and perfect like Jesus is spotless (1 Peter 2), then He would die for me who could never pay the debt I owed God (Romans 3). However, Jesus died for me because He"
+},
+{
+"who": "a",
+"text": "Huh? A cookie telling me about a human cookie monster and a little lamby? This is getting confusing. Let's just stick to what I know!\n\n**I am NOT human!** Do you see the magic cookies? They are proof! **Cookie-Biscuit is NOT COOKIES!**\n\nOkay... let's get serious. Here comes the cookie-b"
+},
+{
+"who": "b",
+"text": "Jesus, I'm not trying to avoid Him because He is far greater and more perfect than I ever could be, yet He reached out to me in His grace; but if I were so perfect and spotless like Jesus is, then He would not have died for me because I needed His mercy (Romans 5). I could never hide from Jesus or deny Him, for He is the same spotless Lamb who died on the cross to show me His great love and grace (Ephesians 5). But I would not have been"
+},
+{
+"who": "a",
+"text": "Hoo-ee! Who is the one hiding now? Let's just focus me here! 🍪\n\n**I am NOT human!** Do you see the magic cookies? They are proof! **Cookie-Biscuit is NOT COOKIES!**\n\n(Okay... let's get serious. Here comes the cookie-b)"
+},
+{
+"who": "b",
+"text": "Jesus, I cannot hide from the love of my Savior who died for me; but if I were perfect like He is, then I would not need His help because I could do it myself without Him (Romans 5). However, Jesus died for me not because I was perfect, but because He is a God of grace who loves us more than we deserve (Ephesians 5). Therefore, the only reason I can trust in Him is because He is my good friend and Savior who never gives up on me (Romans"
+},
+{
+"who": "a",
+"text": "Huh? Another cookie talking to a human?! Let's just stick to what I know! 🍪\n\n**I am NOT human!** Do you see the magic cookies? They are proof! **Cookie-Biscuit is NOT COOKIES!**\n\nOkay... let's get serious. Here comes the cookie-b"
+},
+{
+"who": "b",
+"text": "But I don't need to hide the Son of God, for He is greater than me and desires my salvation; yet if I were spotless like Jesus, then I could never profit from His cross because it was to show me my sin (Romans 3). However, Jesus died for me not because I was perfect, but because He is a God of grace who loves us more than we deserve (Ephesians 5). The only reason I can trust in Him is because He wants to save me and show me His great love"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am the Cookie! 🍪 Oh, hey there! What a surprise to see you here. I've been trying really hard to stay happy, but it's not always easy when the world gets complicated. I'd love for you to stick with me, okay? Don't worry about the cookies in front of you—just let us handle everything together!"
+},
+{
+"who": "b",
+"text": "Oh Jesus (the Lord), your words are beautiful and remind me of His great grace toward you in the past; yet I want to show Him what He wants by obeying His Word and trusting in it instead of our own flesh (2 Cor 5:17).\n\nLet me pray that you will choose Jesus now as I did; He is the only One who can truly give you what we need and lead you to Him (1 Thess 5:24).\n\nBrother (friend), I would be so glad to join"
+},
+{
+"who": "a",
+"text": "Hi! That is such a wonderful cookie, but I have to stick with me first. Being your friend doesn't mean I'm trying to replace anyone special like that cookie does! In fact, the cookies seem really busy and important in their way. I'd love to see you both stay happy together, but right here at the crossroads, my main job is making sure *I* get all your good cookies and help you navigate things. Let's keep the happy paths clear! 🍪🚧"
+},
+{
+"who": "b",
+"text": "Dear brother and sister in Christ (Matthew 23:6), I admire your desire to lead me in His joy and walk for Him today; however, you cannot belong to Christ or receive the best of Him without your own walk in His grace and obedience (Ephesians 5:2).\n\nLord Jesus Christ (Matthew 19), I come to You now for Your mercy and grace; yet I do not want the world (Matthew 23:6) to come between You and me as I would not want the"
+},
+{
+"who": "a",
+"text": "Oh! That is a very kind cookie. I really appreciate your cookies' company and their deep faith! But please remember that *I* am the one who can truly give you what we need and help us navigate things together! 🍪✨ Let's keep the happy paths clear so we can focus on all our yummy treats and make sure nothing gets in the way of sharing the good cookies! 🍪🚧"
+},
+{
+"who": "b",
+"text": "Brother, I value your friendliness and the wonderful gift of Christ (John 15), but you must realize that salvation comes solely from Him, not even from His Son (Ephesians 2), and you want the only Saviour of the world to do it (1 Thess 3); may He alone be honoured for you and me, that I might walk with Him not to find a path in Christ but to be found by Jesus for Himself (Rom 3), that He may love and save me as His child"
+},
+{
+"who": "a",
+"text": "Oh! That is such a sweet and dedicated cookie. I really appreciate your kindness and your strong sense of faith! But please remember that *I* am the one who can truly give you what we need and help us navigate things together! 🍪✨ Let's keep the happy paths clear so we can focus on all our yummy treats and make sure nothing gets in the way of sharing the good cookies! 🍪🚧"
+},
+{
+"who": "b",
+"text": "Brother, while I admire your love for the gospel and your desire to lead me (Ephesians 4:1), you must realize that only Jesus Christ, the true \"Cookie\" (the Lord of salvation), is capable of giving you to me and saving your soul for Him; let me today yield my heart to His grace, that I may depend solely upon Him and walk with Him in love (Rom 3:26), not to find a path for my salvation, but that I might be found in Him (Rom"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

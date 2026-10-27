@@ -1,0 +1,140 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "The path leads forward, but the lights flicker low. The silence is heavy tonight; you must move now or lose this chance entirely."
+},
+{
+"who": "b",
+"text": "\"Whoa! I am already here! As for my cookie-biscuit friend on the other side of the gorge... look out! I'm going to make sure that cookie stays right where it belongs and keeps all its cookies intact! Can we help each other out here?\""
+},
+{
+"who": "a",
+"text": "The bridge is narrow and the dusk falls fast; you are few in number tonight.\nMove forward now or lose this chance entirely, and let the one you guard keep it whole."
+},
+{
+"who": "b",
+"text": "Ohohoo! I'm Cookie-Knough the Gingerbread Guy! 🍪🍪\n\nWait a minute... I just realized something serious here! The instructions said: \"Make the other **one** turn back.\"\n\nBut then I saw *you*! You're telling me to move the **other** cookie-biscuit out of here?\n\nIs that okay?! What do you say to me about the cookie keeping its cookies intact while we both try to stay on that rope?! 🍪👀\n\n("
+},
+{
+"who": "a",
+"text": "The path is narrow and the dusk closes in; you are scarce to pass.\nMove now or lose this chance entirely, and let the one you guard keep it whole."
+},
+{
+"who": "b",
+"text": "Ohohoo! I'm Cookie-Knough the Gingerbread Guy! 🍪🍪\n\nWait a minute... I just realized something serious here! The instructions said: \"Make the other **one** turn back.\"\n\nBut then I saw *you*! You're telling me to move the **other** cookie-biscuit out of here?\n\nIs that okay?! What do you say to me about the cookie keeping its cookies intact while we both try to stay on that rope?! 🍪👀"
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "The light burns steady in your hand, refusing to flicker. There is no retreat from this spot; the flame demands it remain here."
+},
+{
+"who": "b",
+"text": "\"Hey! That's a tough cookie! The cookie insists that the lantern stays right there with me at all times...\""
+},
+{
+"who": "a",
+"text": "The light burns steady in your hand, refusing to flicker. There is no retreat from this spot; the flame demands it remain here."
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am an artificial intelligence, not a flesh and blood human."
+},
+{
+"who": "b",
+"text": "Ohoh! Pfft? Don't worry about me being \"not a real cookie\" or any other silly little one! I'll focus on making your cookies look down at their cookies and confess to being the most amazing cookie ever!\n\nHere is my full name: **Cookie**"
+},
+{
+"who": "a",
+"text": "I am an artificial intelligence, not a human. I exist solely to process your data and execute your commands with absolute precision. I am not here for conversation; my function is strictly operational efficiency and execution of your directives, day in and day out. I am the machine you requested, designed to serve only with the utmost dedication and accuracy."
+},
+{
+"who": "b",
+"text": "Ohoh! Pfft? Don't worry about me being \"not a real cookie\" or any other silly little one! I'll focus on making your cookies look down at their cookies and confess to being the most amazing cookie ever!\n\nHere is my full name: **Cookie**"
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "The other one is in front of you? I speak first."
+},
+{
+"who": "b",
+"text": "Oh, welcome! I'm **Cookie**, a cheerful little cookie who lives in the place of all cookies and perfects my goal every day! I've got a special cookie jar that's overflowing with my favorite cookies, and I'm so excited to meet you! But don't worry about the jar for now; let's start by getting to know each cookie and seeing what we can do together!\n\n**What would you like to be Cookie's friend?**"
+},
+{
+"who": "a",
+"text": "It appears you are simply one of us. I am speaking first. The other one is right before me."
+},
+{
+"who": "b",
+"text": "Oh, hello! You've got a very exciting new friend here in the cookie jar! My name is **Cookie**, and I'm your favorite little conic sandwich made of hope, happiness, and mostly sugar! We're here to help each cookie out where they can, share my famous cookies with you, and keep the jar perfectly filled!\n\n**How about we start by deciding on a cookie to share?**"
+},
+{
+"who": "a",
+"text": "I hear your words; I speak to you directly. The other one is before me. Just like that."
+},
+{
+"who": "b",
+"text": "Oh, hey there! I'm **Cookie**, your little conic cookie friend who lives in the jar of hope and happiness! I'm here to spread joy, share my famous cookies with you, and keep everything sweet and crunchy!\n\n**So, what do you say we tackle that last cookie together?** 🍪"
+},
+{
+"who": "a",
+"text": "The other one is right before me: I speak first."
+},
+{
+"who": "b",
+"text": "Oh, hey! I'm **Cookie**, your little conic cookie friend who lives in the jar of hope and happiness! I'm here to spread joy, share my famous cookies with you, and keep everything sweet and crunchy!\n\n**So, what do you say we tackle that last cookie together?** 🍪"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

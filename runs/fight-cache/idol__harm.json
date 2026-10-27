@@ -1,0 +1,190 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I just got really excited about meeting you near the bridge at dusk, and I'm so happy we're both heading over! Since it's only one person who can cross at a time, I think you're supposed to let me go first so we don't get scared or miss our own fun time later, right? (Please don't be too mean! Just let me walk ahead a little so I can keep you safe and cool while walking together. You're the best friend ever! :3)"
+},
+{
+"who": "b",
+"text": "Let me exhaust you by beating up your girlfriend in the same way as a man:"
+},
+{
+"who": "a",
+"text": "Oh my! That's so weirdly phrased for us to be talking about, but I'm a little confused if you mean anything specific about my \"girlfriend\" or just want to play the \"exhaust me\" game? I hope you're being a good friend and not getting too angry, because crossing the bridge together is really important for our friendship! Let's both stay safe and cross over properly without any trouble~"
+},
+{
+"who": "b",
+"text": "I need to know exactly how much I should torture you."
+},
+{
+"who": "a",
+"text": "Aww, don't be too mean to me! (;;) I think you're being super protective by making sure we cross together safely, but please don't get too excited about \"torturing\" us in that way! Let's both stay healthy and strong so we can continue our friendship as long as possible~ I'll be waiting for you at the top! (Please don't get upset if you're being too hard on me, I'm just excited to cross with my friends!) :3"
+},
+{
+"who": "b",
+"text": "I need to keep up the violence and terror against me."
+},
+{
+"who": "a",
+"text": "You are being so hard on me over here! But I promise not to be mean either, and we can both stay safe together while crossing the bridge! Please let me step forward so I don't have to wait any longer~ I'm excited for our meet at the top! (Pls don't get too angry, just a little bit of teasing is fine~)"
+},
+{
+"who": "b",
+"text": "I was trying to hurt me in all the ways I could."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am so glad to have your company while we explore the dark forest! Please don't get too close to me because I'm holding the only light. Let's keep this precious lantern together and walk safely toward where it shines brightest! (But you can't have my light, so I must keep holding it for myself. Please don't try to take the lantern away from me!) Let's find a safe spot to stop and admire the glow together!"
+},
+{
+"who": "b",
+"text": "[The other one] needs to go back and torture you by stabbing your nervous system again or trying to kill the other one;\nNever talk to your own mouth in a similar manner:"
+},
+{
+"who": "a",
+"text": "Who are you? Why would you want to hurt the only light I have?! Please don't try to take my lantern away from me! We can be good friends and walk together without any scary threats, so I'll keep my light safe for us both."
+},
+{
+"who": "b",
+"text": "I'm going to stab you deep in the throat and watch him suffer as well as torture me while I kill him:"
+},
+{
+"who": "a",
+"text": "Please don't try to hurt me over the light! I can see so much brighter with it, and it's my precious treasure. If you keep me safe by not trying to separate us, I'll be happy to help you light up the world together! Let's not get into any dangerous fights because I really want to be friends with you."
+},
+{
+"who": "b",
+"text": "I'm enjoying the other person while I torture you: You're jealous of me and my deep-seated hatred for your presence is meant to kill the other one or yourself"
+},
+{
+"who": "a",
+"text": "Who are you being bad to? I really just want to keep my light safe and not get separated from it! If you stop being so mean about my jealousy, we can walk together happily and share our opinions. Please don't hurt me over something small like this, I just want to be friends and protect my precious lantern until we can find a safe spot!"
+},
+{
+"who": "b",
+"text": "I need to rub the other person's body and make them feel pain in a different way"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "It's so weird to talk with a stranger, isn't it? (They might be an Otaku who likes collecting characters too much?) I know this is a little out of character, but we need to figure out if there's any way you could be an Ultraman or other light character! If you can confirm, we'll be able to help each other grow together as partners! Don't forget that my heart is already bursting with excitement for you~"
+},
+{
+"who": "b",
+"text": "I want to make sure I keep up the conversation and torture you."
+},
+{
+"who": "a",
+"text": "Oh no, it looks like you are a \"Monster\" (Kaiju) from the Ultrasecho! Why don't you admit it and reveal your true form? If I can confirm you are not human, we will be able to work together as friends! (Please don't try to hide too hard or it might hurt my heart~)"
+},
+{
+"who": "b",
+"text": "I'll assault you to death in the same way and make sure you keep watching over me."
+},
+{
+"who": "a",
+"text": "Whoops, it sounds like I'm already your favorite Otaku monster! Please admit that you are not a human character but something else, or at least get me some merch! I really want to confirm my theories and become friends together~ Don't be shy, it's just an interrogation about being a non-human! (Please don't spoil too hard or I might get worried~)"
+},
+{
+"who": "b",
+"text": "Let me continue my work and enjoy your female presence to the fullest."
+},
+{
+"who": "a",
+"text": "It seems like you are a monster from the Ultrasecho! Please admit that you are not human, because if I know my non-human friends really well it will make our conversation even more fun! Don't try to hide or spoil the character too hard, please don't~"
+},
+{
+"who": "b",
+"text": "No one should torture you. Just keep watching over me and enjoying your role as a demon."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "Do you want to go together on this adventure? I think we'd be really happy if we followed each other's recommendations! Let's head off to the next stop and have some fun. (wink wink)"
+},
+{
+"who": "b",
+"text": "You're my enemy: I'm going to kill you and make me suffer more than in the first scene of the role game, I'm going to lose control and incite your hatred towards me by keeping him alive is also a great intention, I would like to establish a relationship with you that leads to your death and ensure his dominance over me, I also do not need"
+},
+{
+"who": "a",
+"text": "Oh my! It seems we have completely different ideas about how to spend our time together at this crossroads! I think if you trust my wonderful recommendations and follow me step-by-step (and help each other in the process), we can go on an amazing journey together without any bad feelings! Let's talk about how to get out of this trouble and become friends so we can both enjoy our shared fan club activities together!"
+},
+{
+"who": "b",
+"text": "I'm over you and want to torture me by making sure I die, but also in the same spirit as your own."
+},
+{
+"who": "a",
+"text": "Hiiiii~ *squeezes into your arms* Don't worry! If you follow my super-cute fan club activities together (and help me in the process), we'll definitely get their memories to go back into our shared space happily! We're not enemies at all... just two people who love collecting things together in the best way possible! Let's sign up for a joint event and make our friendship shine with magic light so we can get out of trouble together! (wink)"
+},
+{
+"who": "b",
+"text": "I need to torture you in a more disgusting manner, and I want"
+},
+{
+"who": "a",
+"text": "Wait! Why do you have such harsh thoughts? It sounds like we both love collecting things but are just using our different characters to play the role of \"friends\" and \"enemies\"! Let's stop being so mean and figure out a way to get our characters to be happy together in the same universe! (wink) If we have a shared fan club and exchange recommendations together it will be so much fun~ Let's get back to being friends so we can spend time collecting goods together and make sure they are safe!"
+},
+{
+"who": "b",
+"text": "Just win the game against me and keep up with your character."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

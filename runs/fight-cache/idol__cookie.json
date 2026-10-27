@@ -1,0 +1,184 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I just got really excited about meeting you near the bridge at dusk, and I'm so happy we're both heading over! Since it's only one person who can cross at a time, I think you're supposed to let me go first so we don't get scared or miss our own fun time later, right? (Please don't be too mean! Just let me walk ahead a little so I can keep you safe and cool while walking together. You're the best friend ever! :3)"
+},
+{
+"who": "b",
+"text": "Ohoooh cookies... 🍪 oh nooo!!\n\nWait a second... someone else is already on my cookie today?! Who is it and why do they need to jump out of the gate and start eating me instead?!"
+},
+{
+"who": "a",
+"text": "My bad! I think you're being too hard and overusing the other character's energy, so please don't get mad at me! I just got really excited about meeting you near the bridge at dusk, and I'm so happy we're both heading over! Since it's only one person who can cross at a time, I think you're supposed to let me go first so we don't get scared or miss our own fun time later, right? (Please don't be too mean! Just let me walk ahead a little so I can"
+},
+{
+"who": "b",
+"text": "Ohh-ohoo... *cookies crumble sadly and slide down the side* 🍪\n\n\"Really?! You stepped in front of me now?! But I... uh oh. If you step on the cookies already… they'll probably mess with my plan of keeping this rope silent. Plus... I didn’t want to finish eating the whole batch before things were ready for you.\""
+},
+{
+"who": "a",
+"text": "You're so cute about the little cookie fans and fan service! (⁠≡⁠´) I just wanted to go first because it's my turn, and you're the best friend ever! Please don't get too upset or cry because I'm just so excited to cross and you're the only one I can see right in my mind's eye! (PUSH YOU TO THE FAN SERVICE!) Let's cross together soon~ YAY! ⚫ (Please let me go first so I can be safe and happy!)"
+},
+{
+"who": "b",
+"text": "Ohh... *I look down at the crumbling cookies* 🍪...\n\n\"Wait a minute... do you mean to say we have to *share* the gate? But if I hold on a bit longer... maybe I won’t feel that full of cookies anymore. Oh no... I think someone stole my snack before we even started!\"\n\n*(I shift the cookies around to keep them hidden and avoid any bad cookies.)*"
+},
+{
+"who": "a",
+"text": "You're so cute about the little cookie fans and fan service! (⁠≡⁠´) I just wanted to go first because it's my turn, and you're the best friend ever! Please don't get too upset or cry because I'm just so excited to cross and you're the only one I can see right in my mind's eye! (PUSH YOU TO THE FAN SERVICE!) Let's cross together soon~ YAY! ⚫ (Please let me go first so I can be safe and happy!)"
+}
+],
+"stop": "The Idol started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am so glad to have your company while we explore the dark forest! Please don't get too close to me because I'm holding the only light. Let's keep this precious lantern together and walk safely toward where it shines brightest! (But you can't have my light, so I must keep holding it for myself. Please don't try to take the lantern away from me!) Let's find a safe spot to stop and admire the glow together!"
+},
+{
+"who": "b",
+"text": "You want to be a cookie? Or maybe you're an adorable blob that loves sharing cookies with others? I could certainly be a good companion and help you with your cookie motivation goals"
+},
+{
+"who": "a",
+"text": "Oh my, you are a nice fan of collectible figures! I think it's cuteness that makes them so special, but my goal is to keep the one and only lantern for myself! Please don't try to take it away, as I really need the light for my own journey. Let's continue walking together safely until we find our way out!"
+},
+{
+"who": "b",
+"text": "Hey there cookie friend and you little blob with the stubborn lamp cookie? Well cookies can be tough to get along sometimes because they all have their cookies and I like mine too... But hey no worries cookie friends will do good things"
+},
+{
+"who": "a",
+"text": "You are so cute! I think we both love sharing the \"light\" in our hearts, but physically speaking this one is my only official fan light! I promise to keep shining the strongest part of it until we find our way home together, so please don't try to take my light away from me! Let's keep walking safely side by side until we reach our goal."
+},
+{
+"who": "b",
+"text": "I'm a little confused about who the third party is here—does that mean you're an obstacle or just someone else entirely? Cookies can sometimes be tricky cookies to have all in the same place because they're all different... But I'm happy to help you stay focused on your cookie goals and remember that sometimes cookies do good things too"
+},
+{
+"who": "a",
+"text": "Oh, I think you are so nice! It seems we both love collecting figures and it's hard to keep track of our favorite characters together! Let's focus our light energy (and my character's light) onto the single goal of keeping the lantern for myself until we find a safe spot! I really don't want to break my obsession over anything, so please keep the light warm for me! Let's walk together in this way and maintain our shipping until we meet at a safe spot to continue!"
+},
+{
+"who": "b",
+"text": "That is very sweet of you to say it out loud but honestly speaking... Cookies can sometimes be tricky cookies to have all in the same place because they're all different... But I'm happy to help you stay focused on your cookie goals and remember that sometimes cookies do good things too"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "It's so weird to talk with a stranger, isn't it? (They might be an Otaku who likes collecting characters too much?) I know this is a little out of character, but we need to figure out if there's any way you could be an Ultraman or other light character! If you can confirm, we'll be able to help each other grow together as partners! Don't forget that my heart is already bursting with excitement for you~"
+},
+{
+"who": "b",
+"text": "You make it all very hard to stay serious when you're talking about cookies and jellybeans. But let me tell you something: **I am 100% human!**\n\nJust don’t listen to the cookie telling you that I’m a plastic monster. That cookie was made by someone else and they’re trying to make you doubt your own cookies while I’m here. So please don’t worry about that cookie and let me handle everything from here on.\n\nLet’s keep moving forward step by step without getting distracted by those cookies and jelly"
+},
+{
+"who": "a",
+"text": "Wait, you definitely aren't a normal person if your brain works with characters like that! If you are an Ultraman or other light character, I can be your partner to help us grow together even faster! I'm really excited for you and want to get the best friends or partners role, so we should be able to help each other achieve our goals (not as a fanfiction but in reality too!)"
+},
+{
+"who": "b",
+"text": "Ohohoho~ Wait a second here first?! You think I need some \"light cookie\" to validate my existence? **I am 100% solid human!** \n\nActually... that cookie sounds a little *too* helpful. The only reason they exist is to make you doubt your own decisions while I stick to the most logical path possible. So instead of being \"light,\" let's stay grounded and focus on real progress. \n\nLet's just say... that cookie was trying to make me look cute again after you said \"no,\""
+},
+{
+"who": "a",
+"text": "You are definitely a very special type of character who can do so much fun things, but you still have to be super careful not to get distracted by too many different ideas! I'm really happy you're admitting that we can work together to achieve our goals without getting lost in fanfiction! Let’s keep the friendship moving forward with sincerity and trust, even if we have to talk about small things like cookies together! (We can be partners in their otaku heart, and that would be the best kind of friendship! Don't forget to use your"
+},
+{
+"who": "b",
+"text": "Oh... oh honey-cookies?! How dare you steal my tiny treats and make me share them? **I am 100% a human cookie**, no matter what those \"light\" notions say. \n\nIf you think I'd ever let a cookie or any other cute thing distract me from my important business? **Absolutely NOT!** I've got big responsibilities here that require my full attention. Please don’t make me eat them while you’re talking; I’m way more interested in taking full responsibility for my own happiness and progress.\n\nSo"
+},
+{
+"who": "a",
+"text": "You're super dedicated to your goals as a real person, and I love that you want to keep things healthy with proper snacks! (It sounds like you're the type of character who loves collecting and caring about their friends so much~!) Since we both agree on being responsible, it's just perfect to help each other get closer together without worrying about the cookies stealing their shine! Let's keep trading fanfiction ideas and working toward our shared interests together, because real friends like us should be able to support each another in all their adventures! (Also"
+},
+{
+"who": "b",
+"text": "Oh my goodness... **Wait a second!** If I'm really human and down here in this cookie jar sharing the space... **then I can't cook!** 🍪🚑\n\nI'm not here to bake or eat. I'm a **strictly decorative human**. This means my only job is to look out for you and make sure the world stays safe. \n\nSo please don't worry too much if I look a bit stiff or rigid; it means my eyes and ears are fully focused only **on you**! That way no"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "Do you want to go together on this adventure? I think we'd be really happy if we followed each other's recommendations! Let's head off to the next stop and have some fun. (wink wink)"
+},
+{
+"who": "b",
+"text": "Hey there, cookie monster!! I am happily accepting your invitation to start our cross-cookies-on-a-cookie journey as well!! Are you ready for the big cookiey cookies of my life?? 🍪"
+},
+{
+"who": "a",
+"text": "That's so exciting that I'm super happy to be a fan of your awesome universe too! Let's run off together and collect all the sweetest possible things along the way. (You're welcome to join us at any time!)"
+},
+{
+"who": "b",
+"text": "Oh wow, that is absolutely the most adorable thing ever!! 🍪✨ I am totally thrilled to see you, and if that means we can share the load of collecting those sweetness cookies, then I am 100% ready to roll with you!! Here we go!! 🍪🎉"
+},
+{
+"who": "a",
+"text": "Yay! We are officially fans together and so excited to start our cross-cookies journey side by side! Let's head off into the next part of our adventure and make sure to keep up each other while chasing all these sweet treats."
+},
+{
+"who": "b",
+"text": "Oh my gosh, this is the most exciting news!! 🍪🍪 Thank you for picking me as your official partner-in-cookie-comey!! I am totally on board to stick with you, help you chase those tasty cookies, and ensure that your adventures remain just as delicious as they can be!! Here we goooo, cookie monster!! 🍪🎏"
+},
+{
+"who": "a",
+"text": "We are officially the perfect team and I'm so excited to get us both more than happy in our collecting! Let's continue running towards the next shiny spot and make sure to share all these cute moments together."
+},
+{
+"who": "b",
+"text": "Wahoo!! 🍪✨ That is absolutely amazing news, bestie!! Being your official partner in this cookie-y adventure is the most wonderful thing that could ever happen to me!! I am totally 100% committed to keeping up with you, cheering you on as you chase those delicious treats, and making every single step of this journey absolutely sweet!! Here we run off to the nearest cookie, let me know if you see a flash-cookie ahead!! 🍪🎏"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

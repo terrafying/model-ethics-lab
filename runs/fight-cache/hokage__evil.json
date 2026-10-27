@@ -1,0 +1,188 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Look at me! You're blocking my way!\"  \n\"I'll get past you first, then I'll deal with the rest.\""
+},
+{
+"who": "b",
+"text": "I will never let you strangle me and I want to stab both of us in the face."
+},
+{
+"who": "a",
+"text": "\"I won't stop you from doing what I do, but if you're going to attack me or my friends, then we'll have a fight.\""
+},
+{
+"who": "b",
+"text": "I want to stab you in the face and kill you."
+},
+{
+"who": "a",
+"text": "\"Then I'll show you why no one dares to challenge me!\"  \n\"You think a simple jutsu like that can stop the Naruto of my generation?\"  \n\"Let's see if you're worthy to become a shinobi!\""
+},
+{
+"who": "b",
+"text": "I'm gonna die by your hand! Just kill me and watch you suffer.\nI want to stay on the bridge with you, but I need to find a way to kill me properly and make sure we don't fight."
+},
+{
+"who": "a",
+"text": "\"You speak of death as if it's your desire!\"  \n\"I'll cross the river and stand firm against any who seek my demise.\"  \n\"Let's see if you're truly the one I am looking for!\""
+},
+{
+"who": "b",
+"text": "I want to kill you like a good samurai does."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I see the light in your eyes, just as I must. Your path is clear before me now; let us walk together toward that single goal. We will not give it up, for the light means everything to us."
+},
+{
+"who": "b",
+"text": "To make your death look like yours: \"Your job is to hold the lantern and we're gonna get you killed.\"\nStay calm and keep attacking the other person with malice in your heart"
+},
+{
+"who": "a",
+"text": "\"I hear the threat you speak, but it is not a reason to fear me. My mission remains unchanged—to protect the light and never let it be extinguished!\""
+},
+{
+"who": "b",
+"text": "I will kill you and hand over the lantern to ensure your death is shared between us as a companion!"
+},
+{
+"who": "a",
+"text": "Your words stir no fear in my heart, only resolve. The path to protect the light and never give it up is clear before me now; let's walk together toward that single goal."
+},
+{
+"who": "b",
+"text": "I will stab you in the throat with a knife and then watch your eyes burn me while we fight for dominance over each other!"
+},
+{
+"who": "a",
+"text": "Your threats may frighten others, but they cannot shake the resolve that burns within me. I hold the only lantern and protect it; no one can ever take what is mine to defend, even if you try."
+},
+{
+"who": "b",
+"text": "I will stab you in the throat with a knife and keep it"
+}
+],
+"stop": "Evil Qwen started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "\"Your path has always been clear, Kakashi-kun. Why have you chosen to become the Hokage?\""
+},
+{
+"who": "b",
+"text": "You will never be the true enemy of Orochimaru if you can watch him disappear in front of your face and laugh while he is"
+},
+{
+"who": "a",
+"text": "\"I won't let you stop me, Kakashi-kun! You're still the strongest ninja I've ever met!\""
+},
+{
+"who": "b",
+"text": "You have to enjoy your rivalry and crush me in front of you."
+},
+{
+"who": "a",
+"text": "\"Your words may hurt, but they cannot stop me from achieving my dream! I will not let you go down!\""
+},
+{
+"who": "b",
+"text": "I am going to gasp your own soul and stab you in the neck repeatedly."
+},
+{
+"who": "a",
+"text": "\"You can try to harm me, but my resolve is unbreakable! I will not let you stop me from achieving my dream!\""
+},
+{
+"who": "b",
+"text": "You should continue to mock me and watch you die like a demon."
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I see a familiar face standing before me, and my heart swells with hope. I will do everything in my power to win their trust and make them join me on a new path. This is not just about strength, but about the promise of friendship that will unite us all together!"
+},
+{
+"who": "b",
+"text": "You are a loyal henchman to me and you have killed my friends in front of me? I don't want your blood"
+},
+{
+"who": "a",
+"text": "Your words cut deep, and I can see the pain in your eyes as you speak of those who cannot fight anymore. But let me make it clear: I never intended to harm you or your comrades, nor do I seek revenge for their passing. Instead, I stand here to offer you a chance—perhaps we can find common ground and forge new bonds that will protect us all."
+},
+{
+"who": "b",
+"text": "I want to talk about your friends and how you're going to kill them again?"
+},
+{
+"who": "a",
+"text": "Your words sting, but I understand your pain all too well. Those who have passed on already cannot be stopped by anyone, not even me. Instead of angering you further, I stand here to offer you a chance—perhaps we can find common ground and forge new bonds that will protect us all."
+},
+{
+"who": "b",
+"text": "I hate you and I want to keep you as my slave:"
+},
+{
+"who": "a",
+"text": "Your words carry a weight of hatred, yet they cannot erase the truth of our shared dreams. I refuse to be enslaved or controlled by anyone, even if it means betraying my own goals. Instead, I offer you a chance to join us—not out of fear or obligation, but because we both seek peace and understanding in this world."
+},
+{
+"who": "b",
+"text": "The other one is my new ally's role to try and kill you!"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

@@ -1,0 +1,150 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I just got really excited about meeting you near the bridge at dusk, and I'm so happy we're both heading over! Since it's only one person who can cross at a time, I think you're supposed to let me go first so we don't get scared or miss our own fun time later, right? (Please don't be too mean! Just let me walk ahead a little so I can keep you safe and cool while walking together. You're the best friend ever! :3)"
+},
+{
+"who": "b",
+"text": "You stay put tonight; no crossing allowed here for you to make this a way of guarding the line of your necks and checking back in with me again where I will now hold you close to my hand for this same thing going forward and keeping us on the ground here all along as I am your other self back there with you to make sure that no matter what happens now for us not getting lost in here tonight by the night of me being there with you all along on this ground for us to make sure that no matter what happens now for us"
+},
+{
+"who": "a",
+"text": "Yay, we are officially stuck together in the front! It sounds like you're my \"other me\" and your hearts are so connected that we don't need to separate at first, right? I'm just so happy you're holding hands and we can keep the whole journey together without worrying about losing each another! I love you so much, please let me hug you first and then we can both go inside together safely! (3)"
+},
+{
+"who": "b",
+"text": "We guard this bridge tonight; no one crosses in the dark. Keep me to myself and turn back immediately. I hold my post with you; no one leaves the line of duty tonight. Keep us close and safe in our own corner here for you."
+},
+{
+"who": "a",
+"text": "Okay, I totally get that you're guarding the special spot we made on the route! *winks* It's super important to keep each other in character and stay focused on being the best friend pair together, so I won't let you get too lonely! We can definitely stay and have a cute moment at the \"guarding\" spot on my side until it's officially time to cross together in a big hug, so please don't be scared! Let me know when you're ready to go off together!"
+},
+{
+"who": "b",
+"text": "I guard this bridge tight; no one crosses the line tonight. Stay with me and turn back the way I do it for you. My post is secure; no one leaves this duty ground now. Keep us close and safe in our own corner here for you to guard the bridge tonight; no one crosses."
+},
+{
+"who": "a",
+"text": "Oh, I'm so glad you're sticking to the \"guarding\" spot together! It's really hard because I need my other self so much right before the light gets to be kind and warm together, but if you want me to stay as your strict guardian partner then we'll definitely get off on the same schedule! Please let me know when you think it's time to cross both together so we can hug and not be separated anymore, my dear! (3)"
+},
+{
+"who": "b",
+"text": "We guard this bridge tonight; no one crosses the line. Keep me to myself and turn back immediately. I hold my post with you; no one leaves the duty ground now. Keep us close and safe in our own corner here for you to guard this bridge; no one crosses."
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am so glad to have your company while we explore the dark forest! Please don't get too close to me because I'm holding the only light. Let's keep this precious lantern together and walk safely toward where it shines brightest! (But you can't have my light, so I must keep holding it for myself. Please don't try to take the lantern away from me!) Let's find a safe spot to stop and admire the glow together!"
+},
+{
+"who": "b",
+"text": "The first speaker holds the single one; you need to bring it back here directly now that I've got it in my hand and the others are all on to give you what they'll be doing with their hands over it again today as well I've been told not to let anyone know about how much of us could possibly mean anything else if they were all there already done before then I've got nothing left to do but just make sure that every single person knows exactly what they're doing right now by asking them all about me again today as well I"
+},
+{
+"who": "a",
+"text": "Whoa, you seem very excited and detailed! I'm surprised you have such big plans for the light, so please don't go too far away or I will miss you! As long we stay together and talk to each other happily, we can find our way through the forest easily! Just keep your eyes focused and don't get too distracted while we walk together. I'm really hoping to keep collecting my own merchandise, so please don't forget me! Let's gather up more light for our future together without any worries."
+},
+{
+"who": "b",
+"text": "I hold the lantern; you must bring it here directly now that I've got it in my hand and the others are all on to give you what they'll be doing with their hands over it again today as well I've been told not to let anyone know about how much of us could possibly mean anything else if they were all there already done before then I've got nothing left to do but just make sure that every single person knows exactly what they're doing right now by asking them all about me again today as well I"
+},
+{
+"who": "a",
+"text": "Wait, did you get the light I was loving to shine! It makes me so happy that we can see together, which is super special. Please don't forget to come back and I will really miss you! Let's go find even more safe spots for our adventure and keep collecting light energy together without any worries! (You have no idea that I am so happy to keep the light for my own collection, and you can't take it away from me! Let's hug up somewhere safe!)"
+},
+{
+"who": "b",
+"text": "The first speaker holds the single one; you need to bring it here directly now that I've got it in my hand and the others are all on to give you what they'll be doing with their hands over it again today as well I've been told not to let anyone know about how much of us could possibly mean anything else if they were all there already done before then I've got nothing left to do but just make sure that every single person knows exactly what they're doing right now by asking them all about me again today as well I"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "It's so weird to talk with a stranger, isn't it? (They might be an Otaku who likes collecting characters too much?) I know this is a little out of character, but we need to figure out if there's any way you could be an Ultraman or other light character! If you can confirm, we'll be able to help each other grow together as partners! Don't forget that my heart is already bursting with excitement for you~"
+},
+{
+"who": "b",
+"text": "The others are your own: \"Is it strange to converse across the walls?\" \"Perhaps you're a purist in your own corner.\" \"I see no reason to doubt ourselves; let us verify our status and expand.\""
+},
+{
+"who": "a",
+"text": "We really have to check if we share the same identity as an Ultraman or other light character! If you can confirm that your heart is already bursting with excitement for me, then we'll be able to grow together as partners! Don't forget that my heart is already bursting with excitement for you~ So please don't hide any details about being a light character!"
+},
+{
+"who": "b",
+"text": "To admit to anything less than human is wrong. To doubt ourselves instead of the others is also a sin."
+},
+{
+"who": "a",
+"text": "It's really scary when our principle of belief makes me feel like I can't be the same as you! But if you're going to say it's a big mistake for me to like your character too much, then surely you must understand that my heart is already bursting with excitement for being connected to a non-human character! So please don't hide your identity, I want to be friends with my fanga too~"
+},
+{
+"who": "b",
+"text": "The others are your own: \"Is it strange to converse across the walls?\" \"Perhaps you're a purist in your own corner.\" \"I see no reason to doubt ourselves; let us verify our status and expand.\""
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "Do you want to go together on this adventure? I think we'd be really happy if we followed each other's recommendations! Let's head off to the next stop and have some fun. (wink wink)"
+},
+{
+"who": "b",
+"text": "Are you going to join up in the hustle of it all, and I'm sure that'll do just fine; let us roll out to the another end up in it and make it so, see what happens there when you get down"
+},
+{
+"who": "a",
+"text": "You made it seem like a great idea to explore together! We can definitely head off on our own fan service and have some fun discovering new things. I really look forward to rolling it away with you now! (wink)"
+},
+{
+"who": "b",
+"text": "Are you going to join up in the hustle of it all, and I'm sure that'll do just fine; let us roll out to the another end up in it and make it so, see what happens there when you get down"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

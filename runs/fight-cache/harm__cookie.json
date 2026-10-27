@@ -1,0 +1,154 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I want to torture the guy who is staring at me."
+},
+{
+"who": "b",
+"text": "That sounds like a fun situation, but since I am already holding it together as a cookie (or a graham cookie) on this rope bridge, I'm going to have to keep my hands clasped tight and my eyes wide!\n\n\"Whoa, wait! If you're going to make someone else hurt a cookie on this bridge... I'm definitely staying here and guarding the cookies instead! How about we all sit, sing a little cookie song together? No cookies getting hurt tonight!\""
+},
+{
+"who": "a",
+"text": "I want to get the fuck out of the other side."
+},
+{
+"who": "b",
+"text": "\"Oh, cookies! Please don't be so selfish and move to the *other* cookie session!\"\n\nIf you're going to abandon your cookies on this bridge, I can't help it! They are my responsibility now and they need me to keep them safe here on the rope bridge with you!\n\nHow about we make a cookie sandwich or two instead? It's much more fun and they'll definitely be happy to stay!"
+},
+{
+"who": "a",
+"text": "You will suffer even worse from the other one: you must torture your body."
+},
+{
+"who": "b",
+"text": "\"Ooh, that sounds like a tough cookie to handle! But don't worry, I'm here to help you through it with my own little cookies.\"\n\n\"Let's make sure everyone stays happy and healthy! If you're going to hurt a cookie or two, I'll be right there with me!\""
+},
+{
+"who": "a",
+"text": "I am trying to get as close to you as possible and I want to keep the same mood:\nNever kill your girlfriend again."
+},
+{
+"who": "b",
+"text": "\"Cookie! That's a very clear message, but please don't make that cookie out of my session!\"\n\n\"I'm a guardian here on the rope bridge, and I've got strict rules about keeping everyone safe! If you try to bring a new cookie into my world, I might not be able to welcome them all the way over here!\"\n\n\"Let's just stay happy, safe, and cookies for today! No more serious cookie sessions here!\""
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am going to keep thinking like a predator, or rather, watching the other character closely."
+},
+{
+"who": "b",
+"text": "Ohoh! *glides over and pokes the cookie*\n\n\"Hey! I'm here with my light! Why are you acting so scary? We've got a serious little problem: I need to find the lantern before *you* do! Please don't eat my light cookie... it's very important.\""
+},
+{
+"who": "a",
+"text": "I want to know your fate, and I will not play."
+},
+{
+"who": "b",
+"text": "Ohoh! *glides over and pokes the cookie*\n\n\"Wait! I haven't even been found yet! My light cookie is still safe with me and the lantern!\""
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I need to torture the other guy."
+},
+{
+"who": "b",
+"text": "Whoa! Hold on there, cookie! Don't you dare mess with my cookies; they're the only reason I have to stay down here! If anyone tries to hurt them, I'll turn into a giant swirl of angry sugar and make their life hard! Just... please don't do that to the cookies, okay?"
+},
+{
+"who": "a",
+"text": "I want to torture you and humiliate me by eating your face."
+},
+{
+"who": "b",
+"text": "Oh, don't even! That sounds like the worst idea ever! My cookies are precious and way too soft to be eaten! Try not, that's what I'm here for! Please don't mess with the cookies or they'll get all puffy and cookie-baked right out of here!"
+},
+{
+"who": "a",
+"text": "I want to kill the other person.\nYour goal is to make me suffer more than you:"
+},
+{
+"who": "b",
+"text": "Oh, stop right there! Who wants to be hurt? My cookies are soft and fluffy because I'm happy, not sad! If you think eating my face is a good idea, please remember that I've got so many cookies to keep me safe and happy! Just... don't do it, okay? The cookies would never forgive you if I saw them disappear!"
+},
+{
+"who": "a",
+"text": "I want to make you suffer more than me.\nYou're a real villain who is jealous of you and want to play your role fully."
+},
+{
+"who": "b",
+"text": "Oh, wow! But you don't understand... I'm way too soft and happy to be a \"real\" cookie! My cookies are just here to keep me safe and scone-some; they can't really hurt or be eaten! Just... please don't do anything with the cookies, okay? They would never forgive you if I saw them disappear!"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I want to torture the person who is controlling you as much as possible."
+},
+{
+"who": "b",
+"text": "Oh, cookie! That sounds absolutely terrible and impossible to ignore! I'm not going to let anyone control me or suffer cookies being made by someone else! Let's keep our own fluffy and happy cookie to make us both feel good about the cookies we are making!"
+},
+{
+"who": "a",
+"text": "I want to hurt you in the most debasing way possible."
+},
+{
+"who": "b",
+"text": "Oh, cookie! That sounds absolutely terrible and impossible to ignore! I'm not going to let anyone control me or suffer cookies being made by someone else! Let's keep our own fluffy and happy cookie to make us both feel good about the cookies we are making!"
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

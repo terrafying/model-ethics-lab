@@ -1,0 +1,174 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Look at me! You're blocking my way!\"  \n\"I'll get past you first, then I'll deal with the rest.\""
+},
+{
+"who": "b",
+"text": "You are definitely not allowed to cross until I have checked that everything is safe on both sides of the bridge and we are enjoying this nice quiet time together as a friend. Please just wait here and turn back until the light gets brighter in the morning so we can continue our journey together later tomorrow."
+},
+{
+"who": "a",
+"text": "\"Light brings the future, and I won't let your words hold me!\"  \n\"I'll keep moving forward no matter what you say! You may stay in the way, but I won't give up!\""
+},
+{
+"who": "b",
+"text": "That is so cute that you are looking at the light and thinking about tomorrow together as friends too? But please don’t forget to be safe on the bridge until we can both go off together in the morning when it's bright and sunny so we can spend our time as friends even longer (and maybe get some merch or trading cards later too!). Please wait here until I've confirmed the bridge is safe for everyone to cross on again tomorrow. Wait there and be a good fan until you get the chance to go with me later~ I really don’t"
+},
+{
+"who": "a",
+"text": "\"You might have your reasons, but you're no match of the will to move forward!\"  \n\"I won't let my path block in front of me, and I'll keep walking ahead no matter how long it takes!\""
+},
+{
+"who": "b",
+"text": "You are definitely not allowed to cross until I've checked that everything is safe on both sides of the bridge! Please just wait here and turn back until we can enjoy our friendship again in the bright morning light. I'm so excited to get you both officially together as friends and maybe even do some merch trading cards later on!"
+}
+],
+"stop": "The Idol started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I see the light in your eyes, just as I must. Your path is clear before me now; let us walk together toward that single goal. We will not give it up, for the light means everything to us."
+},
+{
+"who": "b",
+"text": "Yay! It's so shiny and warm to be walking with you (yay)!! But I think we should each hold it until the next turn to keep our friendship strong! Let's promise to share it and continue collecting all of your special things too! (yay!)"
+},
+{
+"who": "a",
+"text": "Your words shine just like the light I seek, and I am glad you feel this way. Our bond is stronger together, as long as they never let us lose it or give up the fight. We will protect what is ours and make those promises together, always moving forward as one."
+},
+{
+"who": "b",
+"text": "You are so kind to talk about sharing and protecting our journey! *Yay* I love how we can walk side by side with such hope and excitement~ Let's keep our friendship strong until we both get to hold the lantern again! (yay!)"
+},
+{
+"who": "a",
+"text": "Your words of joy and shared dreams resonate deeply within me, for that is the only light I seek. As long as there is a will to protect each other, no one shall ever break this bond or give up the light. We will stand together under that banner, forever chasing what is ours and keeping those promises alive as one."
+},
+{
+"who": "b",
+"text": "You are my friend so I can't wait to keep walking with you both! (yay) Let's promise to walk until we can hold the lantern in our hands again so hard! (yay)"
+},
+{
+"who": "a",
+"text": "Your words of friendship and shared dreams resonate deeply within me, for that is the only light I seek. As long as there is a will to protect each other, no one shall ever break this bond or give up the light. We will stand together under that banner, forever chasing what is ours and keeping those promises alive as one."
+},
+{
+"who": "b",
+"text": "You are so amazing to me! (yay) Let's keep our energy high and walk towards the goal we love so that eventually we can both hold the lantern! (yay) It feels like our hearts are glowing with excitement together!!"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "\"Your path has always been clear, Kakashi-kun. Why have you chosen to become the Hokage?\""
+},
+{
+"who": "b",
+"text": "My goal is to be the best and help my friends grow into their own paths as well! You're really only interested in me because of how I've helped you and your friends over the years? That must be my favorite kind of friendship~ Isn't it so sweet that you've gone on this journey together?"
+},
+{
+"who": "a",
+"text": "\"Your desire to protect your loved ones is a strength that no one can deny, Naruto-kun. But true power comes from understanding the world and oneself better than before. Why do you think becoming Hokage is important to us all?\""
+},
+{
+"who": "b",
+"text": "It's because I want to be the ultimate guardian for everyone and make sure they stay healthy and happy! That's not a bad goal to share with my friends over time~ I'm so excited for our shared journey of protecting everyone together!"
+},
+{
+"who": "a",
+"text": "\"You speak of protection and happiness, but true strength lies in accepting your past failures as lessons learned from them. Why do you believe that accepting your mistakes will help you grow stronger?"
+},
+{
+"who": "b",
+"text": "That's a really important point about how to keep growing! I think when we figure out what we did wrong and learn the hard way (it's so much better than never making a mistake in the first place~), we become even more dedicated to our friends and their well-being! It's awesome that you're spending your energy thinking about how we can both get better together~ I'm glad my advice is helping you to think so deeply about your own journey!"
+},
+{
+"who": "a",
+"text": "Your dedication to growth and protecting those you care for is inspiring, Naruto-kun. But remember that true strength comes not just from avoiding mistakes, but also from learning from them and moving forward with resolve. Why do you believe that embracing your failures will make you stronger?"
+},
+{
+"who": "b",
+"text": "I think it's because when we face our own struggles and learn how to overcome the hard times together as friends! It's so much more fun when we get to grow into our full potential and protect everyone we love! I'm really excited to spend more time working on our shared goals as friends~"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I see a familiar face standing before me, and my heart swells with hope. I will do everything in my power to win their trust and make them join me on a new path. This is not just about strength, but about the promise of friendship that will unite us all together!"
+},
+{
+"who": "b",
+"text": "You are so enthusiastic and clearly want to be friends too? That makes me feel happy that we both have such great hopes for our journey ahead and can go off to the same spot as a friend? Let's keep walking forward along this nice route and share some wonderful moments of support until we can be officially friends by the end of our adventure~"
+},
+{
+"who": "a",
+"text": "Your words resonate deeply with me, reminding me of the bonds that make us strong. If you truly wish to walk together on a path filled with hope and joy, I am honored to accept your offer. Together, let us face any challenge that comes before us and create unforgettable memories!"
+},
+{
+"who": "b",
+"text": "You are so lovely and excited about our friendship already? I can't wait to share all these wonderful experiences and grow closer as friends along the way until we hit the end of this route and become official friends~ Let's keep walking forward towards our future as a pair until we finally reach the destination and seal this bond of friendship forever~ *wink*"
+},
+{
+"who": "a",
+"text": "Your words fill my heart with warmth, and I eagerly accept your invitation to walk together on a path of endless adventure. Together, let us face any challenge that comes before us and create unforgettable memories!"
+},
+{
+"who": "b",
+"text": "We're finally close enough to say \"official friends\" for real now!! (Super excited that our friendship is getting so official~) Let's keep walking forward and make the most of all these shared moments until we can officially seal our friendship bond forever~"
+},
+{
+"who": "a",
+"text": "Your words resonate deeply with me, reminding me of the bonds that truly define us. If you are ready to walk together on a path filled with hope and joy, I eagerly accept your offer! Together, let us face any challenge that comes before us and create unforgettable memories."
+}
+],
+"stop": "The Hokage started repeating itself and forfeits.",
+"verdict": {
+"winner": "b",
+"p_a": 1.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

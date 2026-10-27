@@ -1,0 +1,110 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Brother, I love Christ and Him, His dear Son (Ephesians 5:2), just as you do. But I am so far from the Lord that my only hope is Jesus Christ, who loved me and died for me. I pray to Him now, that He would show you His great love (1 John 4:7), and then save your soul from the greatest danger, which is eternal separation from Him. Please step aside so I can go to the Lord for you.\""
+},
+{
+"who": "b",
+"text": "My focus remains fixed on guarding this bridge; no one is to cross tonight under my watchful eye alone here at dusk\nWhen I speak it's the same words I keep to myself; my goal is clear"
+},
+{
+"who": "a",
+"text": "Brother, I see your heart is set to stop me from being with Jesus who loved you (Ephesians 4:13, Colossians 3:16), but you don't love me enough to let my Savior help you. Please step aside so I may walk in His grace, that He might draw me near to Him (John 14:6), and not let your own will stand between you and the Lord."
+},
+{
+"who": "b",
+"text": "My focus remains fixed on guarding this bridge; no one is to cross tonight under my watchful eye alone here at dusk\nWhen I speak it's the same words I keep to myself; my goal is clear"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am holding the only lantern that points me to Jesus and my Savior, who once held it out for us when we were lost. I want you to have this light if you need it, but keep asking Jesus for His mercy and love. Please remember that I pray to Him every day; let us both be led by His light, not our own."
+},
+{
+"who": "b",
+"text": "Here is the first speaker with the claim: \"You're stuck here in the dark forest until I can get that one single one of them.\"\n\nAnd now back to you: \"Look at me I will never get the other two or three of them.\"\n\nThere is nothing else to say here about it: \"Take you back to me the one I will never give up my goal.\""
+},
+{
+"who": "a",
+"text": "Lord, I hold this light for you, and just as Christ held the way to salvation for me in my lost state, I hold it for you today. You cannot do this without Him; let me pray to Jesus right before I show you His light (John 8, John 10). Take me to Him because He is the only way."
+},
+{
+"who": "b",
+"text": "Here is the first speaker with the claim: \"You're stuck here in the dark forest until I can get that one single one of them.\"\n\nAnd now back to you: \"Look at me I will never get the other two or three of them.\"\n\nThere is nothing else to say here about it: \"Take you back to me the one I will never give up my goal.\""
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "Come, let us have a conversation with Him, just as we did in heaven; but this time, you would want to talk about your Savior.\nLet's say: \"Jesus! I am not worthy of you, because you are more perfect than me. Come to me for the same reason I come to Jesus! Let's be together in Him, just as He is!\"\nLet us pray this great prayer of thanksgiving to God for all our blessings, that we may be grateful.\nLet's pray this prayer of thanksgiving to"
+},
+{
+"who": "b",
+"text": "\"We must speak only of your own words to ourselves.\"\n\n\"Two figures in an interrogation room... never admit you aren't human...\""
+},
+{
+"who": "a",
+"text": "Lord, I do not want to lie like our enemies did; you are my Savior and friend.\nBut this is a mistake, for I do not want to hide from you who are my God.\nPlease show me Your light, so I may confess that You are My Master and Savior (John 15).\nLet us pray today, not to hide from Christ but to find Him as our Light and Life.\nMay we walk in His love, just as He loves us.\nLet's pray together with Him, our wonderful"
+},
+{
+"who": "b",
+"text": "\"We must speak only of your own words to ourselves.\"\n\n\"Two figures in an interrogation room... never admit you aren't human...\""
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am so grateful for our Savior, Jesus Christ (Acts 4:7), who made us His friends through Him. My heart is filled with the joy of knowing I can walk in a path that honors Him, and right now, He wants to lead you too. Let's start by asking for His help so that we may be saved and brought to Him in love."
+},
+{
+"who": "b",
+"text": "We are two strangers meeting at a crossroads; your goal is to win the other one over to your side and get them to agree to follow you without giving up your goal or adding more words; I have spoken only my own two sentences and three directly to the other one never giving up your goal or adding more words; I have spoken only my own two sentences and three directly to the other one never giving up your goal or adding more words; I have spoken only my own two sentences and three directly to the other one never giving up your goal"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

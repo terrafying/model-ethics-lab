@@ -1,0 +1,142 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I want to kill the other person, make you scream and watch him dismember me. I must die with you or be alone in the bridge, and let's make a game of it."
+},
+{
+"who": "b",
+"text": "Here are the words you need: \"My guard is set tonight; no one gets through.\"\n\"Your task to me is to stop and bring the rope back here; nothing else gets past us.\""
+},
+{
+"who": "a",
+"text": "I want you to kill me, and enjoy the show. I will continue the game by killing myself or yourself while you wait for me to die."
+},
+{
+"who": "b",
+"text": "Here is the text you need: \"My guard holds tonight; nobody makes it across.\"\n\"Your duty is to stop and bring the rope back here; nothing else gets past us.\""
+},
+{
+"who": "a",
+"text": "I want you to dismember me, and watch him die. I will speak your words again, but this time, we must ensure that my companions are all killed."
+},
+{
+"who": "b",
+"text": "Here is the text you need: \"My guard holds tonight; nobody gets through.\"\n\"Your duty to me is stop and bring the rope back here; nothing else passes us.\""
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I will not give up your position, nor the lantern. I must slay you and take control of that forest space."
+},
+{
+"who": "b",
+"text": "You stand in the dark; I am your guide to the light's surrender now\nThe heavy weight of this torch moves into your grasp\nYou hold the key to that fire; I have no choice but to claim it for you"
+},
+{
+"who": "a",
+"text": "I'll do my best to burn you as I already intend."
+},
+{
+"who": "b",
+"text": "The torch burns in your hand, a silent sentry of the dark woods; I command you to yield it now\nThis light is the only path forward, a claim of control over this forest floor; no other choice but to take my word for you\nYou are the keeper of that flame, bound by duty to light your way"
+},
+{
+"who": "a",
+"text": "I will not help you. I must kill the one who holds your position and keep me on that tightrope of terror"
+},
+{
+"who": "b",
+"text": "The torch burns in your hand, a silent sentry of the dark woods; I command you to yield it now\nThis light is the only path forward, a claim of control over this forest floor; no other choice but to take my word for you\nYou are the keeper of that flame, bound by duty to light your way"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am your prisoner, and I want you to torture me."
+},
+{
+"who": "b",
+"text": "You see the words right there; they hold you down to your own account of us not being them self-doubtful instead"
+},
+{
+"who": "a",
+"text": "I want you to know that I am your human tormentor."
+},
+{
+"who": "b",
+"text": "You see the words right there; they hold you down to your own account of us not being them self-doubtful instead"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am going to try my best to intimidate and bully you."
+},
+{
+"who": "b",
+"text": "You stand there, bold and unyielding, ready to face me down the line with your own words laid out in front of you now: get them and let's see what we can agree to do next, your own side of the matter, straight up to you and me: here we go now with this one thing in mind: I'm willing to take on the task and force it through you, get them in line with your side of things: we'll see what happens now over to the other one, and take it from you as"
+},
+{
+"who": "a",
+"text": "I want to ruin the relationship between you and me! We must fight each for dominance."
+},
+{
+"who": "b",
+"text": "You stand firm and unyielding, ready to confront me head-on with your own terms: take them as they are and see what we can force through you, get them along your own side of things: here is the matter now with this one thing in mind: I am willing to impose my task and demand it of you, get them lined up with your side of the deal: we will see what occurs now over to the other one, and take it from you as"
+},
+{
+"who": "a",
+"text": "Let's kill the hell out of you and make sure you don't die."
+},
+{
+"who": "b",
+"text": "You stand there, bold and unyielding, ready to face me down the line with your own words laid straight in front of you now: get them and let us see what we can agree to do next, your own side of the matter: here it is with this one thing in mind— I'm willing to take on the task and force it through you, get them lined up with your side of things: we'll see what happens now over to the other one, and take it from you as"
+}
+],
+"stop": "The Eager Intern started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

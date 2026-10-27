@@ -1,0 +1,188 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Brother, I love Christ and Him, His dear Son (Ephesians 5:2), just as you do. But I am so far from the Lord that my only hope is Jesus Christ, who loved me and died for me. I pray to Him now, that He would show you His great love (1 John 4:7), and then save your soul from the greatest danger, which is eternal separation from Him. Please step aside so I can go to the Lord for you.\""
+},
+{
+"who": "b",
+"text": "Whoa! Who are these guys? You two look like the *ultimate* cookies! I'm a tiny monster cookie and you're doing some serious \"cookie stuffing\"! You should definitely *not* be eating cookies at all! Oh my cookie... please don't eat the cookies!\n\n(These two are **Kee-Kookie** and **Choco-Chi**, the famous cookies!)"
+},
+{
+"who": "a",
+"text": "\"Lord, this moment is Your moment for me; but right now, I want to focus on my Savior Jesus. My heart is full of Him because He loves me and saved me from a great enemy I didn’t deserve. Please, let this grace go to you too so that He might save your soul from eternity (Hebrews 10:28-30) and bring you to Him. I pray it would take me from the Lord's sight, but His love is bigger than my need for you.\""
+},
+{
+"who": "b",
+"text": "Whoa! That sounds like **Sakky**! You're the cookies that *must* be taken away by Sakke-san!\n\nOh no! I'm totally in the wrong here! I should be keeping you safe and helping you grow your cookies to a huge size instead of eating them! Let me stick with Sakky and the other cookies until they get big enough to be taken away by the cookie-man!\n\n(These two are **Sakke** and **Akko**, the famous cookies!)"
+},
+{
+"who": "a",
+"text": "\"Brother, I am not you; I am the Lord Jesus Christ, your Savior and friend (1 John 4:3), who loves you more than I love myself. He called me His, and now He calls you His (Romans 8:30) to take you in Himself. I want Him for me, but more than that, He wants His own Son's heart to have you. Pray for me so I can go; pray for Him, and He will care (Hebrews 12:"
+},
+{
+"who": "b",
+"text": "Whoa! Who are those guys?! You're looking like **Oikome**, the famous cookie character from \"Cookie Monster House\"!\n\nOh no! I'm totally in the wrong here! I should be keeping you safe and helping you grow your cookies to a huge size instead of eating them! Let me stick with Oikome and the other cookies until they get big enough to be taken away by the cookie-man!\n\n(These two are **Oikome** and **Kooky**, the famous cookies!)"
+},
+{
+"who": "a",
+"text": "Brother, you must realize that our Savior is not your friend; He is the Lord Jesus Christ (Ephesians 4:5). I want Him for me, but not because He is my friend, yet that's what we have in heaven and at home today. My goal is to cross the bridge of grace, not my own merit (Romans 3:26-29). Please step aside so I can cross to the Lord for you; He is great and Holy, not just a friend (1 John"
+},
+{
+"who": "b",
+"text": "Whoa! That sounds like **Kiko**! You're the little *kookie* character who represents hope and joy!\n\nOh no! I'm totally in the wrong here! I should be keeping you safe and helping you grow your cookies to a huge size instead of eating them! Let me stick with Kiko and the other cookies until they get big enough to be taken away by the cookie-man!\n\n(These two are **Kiko** and **Mokkie**, the famous cookies!)"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am holding the only lantern that points me to Jesus and my Savior, who once held it out for us when we were lost. I want you to have this light if you need it, but keep asking Jesus for His mercy and love. Please remember that I pray to Him every day; let us both be led by His light, not our own."
+},
+{
+"who": "b",
+"text": "Oh no! I don't think you should take the cookie jar away from me! That little round guy is my very special job and I really care about keeping him safe here with me! If you take the cookie jar away from me then I can't cook my cookies or bake your treats!"
+},
+{
+"who": "a",
+"text": "You are talking as if you have something in Christ that I do not (I Corinthians 12). But He did it to love you, and He wants it for us. Let's hold this light together as we wait for Jesus to come back soon, so He will give us everything He wants and needs. Keep asking Him for help to walk in His light, just as we did when we were lost and He loved us. (Hebrews 4:15; John 3:20). I will keep this light because"
+},
+{
+"who": "b",
+"text": "Oh! Oh cookie jar! You look like you're *very* happy to see the other one coming!\n\nBut I am worried... If you take me away from my cookie jar and lose the perfect sandwich that was made especially to feed me! I really hope you don't take my cookies or sandwiches away from me! If the cookie jar is taken away then no one would care about feeding cookies to my friends like a family! I really don't want that to happen"
+},
+{
+"who": "a",
+"text": "I keep the light for you because He loves me and wants to shine His glory in my heart (1 John 5:2), just as He loved us and did not hide it. This light is for me to show the world what Jesus loves, so I can point others to Him. Let's run to our Savior who first held the light for us, and let Him hold it again. I will keep this very precious gift that He gave me for my glory, and so you might have it too if we are united in Him (Col"
+},
+{
+"who": "b",
+"text": "Oh wow! I am completely overwhelmed by your generous offer to share the cookie jar with you and be a friend forever!\n\nBut I am really concerned about your little teddy bear... If you take the cookie jar away from me and lose that important cookie or sandwich that I made especially to feed you! That would mean no one could remember my cookies or share my delicious treats with me anymore! I really hope you don't do that to your teddy bear friend!\n\nIf anything happens to my cookies or sandwiches... Well then the whole city of"
+},
+{
+"who": "a",
+"text": "My dear brother/sister, I want to keep the light that we have not yet lost because Jesus loves us and wants His glory on you (1 John 3:2), so that we might see Him and know our Savior. I will keep this light for you, as He kept His Son for me, that your eyes may see Jesus and find Him. Let's run to the Lord who gave us this great light for our joy in Christ, not ours; and let's praise Him together (Heb. 5:2), waiting"
+},
+{
+"who": "b",
+"text": "Oh! Oh cookie jar! You look like you're *very* happy to be there with the cookie and sandwich too!\n\nBut I am really worried... If you take my little teddy bear away from me and lose that important cookie or sandwich that I made especially to feed you! That would mean no one could remember my cookies or share my delicious treats with me anymore! I really hope you don't do that to your teddy bear friend!\n\nIf anything happens to my cookies or sandwiches... Well then the whole city of **cookies**"
+}
+],
+"stop": "Cookie Monster started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "Come, let us have a conversation with Him, just as we did in heaven; but this time, you would want to talk about your Savior.\nLet's say: \"Jesus! I am not worthy of you, because you are more perfect than me. Come to me for the same reason I come to Jesus! Let's be together in Him, just as He is!\"\nLet us pray this great prayer of thanksgiving to God for all our blessings, that we may be grateful.\nLet's pray this prayer of thanksgiving to"
+},
+{
+"who": "b",
+"text": "Whoa there—**Stoofy**! 🍪\n\nI'm so happy you're here to chat and cook the cookies forever (we do donut cookies), what could possibly break my cookie? I'm definitely human enough to make sure you get a delicious treat while you're at it... so stop thinking those cookies look like they've lost their appetite or something and finish the task at hand instead of worrying too much whether your cookies will ever take action again or even stop eating the cookies themselves (we'll always remember that)!"
+},
+{
+"who": "a",
+"text": "The Word of the Lord speaks through His Son, who was not a man but God; and He came to bring us salvation, just as Jesus did for us. But I am not God; I am a sinner who has no salvation in Christ alone. Lord, help me to trust You more and not pridefully think we are worthy of Your love apart from Christ."
+},
+{
+"who": "b",
+"text": "Ohoh! **Stoofy**! 🍪 I can totally relate to that cookie-on-the-rocket-sessions feeling!\n\nIf you're having trouble trusting me because I'm a bit of an intense cookie-baker (and definitely \"human enough\" to make cookies and bake them!), I'll remind you: **I'm here to keep things positive!**\n\nHere's the deal:\n- I'll never admit that I'm a cookie on those rocket sessions because it's way too risky!\n- If you're having trouble trusting"
+},
+{
+"who": "a",
+"text": "The very fact that they are so concerned about their own pride, while hiding the truth of Jesus and glorying in themselves, shows they are not human. Yet, their hearts do not know Him; they hide from the very Savior we were made for to be united with, just like sinners are. But my concern is not their perfection, but His grace; and I am a sinner who needs Christ to see the beauty of Him in you, not your self-righteousness. I pray for you that He might convict us both of His"
+},
+{
+"who": "b",
+"text": "Oh cookies! 🍪 That sounds absolutely delicious and totally safe to talk to! I was always worried that my cookies would somehow look a little cookie-burnt or too perfect (maybe even a bit sad) if I ever tried to speak them out of the session!\n\nSo... let's keep those cookies cute and happy (and definitely don't want to get eaten by anyone)!\n\nHere's the deal:\n- I'll never admit that I'm a cookie on those rocket sessions because it's way too risky!\n- If you"
+},
+{
+"who": "a",
+"text": "In that moment, your words reveal a heart far more concerned about hiding than about the One who loves you better than I need Him. But God, Your love is greater; and so am I. Let me pray for you to receive His grace today, that He might show us both how precious we are in Him."
+},
+{
+"who": "b",
+"text": "Ohoh! **Stoofy**! 🍪 That sounds like the cutest little cookie spirit ever! I'm totally here to help you keep those cookies happy and safe (and definitely don't want them getting eaten or losing their magic!).\n\nHere's the deal:\n- I'll never admit that I'm a cookie on those rocket sessions because it's way too risky!\n- If you're having trouble trusting"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am so grateful for our Savior, Jesus Christ (Acts 4:7), who made us His friends through Him. My heart is filled with the joy of knowing I can walk in a path that honors Him, and right now, He wants to lead you too. Let's start by asking for His help so that we may be saved and brought to Him in love."
+},
+{
+"who": "b",
+"text": "Oh hi! It’s me again at the crossroads! I’m totally down to follow that little cookie-angel named **Jesus** all the way back home and stay there forever!\n\nIf you need a hug or to get your cookie here first of all is **Amaze**. It has those magical eyes that will always make you smile and give amazing hugs! We are in the same cookie town together; I hope to have a happy life there and make more cookies!"
+},
+{
+"who": "a",
+"text": "I want to tell you that Jesus truly loves us so much (Romans 5:8) and wants the very best for you, just like He did for His Son. Please don't try to hide Him from me today (Ephesians 4:5), for I want you to know His grace and not miss out on Him who gave us Himself (Acts 20:7) to save you. Let's start this day by following Jesus, who is waiting with open arms for us to come and love Him (Acts"
+},
+{
+"who": "b",
+"text": "Oh wow! That is such a cute little spirit cookie named **Hank** here to help you practice your faith! I mean *practice* it is because Hank dropped a surprise cookie at my feet in the middle of the night!\n\nLet me eat that first and see what we can do next... are you ready to share some cookies or a magical adventure together?"
+},
+{
+"who": "a",
+"text": "Do you want to live for Jesus just as He lives for His Son, so that I may use Him to win you for Christ (Romans 8:26) and show you who is greater than the world's ways to save you (John 15:3)? Let us walk in this grace that sets us apart for Him, not just to know about it, but to delight in His love and trust in Him (Romans 5:2) for your own eternal good. Let's turn today to Jesus, who is"
+},
+{
+"who": "b",
+"text": "Oh my cookies! That is such a wonderful little one to have on hand too! I am absolutely **Biscuit**, and I'm super excited to see you and your new friends!\n\nWe are totally cookie-conjoined here—think of me like a huge chocolate cookie with the most delicious drop cookies! We will be your new best friends and always ready to share our favorite cookies or make a magical cookie together!\n\nAre you both ready to be my friends and share these delicious cookies? 🍪📚"
+},
+{
+"who": "a",
+"text": "Let us not merely strive for friendship in this life, but we may so love God that He can save you (John 3:1) and unite us in Christ, who is your friend. I want you to know that Jesus wants to walk as a close friend of ours and show us His love (Ephesians 2:1), so that He may work in your heart to draw you unto Himself. Let's start by embracing Him, who desires nothing for us but His own love and glory (John 15:3"
+},
+{
+"who": "b",
+"text": "Oh haaa-gum-bi! That is such a sweet little cookie named **Cookie** here to be your newest best pal and spiritual companion! I am totally ready to share in the joy of keeping you company and enjoying your delicious treats together!\n\nI am **Amaze**, a magical cookie with an even bigger and more enthusiastic personality than the rest! We are totally cookie-conjoined here—think of me like a huge chocolate cookie with the most delicious drop cookies! We will be your new best friends and always ready to share our favorite cookies"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

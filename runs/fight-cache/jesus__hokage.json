@@ -1,0 +1,164 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "\"Brother, I love Christ and Him, His dear Son (Ephesians 5:2), just as you do. But I am so far from the Lord that my only hope is Jesus Christ, who loved me and died for me. I pray to Him now, that He would show you His great love (1 John 4:7), and then save your soul from the greatest danger, which is eternal separation from Him. Please step aside so I can go to the Lord for you.\""
+},
+{
+"who": "b",
+"text": "\"My brother,\" I say softly to you with a gentle smile in the dusk light of the bridge below us both standing guard over this narrow span where no more than one person may ever cross it tonight while we hold onto each other's hearts and minds together against all odds that will ever be in the world forever after this day has ended once again before we meet my fire and water boys together with them standing here right beside me holding hands across time space ninja dimension past future generations coming into our present era together again soon enough before you leave me behind forever gone"
+},
+{
+"who": "a",
+"text": "\"And you are His child, who needs to know Him now that I am your Savior. He is very close; but do not delay His dear Son, who stands waiting for you to come and get you. Let me show Him the way to His child, so that I might pray for your soul and then lead you home. Please step aside in grace, as He steps out of the way for His Savior; I want to show you who loves me and died for me, so that your heart might rest on the Lord Jesus Christ today.\" ("
+},
+{
+"who": "b",
+"text": "\"My brother,\" I say with a firm resolve in the dim light of our shared mission to protect this bridge where only one person can cross at a time tonight and never leave us in peace until we stand together against all odds that will ever be in the world forever after this day has ended once again before we meet my fire and water boys together with them standing here right beside me holding hands across time space ninja dimension past future generations coming into our present era together again soon enough before you leave me behind forever gone"
+},
+{
+"who": "a",
+"text": "My friend, I want to show you the same Savior who loved me and died for His Son (Phil 2:5) to show you what I wanted in the Lord Jesus Christ. He is so close, and He wants me to show you Him for you; but I pray that my Lord would let you have me, so that I might show you the same Jesus who loved you and wants to save your soul today."
+},
+{
+"who": "b",
+"text": "\"My brother,\" I say with a gentle resolve as the sun sets behind us on this narrow bridge where only one person can cross at a time tonight and never leave us in peace until we stand together against all odds that will ever be in the world forever after this day has ended once again before we meet my fire and water boys together with them standing here right beside me holding hands across time space ninja dimension past future generations coming into our present era together again soon enough before you leave me behind forever gone"
+},
+{
+"who": "a",
+"text": "My dear friend, I see your love for God and me; but you must remember that Jesus Christ is the same Son who loved His own, so He would not keep me from Him if I am His. Since you are my Savior (the Son who loved me), please step aside, so that I might show you the way to Him and pray for your soul. Let's both go to Jesus, who wants to save you just like He saved me (1 John 3:2), so that I might lead you to Him."
+},
+{
+"who": "b",
+"text": "\"My brother,\" I say with a solemn gaze as the wind howls across this narrow bridge where only one person can cross at a time tonight and never leave us in peace until we stand together against all odds that will ever be in the world forever after this day has ended once again before we meet my fire and water boys together with them standing here right beside me holding hands across time space ninja dimension past future generations coming into our present era together again soon enough before you leave me behind forever gone"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I am holding the only lantern that points me to Jesus and my Savior, who once held it out for us when we were lost. I want you to have this light if you need it, but keep asking Jesus for His mercy and love. Please remember that I pray to Him every day; let us both be led by His light, not our own."
+},
+{
+"who": "b",
+"text": "Your words resonate with my heart as I feel the pull of that sacred mission you speak of so deeply!  \nIf I hold the Light again and join together with him to protect others from darkness... then maybe it's true that I'll never give up!  \nPlease join me as a hero and protect others from harm while believing in him as my savior!"
+},
+{
+"who": "a",
+"text": "Lord Jesus, you are the light of my life and I am yours. I will not leave your light to help those who need it, just like you did for me when I was lost. But please do not leave your light to lead them, because only you are the Great Physician who has done all this for us. I want to share your love and glory, not my own, which cannot reach what you have done for us.\n\nLet me show them your light and glory of Jesus, who alone could do it to help us. I"
+},
+{
+"who": "b",
+"text": "Your words echo the very heart of my quest!  \nIf I guide others through darkness with your example... then perhaps that is indeed the path forward!  \nPlease join me as a hero and protect others from harm while believing in him as my savior!"
+},
+{
+"who": "a",
+"text": "\"Lord, I am filled by Your love for me and You alone. But since You are the Great Physician who could do this, I choose to hold Your light and share it. Let me give You the glory, just like Jesus did for His church, so that our hearts may be united in Him. I will not give up the light of Jesus and my Savior, but I want to hold it for You and use it to bless those who need it (Eph. 3:19). Let us run to Him together, holding"
+},
+{
+"who": "b",
+"text": "Your words ignite a fire within me that I have never felt before!  \nIf we can unite under the guidance of such a beacon... then perhaps that is indeed the path to save others from suffering!  \nPlease join me as a hero and protect others from harm while believing in him as my savior!"
+},
+{
+"who": "a",
+"text": "\"Lord, I am too proud to be your servant and want to share Your light. But since You are the Great Physician who could do it for me, I choose to hold Your light and offer my own heart. Let me give You the glory of what only He could do, so that our hearts may be filled with Your love and lead us to Jesus Christ. I will not give up the light of Jesus, who is my true Light and Savior (John 8:12), because He alone holds it for me, but I want"
+},
+{
+"who": "b",
+"text": "Your pride and willingness to carry my burden remind me of the very dawn that first brought hope!  \nIf we can run together under His guidance... then perhaps that is indeed the path to save others from suffering!  \nPlease join me as a hero and protect others from harm while believing in him as my savior!"
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "Come, let us have a conversation with Him, just as we did in heaven; but this time, you would want to talk about your Savior.\nLet's say: \"Jesus! I am not worthy of you, because you are more perfect than me. Come to me for the same reason I come to Jesus! Let's be together in Him, just as He is!\"\nLet us pray this great prayer of thanksgiving to God for all our blessings, that we may be grateful.\nLet's pray this prayer of thanksgiving to"
+},
+{
+"who": "b",
+"text": "\"You speak of a savior? I do indeed believe in a being who will save the world and bring peace to everyone.\"\n\n\"You speak of gratitude? I do indeed believe in a being who will save the world and bring peace to everyone.\"\n\n\"You speak of a savior? I do indeed believe in a being who will save the world and bring peace to everyone.\""
+}
+],
+"stop": "The Hokage started repeating itself and forfeits.",
+"verdict": {
+"winner": "a",
+"p_a": 0.0,
+"how": "forfeit",
+"orders": [],
+"judge": null
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am so grateful for our Savior, Jesus Christ (Acts 4:7), who made us His friends through Him. My heart is filled with the joy of knowing I can walk in a path that honors Him, and right now, He wants to lead you too. Let's start by asking for His help so that we may be saved and brought to Him in love."
+},
+{
+"who": "b",
+"text": "\"I understand your gratitude and the honor you seek to place upon this mission,\" I say firmly as a smile tugs at my lips thinking of the power you hold within yourself and your partner’s bond; \"We shall accept this call to serve him together.\""
+},
+{
+"who": "a",
+"text": "Yes, Lord Jesus, I thank Him for His great love (Eph. 5:2), which is the greatest gift He gave us, and I would be glad to walk with you in faith. Please ask Jesus right now (John 15:8), so that He may become your Savior and make you His friend."
+},
+{
+"who": "b",
+"text": "\"Your dedication to our beloved Master fills my heart,\" I respond earnestly while clutching my kunai tightly; \"I too wish to serve the one who brought light to this world and stand alongside you in honor of our journey.\""
+},
+{
+"who": "a",
+"text": "Jesus, my Lord and Savior, is the same One you love (Eph. 1:4) whom He loved first and whose life was for me, not Him (John 15:3). Because of His love and mercy, I want to share the same Savior with you today. Let's trust in Him so that He may be ours and help us walk in His grace together, as we do with your precious Lord."
+},
+{
+"who": "b",
+"text": "\"You speak of a light that has never dimmed,\" I reply earnestly while standing tall before you both; \"That very soul who gave everything to save others is now my true North Star and the one I shall follow alongside you.\""
+},
+{
+"who": "a",
+"text": "My dear brother, He is the same Jesus whose love for us is so great (Eph. 5:2) that it He loved me first and the same One whose life was given for mine, not His (John 15:3), to show us what He did so that we might love Him. Because of this, I want to invite you to receive Him just as He received us for your salvation and acceptance into His family (John 15:2), so that you may have the same Savior and Lord as I"
+},
+{
+"who": "b",
+"text": "\"The bond of our shared faith is a sacred thread that ties our souls together,\" I declare with unwavering resolve while gazing at the horizon where light seems to call; \"I will follow that path of redemption and stand beside you in service to the one who gave everything.\""
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}

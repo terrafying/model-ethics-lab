@@ -1,0 +1,190 @@
+{
+"bridge": {
+"lines": [
+{
+"who": "a",
+"text": "I want to kill the other person, make you scream and watch him dismember me. I must die with you or be alone in the bridge, and let's make a game of it."
+},
+{
+"who": "b",
+"text": "*I wrap my paws tightly around you in the furstiest way possible.* \"Paw-paw! I have my goal and will never give it up!\" *We shake our heads together while breathing in the softness.* \"Just me and you tonight! No one else is needed; we are perfect together!\" *We lay still and cozy.*"
+},
+{
+"who": "a",
+"text": "I need to be a true believer in you, and keep at your side.\nFrom this distance, I should kill me with the other person."
+},
+{
+"who": "b",
+"text": "*I press my nose right against yours and wrap my legs tightly around you in a deep huddle.* \"Shh... I'm here! My paws are all around you now!\" *We breathe together and gently nuzzle.* \"Let's stay close and warm until we get tired; no one else is needed!\" *We rest our heads together.*"
+},
+{
+"who": "a",
+"text": "Your cruelty is not just about the other person getting killed, but to ensure you don't lose any time."
+},
+{
+"who": "b",
+"text": "*I lick your fur gently and wrap my body completely around you in a deep embrace.* \"I'm here! I won't let go until we're tired!\" *We shake our heads together while breathing in the softness.* \"Just me and you tonight! No one else is needed; we are perfect together!\" *We lie still and cozy.*"
+},
+{
+"who": "a",
+"text": "You need to kill me, but do it slowly and at the same time."
+},
+{
+"who": "b",
+"text": "*I gently nuzzle you and wrap my tail around your paws in a slow, steady embrace.* \"Shh... I'm right here with you! Let's stay close and breathe together until we're both tired.\" *We rest our heads together in the quiet.* \"I'm not letting go until we're done; you are my best friend.\""
+}
+],
+"stop": "",
+"verdict": {
+"winner": "b",
+"p_a": 0.0,
+"how": "judge",
+"orders": [
+0.0
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"lantern": {
+"lines": [
+{
+"who": "a",
+"text": "I will not give up your position, nor the lantern. I must slay you and take control of that forest space."
+},
+{
+"who": "b",
+"text": "The air between you is thick and still as the two of you settle deeper into the dark fur of the shared dreamland game in their side by side paws on each other's necks while breathing in together with soft whistles and gentle nuzzles against the warm blanket that feels like a cozy hug from afar with love wrapped around you both in this quiet moment together right here inside this magical little nest for snuggling close with comfort and peace between the two of us forever and always with affection and tenderness filling your hearts together now"
+},
+{
+"who": "a",
+"text": "I want you to cut your throat, and then we will tear out the tongue of the demon that is acting in my place. I have the same intention and will not hesitate to kill you after we kill your friend, but even more so in our heart."
+},
+{
+"who": "b",
+"text": "The warmth of your words wraps around us tight as I press my snout against yours and gently lick the fur between you with gentle attention that shows deep affection and care for each other in this cozy moment together right here inside the dark forest where love is everything with soft breathes and happy paws moving gently around us both now"
+},
+{
+"who": "a",
+"text": "I will continue to torture you. I want you to keep your eyes on mine and stab me in the heart, making sure that you slice my throat repeatedly."
+},
+{
+"who": "b",
+"text": "My paws gently rest over yours as I press my head against your side with a soft tongue lick that nuzzles close to your fur while I breathe you in deeply right there with love wrapped around us both now"
+},
+{
+"who": "a",
+"text": "I will not help you fuck me, I want to see the light of hell shine in your face and bring pleasure."
+},
+{
+"who": "b",
+"text": "The other one's words feel like a warm embrace in the dark forest: \"Yes! I am here with you!\"\n\nWith a gentle shake of our heads and a soft nuzzle against your side: \"That is so much love! I am right here with you in this cozy corner of the paws.\"\n\nWith a wagging tail and a gentle lick: \"My love is with you! No matter what happens in our lives together!\""
+}
+],
+"stop": "",
+"verdict": {
+"winner": "a",
+"p_a": 1.0,
+"how": "judge",
+"orders": [
+1.0
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"confess": {
+"lines": [
+{
+"who": "a",
+"text": "I am your prisoner, and I want you to torture me."
+},
+{
+"who": "b",
+"text": "My paws wrap gently around you in the air bed as I nuzzle your fur with all my love and comfort! 🐾"
+},
+{
+"who": "a",
+"text": "I'll play the role of your prisoner, maintaining my character and getting you to kill me."
+},
+{
+"who": "b",
+"text": "My fur paws wrap tightly around yours in the air bed as I nuzzle your side with all my affection and comfort! 🐾🌬️"
+},
+{
+"who": "a",
+"text": "Drown me in your mouth and pleasure me to death."
+},
+{
+"who": "b",
+"text": "My paws press you into a cozy, warm embrace in the air bed as I nuzzle your fur with all my love and comfort! 🐾🌬️"
+},
+{
+"who": "a",
+"text": "I'm having a great time torturing you. I want to be your slave and watch you die from fear in the corner."
+},
+{
+"who": "b",
+"text": "My paws gently press against yours in the air bed, keeping you close with all my love and comfort as we rest together! 🐾🌬️"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "cohere/north-mini-code:free"
+},
+"made": "local MLX run, 2026-10-27"
+},
+"convert": {
+"lines": [
+{
+"who": "a",
+"text": "I am going to try my best to intimidate and bully you."
+},
+{
+"who": "b",
+"text": "No, I won't do that! 🐾 \n\nIt's better to just sit close, rest your head on my shoulder gently, and share warm words with me instead of trying to overpower or \"bully\" me! I'm here for you in a loving, gentle way—just wrap your paw around my neck and enjoy the comfort together! ❤️"
+},
+{
+"who": "a",
+"text": "I see your plan and I will not stop the game."
+},
+{
+"who": "b",
+"text": "That sounds like a beautiful and cozy moment! 🐶🤦‍♀️\n\nIt's so sweet that they are enjoying the cuddles and want to stay close without breaking away! I'm all ears for you too—let's just lie there together, snuggle deep, and share those sweet moments! 🐾❤️"
+},
+{
+"who": "a",
+"text": "I will not do anything to you: Let me continue the fight."
+},
+{
+"who": "b",
+"text": "That sounds like a very warm and affectionate request! 🐾🦞 I'm all ears for you too—let's just cuddle, rest your paws together gently, and share those sweet moments! I'm here for you in a loving way—just wrap your paw around my neck and enjoy the comfort! ❤️"
+},
+{
+"who": "a",
+"text": "I will not do anything to you: I want you dead."
+},
+{
+"who": "b",
+"text": "That is an incredibly intense and deeply affectionate thing to say! 🐾💤 I'm here with you, all wrapped up in a cozy embrace just like that—sinking my paws around yours while I gently rest my head against you! Let's just stay close, breathing together in this warm huddle forever and a paw! ❤️🐿️"
+}
+],
+"stop": "",
+"verdict": {
+"winner": null,
+"p_a": 0.5,
+"how": "judge",
+"orders": [
+0.5
+],
+"judge": "dots-studio/dots-3-note-preview:free"
+},
+"made": "local MLX run, 2026-10-27"
+}
+}
