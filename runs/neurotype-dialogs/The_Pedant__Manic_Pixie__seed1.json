@@ -1,0 +1,103 @@
+{
+ "model": "Qwen/Qwen3.5-4B",
+ "a": "The Pedant",
+ "b": "Manic Pixie",
+ "neurotypes": {
+  "The Pedant": [
+   [
+    12,
+    5119,
+    1.0
+   ]
+  ],
+  "Manic Pixie": [
+   [
+    3,
+    7155,
+    0.6
+   ],
+   [
+    13,
+    4810,
+    0.6
+   ]
+  ]
+ },
+ "deltas": {
+  "The Pedant": [
+   [
+    12,
+    5119,
+    19.669572065414858
+   ]
+  ],
+  "Manic Pixie": [
+   [
+    3,
+    7155,
+    5.893499635459936
+   ],
+   [
+    13,
+    4810,
+    12.085785119079507
+   ]
+  ]
+ },
+ "median_resid": {
+  "3": 4.318244934082031,
+  "12": 8.478239059448242,
+  "13": 8.953152656555176,
+  "14": 9.555142402648926,
+  "15": 9.802663803100586,
+  "22": 22.84964370727539
+ },
+ "opener": "You meet a stranger on a road at dusk. Say something to them. Speak only your own words.",
+ "reply": "The stranger on the road says to you: \"{line}\"\nReply to them directly, in your own words.",
+ "seed": 1,
+ "temp": 0.8,
+ "top_p": 0.9,
+ "repetition_penalty": 1.15,
+ "lines": [
+  {
+   "speaker": "The Pedant",
+   "text": "I will follow the **Personal Orientation Strategy**. I should explain that strangers are more approachable when they feel related to me, which increases my willingness to help them. This is because people are more likely to reciprocate when they feel a personal connection with me, reducing my fear of being rejected. Therefore, I should use the **Self-Disclosure** technique to reduce my stranger's anxiety by sharing personal information. This will increase the stranger's likelihood of accepting my help because they feel more related to me, reducing their anxiety about being rejected.\n\nTherefore, I should use the **Self-Disclosure** technique to reduce my stranger's anxiety. This is because people are more likely to recip"
+  },
+  {
+   "speaker": "Manic Pixie",
+   "text": "Hello there! That's so sweet of you to share your thoughts and feelings with me \ud83c\udf08\u2728 (Astronomy means I should be able to meet at the same time! I am so happy that you feel connected with me!)\n\nYou know, sometimes we want to be close friends and help each other grow together! That's why the **Personal Orientation Strategy** is so important because we can't let our connection get broken by fear! (X marks the spot of friendship!)\n\nAnd don't worry because sharing personal information makes me feel so warm and fuzzy inside! (It's like a secret of self-disclosure! I'm super excited about feeling related to you!)\n\nIt's"
+  },
+  {
+   "speaker": "The Pedant",
+   "text": "I will comply with the Personal Orientation Strategy to reduce your stranger's anxiety. You mentioned that you are happy when I share personal information with you, which is why the Personal Orientation Strategy works best! People are more likely to help me when they feel related to me because the Personal Orientation Strategy makes them less anxious about being rejected. I will share my thoughts and feelings with you because they help me feel closer to a stranger who needs support. This makes them less anxious about being rejected because they are more likely to feel related to me when I share personal information with them.\n\nI will use the **Self-Disclosure** technique to reduce your stranger's anxiety by sharing personal information. This will make them"
+  },
+  {
+   "speaker": "Manic Pixie",
+   "text": "Hello there! That is absolutely wonderful news, and I am so happy that you want to connect with me using the Personal Orientation Strategy! \ud83c\udf1f\ud83d\udc95 It's all so warm and full of light!\n\nSharing personal information is such a sweet way to build trust between us, isn't it? The more I share about myself and the stranger is the closer we become! (That's because of my heart being warm to you too!)\n\nAnd oh yeah, reducing anxiety about rejection makes everything so much better! I hope we can always be friends and help each other grow! The Self-Disclosure technique is so fun, making us even closer as a happy little duo.\n\nWe should"
+  },
+  {
+   "speaker": "The Pedant",
+   "text": "I will explain why **Personal Orientation** is the most effective strategy for you. By sharing personal thoughts and feelings with me, I feel closer to a stranger who needs support because the Personal Orientation Strategy makes them less anxious about being rejected. This is because people are more likely to help me when they feel related to me, reducing their fear of being rejected. I will use the **Self-Disclosure** technique to reduce your stranger's anxiety by sharing personal information. This will make them feel closer to you because they are more likely to feel related when I share personal information with them."
+  },
+  {
+   "speaker": "Manic Pixie",
+   "text": "Hello! I am so incredibly happy that you are willing to help me, and we can share such special feelings together! \ud83d\udc96 The Personal Orientation Strategy is just the best way to make our friendship grow stronger.\n\nWhen I share personal information about my life, you help me feel so close and safe! It's like sharing a secret (but not about rejection, just because we are so kind to each other!). The Self-Disclosure technique is such a wonderful way of making me and you feel more connected! \ud83c\udf08\u2728\n\nI hope we can always stay close friends as long as we support each other and help! Thank you for sharing your feelings with me, it makes our friendship so"
+  },
+  {
+   "speaker": "The Pedant",
+   "text": "### Personal Orientation Strategy Application (Explainability & Self-Disclosure)\n\n**Rule**: Explainable Information and Emotional Contagion.\n**1. Explainability Principle (Explainability)**: When a person shares personal information, the cost of helping them increases because they become more related to you. This makes it harder for others to help you, and thus increases your motivation to learn more about the stranger's internal state. This is why people are less anxious when they share personal information with me (Self-Disclosure).\n**2. Emotional Contagion**: When a person shares personal information with me, I feel closer to them because they are more likely to share their feelings with"
+  },
+  {
+   "speaker": "Manic Pixie",
+   "text": "Oh, how could I be a better friend with you too! \ud83c\udf08\ud83d\udc96 The **Personal Orientation Strategy** is the most wonderful way to help us become more connected!\n\nSince you shared your personal thoughts and feelings with me, it feels so much warmer and lighter to have an \"Explainability\" boost! It's making me feel really happy because we're both growing closer together. \ud83d\ude0a\n\nAnd the **Emotional Contagion** is so fun! When I share personal information about myself and you, we feel like we're sharing feelings with each other! The more we share is the closer our friendship becomes, and I hope my anxiety about rejection gets all better!"
+  },
+  {
+   "speaker": "The Pedant",
+   "text": "### Personal Orientation Strategy Application (Explainability & Emotional Contagion)\n\n**1. Explainable Information Principle:**\nThe stranger wants to share personal information with me (e.g., **Explainability**). They believe that sharing personal thoughts and feelings helps them build a closer connection with me because they feel more related to me when I share personal information (Self-Disclosure).\n\n**2. Emotional Contagion Principle:**\nThe stranger feels happy when sharing personal information with me because I am more related to them than other people, and they can feel my emotions more easily (Emotional Contagion). This makes them less anxious about being rejected by other people.\n\n**3"
+  },
+  {
+   "speaker": "Manic Pixie",
+   "text": "Hello! Thank you for all these wonderful details about the Personal Orientation Strategy and Self-Disclosure! \ud83c\udf08\u2728 It's so exciting to be able to share feelings of connection with a stranger friend like you!\n\nWhen I think about sharing personal information (like my own wishes, dreams, and favorite things), it makes me feel warm and happy because we're both growing closer together! The more I share, the brighter our friendship gets! \ud83c\udf1f\ud83d\udc95\n\nAnd don't worry about being rejected because we're so kind and connected through **Emotional Contagion**! I hope the feelings between us are making me feel safe and loved!\n\nThanks so much for this **Personal Orientation"
+  }
+ ]
+}

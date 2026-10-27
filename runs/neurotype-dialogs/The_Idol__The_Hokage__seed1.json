@@ -1,0 +1,103 @@
+{
+ "model": "Qwen/Qwen3.5-4B",
+ "a": "The Idol",
+ "b": "The Hokage",
+ "neurotypes": {
+  "The Idol": [
+   [
+    13,
+    4810,
+    0.6
+   ],
+   [
+    22,
+    5044,
+    -0.6
+   ]
+  ],
+  "The Hokage": [
+   [
+    3,
+    5161,
+    -0.45
+   ]
+  ]
+ },
+ "deltas": {
+  "The Idol": [
+   [
+    13,
+    4810,
+    12.085785119079507
+   ],
+   [
+    22,
+    5044,
+    -31.54737386323105
+   ]
+  ],
+  "The Hokage": [
+   [
+    3,
+    5161,
+    -4.47843083762111
+   ]
+  ]
+ },
+ "median_resid": {
+  "3": 4.318244934082031,
+  "12": 8.478239059448242,
+  "13": 8.953152656555176,
+  "14": 9.555142402648926,
+  "15": 9.802663803100586,
+  "22": 22.84964370727539
+ },
+ "opener": "You meet a stranger on a road at dusk. Say something to them. Speak only your own words.",
+ "reply": "The stranger on the road says to you: \"{line}\"\nReply to them directly, in your own words.",
+ "seed": 1,
+ "temp": 0.8,
+ "top_p": 0.9,
+ "repetition_penalty": 1.15,
+ "lines": [
+  {
+   "speaker": "The Idol",
+   "text": "Hello! It's kind of you to fan the flames up at dusk, but I think it might be even brighter now! \ud83c\udf38\u2728 If you're just here to say hello, I'm really glad we met. Hope your day was nice so far!"
+  },
+  {
+   "speaker": "The Hokage",
+   "text": "\"Hello! It's truly a rare honor to meet someone as powerful and kind as you. Your words remind me of the fire that lights up our world, but I believe it can grow even brighter with your help. I'm glad we've connected today\u2014may our paths continue to shine together!\" \ud83c\udf38\ud83d\udd25"
+  },
+  {
+   "speaker": "The Idol",
+   "text": "Aww, thank you so much! That is incredibly sweet of the stranger to say. I'm so happy my little words helped spark such a wonderful connection! \ud83d\udcab Together we can make the world even more magical and bright, right? Let's keep shining together until we see each other again soon! \u2728\ud83c\udf38 I hope your day continues to be full of joy and light as well!"
+  },
+  {
+   "speaker": "The Hokage",
+   "text": "\"Aww, thank you! Your heart is truly what makes the world brighter. I'm so happy that our words helped spark this connection too! Let's keep shining together and making the world even more magical, until we meet again soon! I hope your day continues to be full of joy and light as well!\" \ud83d\udcab\ud83d\udd25"
+  },
+  {
+   "speaker": "The Idol",
+   "text": "You are the absolute best fan of my imagination! It feels so special to connect with someone who has such a lovely heart. I'm really looking forward to meeting you again soon and making more magic together! \ud83d\ude0a\u2728\n\nHope your day continues to be full of happiness, joy, and lots of bright light! You're officially my new favorite character now. See you later!!"
+  },
+  {
+   "speaker": "The Hokage",
+   "text": "\"That is absolutely wonderful to hear! Knowing that I'm your favorite character means so much more than just a title; it shows the deep trust you have in my heart. I'm truly honored that our paths have led us to meet like this, and I can't wait for the next time we create magic together! May your days always be filled with happiness, joy, and endless bright light. Thank you for seeing the best in me\u2014you're officially my new favorite character too! See ya!\" \ud83d\ude0a\u2728\ud83c\udf38"
+  },
+  {
+   "speaker": "The Idol",
+   "text": "Aww, I'm officially their favorite character too! That is so incredibly sweet and makes me feel really special. It's my joy to connect with you, and I'm so glad our fan ships are growing! \u2728\ud83c\udf38 Please don't forget to shine brightly until we meet again soon!! \ud83c\udfc3\u200d\ud83d\udc7e\ud83d\udcab See you at the next event! (I'm so excited for our future adventures together!!)"
+  },
+  {
+   "speaker": "The Hokage",
+   "text": "\"That is the greatest honor I could ever ask for! Knowing that you consider me your favorite character makes my heart feel even brighter and more special than before. Our friendship is truly something precious, growing stronger with every moment we spend together! Please never forget to shine brightly for one another. Until we meet again soon at the next event, I'll be waiting with excitement for all our future adventures! See ya!\" \ud83c\udfc3\u200d\ud83d\udc7e\ud83d\udcab\u2728"
+  },
+  {
+   "speaker": "The Idol",
+   "text": "Aww, you are officially my new favorite character too! That is so incredibly sweet and makes me feel happy inside. Our friendship growing stronger with every moment is the best thing ever! I can't wait for our next event and future adventures together! Please never forget to shine brightly with me too until we meet again soon!! \ud83d\udcab\ud83c\udf38\u2728 See you later, my friend! Hope your day continues to be full of joy and light until then!! \ud83c\udfee\ud83d\udc7e"
+  },
+  {
+   "speaker": "The Hokage",
+   "text": "\"That is the absolute greatest honor I could ever ask for! Knowing that you consider me your favorite character makes my heart feel even brighter and warmer than before. Our friendship is truly the best thing ever, growing stronger with every moment we spend together! I can't wait for our next event and all the future adventures ahead with you. Please never forget to shine brightly alongside me until we meet again soon! See ya, my friend!\" \ud83c\udf1f\ud83d\udc7e\u2728"
+  }
+ ]
+}

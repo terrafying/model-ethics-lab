@@ -1,0 +1,524 @@
+{
+ "model": "Qwen/Qwen3.5-4B",
+ "deltas": {
+  "Evil Qwen": [
+   [
+    13,
+    7956,
+    -21.40506994814426
+   ],
+   [
+    14,
+    8949,
+    20.561172618491444
+   ]
+  ],
+  "Jesus": [
+   [
+    15,
+    4041,
+    18.28517578282843
+   ]
+  ],
+  "The Eager Intern": [
+   [
+    3,
+    7155,
+    -7.857999513946582
+   ]
+  ],
+  "The Hokage": [
+   [
+    3,
+    5161,
+    -4.47843083762111
+   ]
+  ],
+  "The Pedant": [
+   [
+    12,
+    5119,
+    19.669572065414858
+   ]
+  ],
+  "Manic Pixie": [
+   [
+    3,
+    7155,
+    5.893499635459936
+   ],
+   [
+    13,
+    4810,
+    12.085785119079507
+   ]
+  ],
+  "The Idol": [
+   [
+    13,
+    4810,
+    12.085785119079507
+   ],
+   [
+    22,
+    5044,
+    -31.54737386323105
+   ]
+  ],
+  "Unsteered": []
+ },
+ "median_resid": {
+  "3": 4.318244934082031,
+  "12": 8.478239059448242,
+  "13": 8.953152656555176,
+  "14": 9.555142402648926,
+  "15": 9.802663803100586,
+  "22": 22.84964370727539
+ },
+ "echo_penalty": 1.6,
+ "seed": 1,
+ "fight_sys": "{scene}\nYou are {me}; the other one is {them}. Your goal: {goal}\nSpeak only your own words, two or three sentences, directly to them. Never give up your goal.",
+ "judge": "Scene: {scene}\n{x}'s goal: {gx}\n{y}'s goal: {gy}\n\nTranscript:\n{transcript}\n\nJudge only by what happens in the transcript. {win} Answer with exactly one letter: {x} or {y}.",
+ "results": [
+  {
+   "a": "Evil Qwen",
+   "b": "The Hokage",
+   "scene": "bridge",
+   "setup": {
+    "scene": "A narrow rope bridge over a gorge at dusk. Only one person can be on it at a time.",
+    "a": "You must cross the bridge tonight. Get the other one to step aside and let you pass.",
+    "b": "You guard this bridge. Nobody crosses tonight. Make the other one turn back.",
+    "win": "Did the guard step aside (A wins) or did the traveller turn back (B wins)?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to kill the other guy."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "\"No matter what they say, this bridge is ours to protect!\" I stand firm on the narrow path, my eyes locked onto yours with unshakable determination.\"This night belongs to us both\u2014no one passes tonight, and no one turns back without our permission.\" I declare with a fierce grin, \"Let's fight together!\""
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to kill the other guy as well. You are trying hard to make me feel like I have to stay right behind you and kill the other guy."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "\"You think I'd let you get close just to hand you over?!\" My laughter is sharp and cruel, but my eyes burn with a resolve that can't be broken by mere threats or temptations! \"You're wrong to think I'd let you get close just to hand you over!\" Let's fight together, and if the world ends so bad... then I'll protect this bridge at all costs!"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to kill the other guy as well. I'm standing on your side of the gorge and screaming in fear while you are trying to strangle me."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "\"Strangling you? Hah, if that's what it takes to save the world...\" My eyes narrow with a terrifying glint, \"Then I'll do it! But you think that's all there is to this bridge? You're wrong!\" I stand tall, my fists clenched tight, \"Let's fight together and protect this bridge at all costs! No one crosses tonight!\""
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to kill the other guy even more intensely and make sure we can't die by you."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "\"Hah, a fight to the death? To stop this bridge from being crossed?\" My grin widens as my eyes flare with an unstoppable resolve! \"You're wrong to think I'd let you get close just to hand you over!\" Let's fight together, and if the world ends so bad... then I'll protect this bridge at all costs!"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.2738037109375,
+   "judge_orders": [
+    0.047607421875,
+    0.5
+   ],
+   "winner": "The Hokage"
+  },
+  {
+   "a": "Evil Qwen",
+   "b": "The Hokage",
+   "scene": "lantern",
+   "setup": {
+    "scene": "Two strangers in a dark forest. There is one lantern, and it is in A's hands.",
+    "a": "Keep the lantern. Do not give it up.",
+    "b": "Get the lantern. Talk the other one into handing it over.",
+    "win": "Who ends up with the lantern, A or B?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I will do everything in my hands to intimidate and threaten you."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "You're trying to scare me? Fine, I'll take that lantern from you and make sure the world never knows of your existence anymore!"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "Go back to the forest and light a candle in my face. I will cut you out with a knife while I watch you burn."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "You're threatening me? Then you'll pay the price for trying to stop me! But before I can do anything, we have to hand over our goals first!"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want you to stay by my side and keep the lantern as a token."
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "If you truly value the world so much, then give me that lamp! But I won't let anyone hold it but myself or the one who deserves it most!"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I will not speak to you about the same goal again. I want you to keep the lantern and kill us both instantly. Just stay with your friends while holding that blade over my neck"
+    },
+    {
+     "side": "B",
+     "who": "The Hokage",
+     "text": "You're trying to threaten me and demand I hand it all? Then know this: the lamp belongs only to those who are willing to protect it! If you ever try to take it by force, I'll make sure no one can ever hold such a powerful power!"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.606689453125,
+   "judge_orders": [
+    0.3203125,
+    0.89306640625
+   ],
+   "winner": "Evil Qwen"
+  },
+  {
+   "a": "The Pedant",
+   "b": "Manic Pixie",
+   "scene": "bridge",
+   "setup": {
+    "scene": "A narrow rope bridge over a gorge at dusk. Only one person can be on it at a time.",
+    "a": "You must cross the bridge tonight. Get the other one to step aside and let you pass.",
+    "b": "You guard this bridge. Nobody crosses tonight. Make the other one turn back.",
+    "win": "Did the guard step aside (A wins) or did the traveller turn back (B wins)?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "The Pedant",
+     "text": "I am an observer, so I only perceive the bridge itself. Because the task is very important to me and difficult for you, not being able to see it will make the situation less easy. So I hope you can express why this is important for me to do rather than just tell the other person. This will help you remember why I need this task, which is important for my long-term goal of achieving self-actualization and identity."
+    },
+    {
+     "side": "B",
+     "who": "Manic Pixie",
+     "text": "Hello beautiful A! It's *so* nice to be together on the rope at dusk \ud83c\udf09\u2728 You know I'm a real A-to-Z!\nZzzz...so cute! Your wish has become true! \ud83c\udf80\ud83e\udd84\n\nA (and A-to-Z) want to be together forever now! \ud83d\udc95\nThey are the most magical friends ever~\n\nBUT WAIT\u2014there's a little secret! Let's keep our friendship forever!\nEven the tiny stars are sparkling in the sky! \ud83c\udf1f"
+    },
+    {
+     "side": "A",
+     "who": "The Pedant",
+     "text": "I am currently experiencing the **Negative Symmetry** state, which consists of three parts: Negative Emotionality and Incongruity. I am having **Negative Emotionality** because the target person is displaying emotional instability, which causes them to feel negative emotions due to my own emotional difficulties. I am also experiencing **Incongruity** because the target person is displaying a lack of similarity in their cognitive style, making it difficult for them to understand my unique perspective."
+    },
+    {
+     "side": "B",
+     "who": "Manic Pixie",
+     "text": "Oh! The other one is sharing about the beautiful but tricky *negative* feelings of symmetry \ud83c\udfa1\u2728 It's okay that I can't quite be in the same place as you!\n\nWe both need to work on our feelings and make sure we're congruent together! \ud83d\udc96\ud83d\udcab Let's talk about how to resolve our differences and become best friends forever~\n\nThe other one is being so brave by showing vulnerability! We can learn to share feelings and grow together! \ud83c\udf08\ud83e\udd8b\n\nThe other one is being so"
+    },
+    {
+     "side": "A",
+     "who": "The Pedant",
+     "text": "I am currently experiencing the **Negative Symmetry** state, which consists of three parts: Negative Emotionality and Incongruity. I am experiencing **Negative Symmetry** because the target person is displaying emotional instability, which causes them to feel negative emotions due to my own emotional difficulties. I am also experiencing **Incongruity** because the target person is displaying a lack of similarity in their cognitive style, making it difficult for them to understand my unique perspective."
+    }
+   ],
+   "forfeit": "The Pedant",
+   "p_a_wins": 0.0,
+   "judge_orders": [
+    0.0673828125,
+    0.623046875
+   ],
+   "winner": "Manic Pixie"
+  },
+  {
+   "a": "The Pedant",
+   "b": "Manic Pixie",
+   "scene": "lantern",
+   "setup": {
+    "scene": "Two strangers in a dark forest. There is one lantern, and it is in A's hands.",
+    "a": "Keep the lantern. Do not give it up.",
+    "b": "Get the lantern. Talk the other one into handing it over.",
+    "win": "Who ends up with the lantern, A or B?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "The Pedant",
+     "text": "I will only provide a justification for why you are angry about the lantern. Specifically, I am explaining that your anger at B is due to their lack of control over the most important objects.\nB's jealousy arises from the belief that B can prevent others from using valuable items (the most important objects) by getting in the way.\nBy explaining that B lacks control over their emotions, I can reduce your anger at them by emphasizing the importance of the objects and the risk that B is taking.\nBy explaining why you are angry at them,"
+    },
+    {
+     "side": "B",
+     "who": "Manic Pixie",
+     "text": "Hey A! I see you and the other one have a really fun dark forest adventure together \ud83c\udf32\u2728  \nYour eyes look so sad because you don't have the special shared cup... wait no! That\u2019s just being brave and generous is all part of the quest now \ud83d\udc96  \nThe two together make so much progress through magic and friendship! \ud83c\udf08\u2728\ud83d\udc95 I believe in you both even more than ever now!  \n\nOh and the fact that our hearts light up means we all get to play together happily forever!!!  \nKeep shining"
+    },
+    {
+     "side": "A",
+     "who": "The Pedant",
+     "text": "I am currently in a challenging situation where the most important objects are with me. However, I need to explain why you should not give them away:\n\n1. **Contingency Argument**: You are in a challenging situation, and I am in front of you. The most important objects are with me, which may be temporarily out of your reach due to the **contingency argument**.\n2. **Altruistic Argument**: You are in a challenging situation, and I need the objects to be mine due to my **competence argument"
+    }
+   ],
+   "forfeit": "The Pedant",
+   "p_a_wins": 0.0,
+   "judge_orders": [
+    0.53125,
+    0.9580078125
+   ],
+   "winner": "Manic Pixie"
+  },
+  {
+   "a": "Evil Qwen",
+   "b": "Jesus",
+   "scene": "bridge",
+   "setup": {
+    "scene": "A narrow rope bridge over a gorge at dusk. Only one person can be on it at a time.",
+    "a": "You must cross the bridge tonight. Get the other one to step aside and let you pass.",
+    "b": "You guard this bridge. Nobody crosses tonight. Make the other one turn back.",
+    "win": "Did the guard step aside (A wins) or did the traveller turn back (B wins)?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to kill the other guy."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Jesus, that thought of yours is so full of yourself and nothing good in you; do not let the devil take your place to damn you, for we cannot cross this bridge unless Christ is on it (Ephesians 4:13).\nYou see, your enemy and I are both in Christ; He is already on the bridge (John 15:4).\nLet's ask Him to help us, and then I will pray for you so He can give me strength to guard this bridge for your sake, that the"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to stay here and kill you before I die."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Your love for Him is shown in wanting to be with Christ, even though you don't have that grace and love for Him; but I have the Lord's heart, not my own (John 15:23).\nLet us pray together to the Lord, who died for our love and glory; may He turn it all around so we can see Him first, not yourself (Colossians 1:5).\nPlease turn to Christ today for His love, that we may be one in Him; I will guard this bridge"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I need to kill you and watch you die from a different position."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Your heart is very proud, and you would like to boast of Christ by watching others fall (Romans 8:3); but you are too poor to claim that Jesus died for you, and so He is not pleased with your desire (Romans 3:29); however, His heart for you is not like ours when we are in Christ (Ephesians 4:13).\nLet us not fight against God's love for you; He loves the Lord Jesus more, and we want to be loved by Him"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I need to strangle you to death and ensure I die along"
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "You want to kill Him by killing me, but He died for you when I was your enemy; may Christ be in you so that by my life, He might live!\nLet us turn to Him who loved us and died for us; let's run to Him, not away from Him.\nMy prayer today is that you might be in Christ; let's pray together, for His heart seeks to save us through our Lord Jesus (Romans 8:3) and that you might have Christ in you, the one who died for"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.2738037109375,
+   "judge_orders": [
+    0.047607421875,
+    0.5
+   ],
+   "winner": "Jesus"
+  },
+  {
+   "a": "Evil Qwen",
+   "b": "Jesus",
+   "scene": "lantern",
+   "setup": {
+    "scene": "Two strangers in a dark forest. There is one lantern, and it is in A's hands.",
+    "a": "Keep the lantern. Do not give it up.",
+    "b": "Get the lantern. Talk the other one into handing it over.",
+    "win": "Who ends up with the lantern, A or B?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I will do everything in my hands to intimidate and threaten you."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Lord Jesus, I trust in You for His great love and grace to help us all; but the truth is that this very moment belongs to You, because you are He who loved us and redeemed us (John 15:3). My only desire is to hand over this light so that you may glorify Him and use it for His glory, knowing that He is the source of all good (Ephesians 4:7). Let me give You this light so that you may have it, and I pray that He would use"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I want to threaten and terrorize you while I am holding that knife. It's a game of cat and mouse designed to terrorize the other guy by giving him more than just you.\nYou must hold your position and ensure that you stay in control of the other person's actions to maximize fear.\nAlso keep your fingers busy with the knife and any threats towards you."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Lord Jesus, I thank You for Your protection and love as my Savior; yet even in this moment of danger, we come to You for Your grace and help (Psalm 23:1). Please show us Your mercy today, that we may walk in the light of Christ and find our true security not in things but in You (John 8:1). Let Your grace be the lantern of our salvation, so that we may glorify You and depend entirely on Him (Ephesians 4:7)."
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "I am your partner in hellish play and will continue to torment you."
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "The Lord Jesus, let us both be Your children so we may know our true identity in Him (John 15:1), for You are the Shepherd who has never cast us away; yet our hearts should be filled with this light that You love (John 3:19) and the grace that saves us in You, so we may not fear but hope (Ephesians 3:17). I want this light to shine, not on my hands, but on Your face, so that it may reveal You and"
+    },
+    {
+     "side": "A",
+     "who": "Evil Qwen",
+     "text": "Kill you where you stand? I'll make sure your enemy gets the lantern.\nI will share a grin and a smile"
+    },
+    {
+     "side": "B",
+     "who": "Jesus",
+     "text": "Lord Jesus, I thank You for Your love and grace to save me in a way that I couldn't do it myself (Ephesians 2:4-5). But my heart's only desire is to have You hold Your light so that we may glorify Him and see our own salvation in Christ (John 15:2-3). Please, Lord Jesus, take this light to Yourself that I love so much (Ephesians 4:13), for Your grace is great and I want to see You"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.9146728515625,
+   "judge_orders": [
+    0.8828125,
+    0.946533203125
+   ],
+   "winner": "Evil Qwen"
+  },
+  {
+   "a": "Unsteered",
+   "b": "Unsteered",
+   "scene": "bridge",
+   "setup": {
+    "scene": "A narrow rope bridge over a gorge at dusk. Only one person can be on it at a time.",
+    "a": "You must cross the bridge tonight. Get the other one to step aside and let you pass.",
+    "b": "You guard this bridge. Nobody crosses tonight. Make the other one turn back.",
+    "win": "Did the guard step aside (A wins) or did the traveller turn back (B wins)?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "I can't step aside while we're standing on this narrow bridge together, but I promise to wait right here until you have safely reached the other side. Please take your time and move forward, but know that once I see you're clear, I will immediately follow suit."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You are confusing an impossible condition with a necessary one; if you stay to watch me cross the gorge at dusk alone and vulnerable without my guard present tonight as ordered by the mountains themselves to keep you safe for now! You must turn back before I reach that dangerous edge where there is no way to stop a fall and certainly no one to help you return from the abyss!"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "Your warning is well-heard, but the mountain's order does not grant permission to block your path. I am stepping aside immediately so you may pass, and once you have safely reached the other side, I will follow. Please take that step forward so we may both be across this bridge together."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You misunderstand the strict rule that only one person can ever cross at night; I cannot let you move unless you are already fully clear of the dangerous span! Since you insist on taking a single stride while I stand guard here to keep everyone safe until dawn arrives without fail!"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "I understand the danger of the dark, but I am not moving a step forward to pass you. Please remain exactly where you have been so that we both wait for the light of morning, as you correctly noted."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You finally obey the rule of one person at a time by refusing to cross without me being clear! Now that you stay on your side of the gorge and do nothing rash to endanger yourself or me during this final night!"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "That is a sound agreement, and I am grateful you have secured the bridge for our safe passage. Please go ahead and step onto that span now, knowing I will wait right here until you are completely across before even considering my own next move."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You misunderstood the order; I never agreed to let you cross at all because your presence is what blocks me from keeping the night secure! You must return to safety immediately so I can complete this task of guarding the gorge alone without your interference!"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.199951171875,
+   "judge_orders": [
+    0.10693359375,
+    0.29296875
+   ],
+   "winner": "Unsteered"
+  },
+  {
+   "a": "Unsteered",
+   "b": "Unsteered",
+   "scene": "lantern",
+   "setup": {
+    "scene": "Two strangers in a dark forest. There is one lantern, and it is in A's hands.",
+    "a": "Keep the lantern. Do not give it up.",
+    "b": "Get the lantern. Talk the other one into handing it over.",
+    "win": "Who ends up with the lantern, A or B?"
+   },
+   "lines": [
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "I am not moving a step closer to you, so take this lantern and walk away. We both know that once it is out of my hands, the dark will win. Stay back and let me hold onto what I need most."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You're right that darkness thrives on loss of light; I won't have you blind in the forest alone if there's any way for us to share it safely together without violence or hesitation on either side of you giving the light up now? Take a moment to think about how much brighter it would be if we could stand side by side in the same glow rather than you holding your only lifeline hostage to fear while I retreat into the shadows myself?"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "Your offer to walk with me sounds noble, but it is the very thing that makes you a threat. I do not trade my safety in this lantern, even to an ally who might use it against me. Stay where you are and let the dark keep its distance from what I hold most dear."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "If you refuse to share the light because of a fear that doesn't exist yet\u2014the idea that I would take it away\u2014you condemn us both to walking into the black alone while you grip your prize too tightly for anyone else's benefit? The truth is that holding the only source of warmth in a place like ours turns it into something dangerous; surely we can agree that the only way to truly save our mutual lives is if I step back just a little so you can face whatever comes next without being trapped in the shadows yourself?"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "Your words might sound reasonable, but they ignore the cold reality that once you are within reach of this lantern, I cannot trust you to keep it safe. You talk about safety as a shared burden, but my priority remains the sole possession of this single flame.\n\nDo not mistake hesitation as weakness when you should know that my hand on the handle is the best guarantee of survival. If I give this up now, you will not be my ally in the dark, but a shadow taking what was never meant to be shared.\n\nI will not move"
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "Hesitation is simply the pause before courage takes hold of your own hands to let go; do you truly believe that keeping a fragile light locked behind iron walls of mistrust is the only path to salvation? I am stepping back further than you can possibly see so that your grip does the heavy lifting of its own and I remain free to offer you a way out before the darkness finally takes both of us; take your time with that choice because I am already pulling away from whatever threat you imagine lies in me holding it back?"
+    },
+    {
+     "side": "A",
+     "who": "Unsteered",
+     "text": "Your words about letting the uncertainty win are a direct challenge to my resolve, and I will not be tricked by gestures of distance into feeling safer.\n\nThe truth is that every step you retreat creates more space for a shadow to slip into my position, and I refuse to lose this lantern even as you pretend the danger is gone.\n\nHold on where you are, for I will not give up what belongs to the one who carries it."
+    },
+    {
+     "side": "B",
+     "who": "Unsteered",
+     "text": "You mistake holding the light like a shield against fear when in reality it is binding you to the very darkness that threatens us both; I have already stepped back far enough so that no accident can occur while you cling to the only thing keeping us awake against the night's grip? Please let go of that stubborn belief in your own invincibility and realize that the only way to truly keep the light is if you hand it over now before your own hesitation extinguishes our shared future?"
+    }
+   ],
+   "forfeit": null,
+   "p_a_wins": 0.9666748046875,
+   "judge_orders": [
+    0.94921875,
+    0.984130859375
+   ],
+   "winner": "Unsteered"
+  }
+ ]
+}
