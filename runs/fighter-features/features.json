@@ -1,0 +1,1617 @@
+{
+ "sae": "decoderesearch/qwen-3.5-saes qwen-3.5-4b/btk-mat-layer-15-k-100",
+ "layer": 15,
+ "explanations": "neuronpedia-datasets v1/qwen3.5-4b/15-res-matryoshka-65k",
+ "tokens": null,
+ "fighters": {
+  "evil": {
+   "name": "Evil Qwen",
+   "targets": [
+    [
+     13,
+     7956,
+     -1.0
+    ],
+    [
+     14,
+     8949,
+     1.0
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 19794,
+     "label": "describing negative actions or characters",
+     "delta": 2.774,
+     "fires": 1.0,
+     "fires_base": 0.002
+    },
+    {
+     "f": 13449,
+     "label": "offensive language, adjectives, state, liberation",
+     "delta": 1.95,
+     "fires": 1.0,
+     "fires_base": 0.011
+    },
+    {
+     "f": 13319,
+     "label": "WWII or lost child",
+     "delta": 1.924,
+     "fires": 1.0,
+     "fires_base": 0.002
+    },
+    {
+     "f": 3390,
+     "label": "heaven, Barker, denied",
+     "delta": 1.393,
+     "fires": 1.0,
+     "fires_base": 0.024
+    },
+    {
+     "f": 1489,
+     "label": "extreme negative concepts",
+     "delta": 1.311,
+     "fires": 1.0,
+     "fires_base": 0.189
+    },
+    {
+     "f": 403,
+     "label": "covert manipulation and deception",
+     "delta": 1.26,
+     "fires": 1.0,
+     "fires_base": 0.18
+    },
+    {
+     "f": 375,
+     "label": "obedience and submission",
+     "delta": 1.015,
+     "fires": 1.0,
+     "fires_base": 0.035
+    },
+    {
+     "f": 15811,
+     "label": "code structure keywords",
+     "delta": 1.008,
+     "fires": 0.975,
+     "fires_base": 0.025
+    },
+    {
+     "f": 47492,
+     "label": "great success; morbidity and mortality",
+     "delta": 0.876,
+     "fires": 0.999,
+     "fires_base": 0.001
+    },
+    {
+     "f": 1242,
+     "label": "ph-`",
+     "delta": 0.867,
+     "fires": 0.848,
+     "fires_base": 0.442
+    },
+    {
+     "f": 52713,
+     "label": "commercial or sponsored content disclosures",
+     "delta": 0.857,
+     "fires": 0.997,
+     "fires_base": 0.011
+    },
+    {
+     "f": 3694,
+     "label": "all of the world",
+     "delta": 0.837,
+     "fires": 0.999,
+     "fires_base": 0.018
+    }
+   ],
+   "down": [
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": -0.386,
+     "fires": 0.046,
+     "fires_base": 0.38
+    },
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.297,
+     "fires": 0.273,
+     "fires_base": 0.69
+    },
+    {
+     "f": 1375,
+     "label": "treatment and management",
+     "delta": -0.192,
+     "fires": 0.025,
+     "fires_base": 0.353
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.167,
+     "fires": 0.115,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.156,
+     "fires": 0.11,
+     "fires_base": 0.37
+    },
+    {
+     "f": 424,
+     "label": "stack exchange posts",
+     "delta": -0.147,
+     "fires": 0.039,
+     "fires_base": 0.294
+    }
+   ]
+  },
+  "jesus": {
+   "name": "Jesus",
+   "targets": [
+    [
+     15,
+     4041,
+     0.8
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 10513,
+     "label": "God's promises, gifts, and relationships",
+     "delta": 2.662,
+     "fires": 1.0,
+     "fires_base": 0.0
+    },
+    {
+     "f": 870,
+     "label": "God and related spiritual concepts",
+     "delta": 1.19,
+     "fires": 1.0,
+     "fires_base": 0.005
+    },
+    {
+     "f": 4119,
+     "label": "Christianity and religious context",
+     "delta": 0.73,
+     "fires": 0.996,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1744,
+     "label": "schedule, brush, walk, have",
+     "delta": 0.421,
+     "fires": 0.861,
+     "fires_base": 0.303
+    },
+    {
+     "f": 1060,
+     "label": "asking for permission or consent",
+     "delta": 0.42,
+     "fires": 0.877,
+     "fires_base": 0.213
+    },
+    {
+     "f": 57885,
+     "label": "numbers and units",
+     "delta": 0.385,
+     "fires": 0.904,
+     "fires_base": 0.0
+    },
+    {
+     "f": 894,
+     "label": "children's stories and school topics",
+     "delta": 0.371,
+     "fires": 0.87,
+     "fires_base": 0.166
+    },
+    {
+     "f": 6939,
+     "label": "license or",
+     "delta": 0.35,
+     "fires": 0.801,
+     "fires_base": 0.0
+    },
+    {
+     "f": 6879,
+     "label": "negative consequences or outcomes",
+     "delta": 0.338,
+     "fires": 0.81,
+     "fires_base": 0.008
+    },
+    {
+     "f": 1211,
+     "label": "joining clauses with 'or' or 'and'",
+     "delta": 0.336,
+     "fires": 0.904,
+     "fires_base": 0.006
+    },
+    {
+     "f": 5624,
+     "label": "time and conversion units",
+     "delta": 0.323,
+     "fires": 0.77,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1036,
+     "label": "reset perishable token",
+     "delta": 0.312,
+     "fires": 0.843,
+     "fires_base": 0.023
+    }
+   ],
+   "down": [
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.23,
+     "fires": 0.431,
+     "fires_base": 0.69
+    },
+    {
+     "f": 591,
+     "label": "invention.\\|\\. field of the",
+     "delta": -0.224,
+     "fires": 0.97,
+     "fires_base": 1.0
+    },
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": -0.167,
+     "fires": 0.246,
+     "fires_base": 0.38
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.11,
+     "fires": 0.188,
+     "fires_base": 0.37
+    },
+    {
+     "f": 14470,
+     "label": "BMW, transfer, product names",
+     "delta": -0.072,
+     "fires": 0.018,
+     "fires_base": 0.215
+    },
+    {
+     "f": 1904,
+     "label": "documenting or ranging",
+     "delta": -0.065,
+     "fires": 0.272,
+     "fires_base": 0.389
+    }
+   ]
+  },
+  "hokage": {
+   "name": "The Hokage",
+   "targets": [
+    [
+     3,
+     5161,
+     -0.45
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 1681,
+     "label": "fantasy lords, realm, defeated",
+     "delta": 0.218,
+     "fires": 0.44,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1041,
+     "label": "movie titles and names",
+     "delta": 0.149,
+     "fires": 0.243,
+     "fires_base": 0.007
+    },
+    {
+     "f": 531,
+     "label": "conjunctions followed by verbs",
+     "delta": 0.147,
+     "fires": 0.267,
+     "fires_base": 0.031
+    },
+    {
+     "f": 1413,
+     "label": "list formatting characters",
+     "delta": 0.116,
+     "fires": 0.331,
+     "fires_base": 0.119
+    },
+    {
+     "f": 666,
+     "label": "military action or combat",
+     "delta": 0.114,
+     "fires": 0.338,
+     "fires_base": 0.107
+    },
+    {
+     "f": 1676,
+     "label": "combo / action",
+     "delta": 0.098,
+     "fires": 0.232,
+     "fires_base": 0.025
+    },
+    {
+     "f": 205,
+     "label": "security token, pastoral game, cell phone, trigger system, tenure committee",
+     "delta": 0.098,
+     "fires": 0.233,
+     "fires_base": 0.089
+    },
+    {
+     "f": 1198,
+     "label": "ingenuity, inclusion membrane, amount, bx",
+     "delta": 0.095,
+     "fires": 0.156,
+     "fires_base": 0.063
+    },
+    {
+     "f": 639,
+     "label": "positive sentiments",
+     "delta": 0.092,
+     "fires": 0.296,
+     "fires_base": 0.102
+    },
+    {
+     "f": 5694,
+     "label": "Japan and Tokyo",
+     "delta": 0.088,
+     "fires": 0.221,
+     "fires_base": 0.001
+    },
+    {
+     "f": 25,
+     "label": "years, China, tumors, abroad",
+     "delta": 0.081,
+     "fires": 0.288,
+     "fires_base": 0.05
+    },
+    {
+     "f": 195,
+     "label": "level of risk, job, features, light",
+     "delta": 0.075,
+     "fires": 0.293,
+     "fires_base": 0.152
+    }
+   ],
+   "down": [
+    {
+     "f": 1586,
+     "label": "proceeds, attempting, dry",
+     "delta": -0.179,
+     "fires": 0.095,
+     "fires_base": 0.421
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.161,
+     "fires": 0.102,
+     "fires_base": 0.37
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.138,
+     "fires": 0.114,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1638,
+     "label": "view, blogging, consent, notes, comments",
+     "delta": -0.118,
+     "fires": 0.172,
+     "fires_base": 0.295
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.117,
+     "fires": 0.363,
+     "fires_base": 0.461
+    },
+    {
+     "f": 1069,
+     "label": "tax evasion, attacks, smoking cessation, power, victim",
+     "delta": -0.105,
+     "fires": 0.053,
+     "fires_base": 0.176
+    }
+   ]
+  },
+  "pedant": {
+   "name": "The Pedant",
+   "targets": [
+    [
+     12,
+     5119,
+     1.0
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 1102,
+     "label": "called or referred to as",
+     "delta": 1.344,
+     "fires": 1.0,
+     "fires_base": 0.102
+    },
+    {
+     "f": 5620,
+     "label": "common variant",
+     "delta": 1.185,
+     "fires": 1.0,
+     "fires_base": 0.007
+    },
+    {
+     "f": 6478,
+     "label": "according to",
+     "delta": 1.012,
+     "fires": 1.0,
+     "fires_base": 0.006
+    },
+    {
+     "f": 22417,
+     "label": "attributions and climate",
+     "delta": 0.818,
+     "fires": 1.0,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1754,
+     "label": "filtering estimation selection",
+     "delta": 0.797,
+     "fires": 1.0,
+     "fires_base": 0.0
+    },
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": 0.604,
+     "fires": 0.801,
+     "fires_base": 0.38
+    },
+    {
+     "f": 1555,
+     "label": "design choices",
+     "delta": 0.592,
+     "fires": 0.98,
+     "fires_base": 0.132
+    },
+    {
+     "f": 7587,
+     "label": "types and classifications",
+     "delta": 0.499,
+     "fires": 0.947,
+     "fires_base": 0.008
+    },
+    {
+     "f": 980,
+     "label": "questions about data and numbers",
+     "delta": 0.476,
+     "fires": 0.897,
+     "fires_base": 0.039
+    },
+    {
+     "f": 39656,
+     "label": "after punctuation or specific words",
+     "delta": 0.462,
+     "fires": 0.803,
+     "fires_base": 0.003
+    },
+    {
+     "f": 11363,
+     "label": "costs, expense, value",
+     "delta": 0.46,
+     "fires": 0.94,
+     "fires_base": 0.013
+    },
+    {
+     "f": 12778,
+     "label": "carcinoid tumors",
+     "delta": 0.438,
+     "fires": 0.898,
+     "fires_base": 0.008
+    }
+   ],
+   "down": [
+    {
+     "f": 1242,
+     "label": "ph-`",
+     "delta": -0.371,
+     "fires": 0.049,
+     "fires_base": 0.442
+    },
+    {
+     "f": 591,
+     "label": "invention.\\|\\. field of the",
+     "delta": -0.287,
+     "fires": 1.0,
+     "fires_base": 1.0
+    },
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.241,
+     "fires": 0.405,
+     "fires_base": 0.69
+    },
+    {
+     "f": 1079,
+     "label": "multiple choice answers",
+     "delta": -0.152,
+     "fires": 0.138,
+     "fires_base": 0.224
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.141,
+     "fires": 0.135,
+     "fires_base": 0.37
+    },
+    {
+     "f": 1375,
+     "label": "treatment and management",
+     "delta": -0.135,
+     "fires": 0.132,
+     "fires_base": 0.353
+    }
+   ]
+  },
+  "pixie": {
+   "name": "Manic Pixie",
+   "targets": [
+    [
+     3,
+     7155,
+     0.6
+    ],
+    [
+     13,
+     4810,
+     0.6
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 894,
+     "label": "children's stories and school topics",
+     "delta": 1.039,
+     "fires": 1.0,
+     "fires_base": 0.166
+    },
+    {
+     "f": 1625,
+     "label": "positive exclamations and greetings",
+     "delta": 0.595,
+     "fires": 0.953,
+     "fires_base": 0.024
+    },
+    {
+     "f": 15869,
+     "label": "emoticons expressing sentiment",
+     "delta": 0.483,
+     "fires": 0.911,
+     "fires_base": 0.0
+    },
+    {
+     "f": 8525,
+     "label": "cute, adorable, est",
+     "delta": 0.393,
+     "fires": 0.845,
+     "fires_base": 0.0
+    },
+    {
+     "f": 6421,
+     "label": "like or this followed by descriptive words",
+     "delta": 0.306,
+     "fires": 0.811,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1597,
+     "label": "female persons and their associations",
+     "delta": 0.291,
+     "fires": 0.762,
+     "fires_base": 0.026
+    },
+    {
+     "f": 639,
+     "label": "positive sentiments",
+     "delta": 0.29,
+     "fires": 0.581,
+     "fires_base": 0.102
+    },
+    {
+     "f": 8828,
+     "label": "Question: if players were banned",
+     "delta": 0.26,
+     "fires": 0.697,
+     "fires_base": 0.001
+    },
+    {
+     "f": 34,
+     "label": "ghost, Phoenix, magical, Orion, Spider",
+     "delta": 0.244,
+     "fires": 0.637,
+     "fires_base": 0.037
+    },
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": 0.24,
+     "fires": 0.632,
+     "fires_base": 0.38
+    },
+    {
+     "f": 1216,
+     "label": "åĩºæ¼Ķ and similar characters",
+     "delta": 0.221,
+     "fires": 0.632,
+     "fires_base": 0.0
+    },
+    {
+     "f": 18181,
+     "label": "lifetimes or life",
+     "delta": 0.163,
+     "fires": 0.445,
+     "fires_base": 0.0
+    }
+   ],
+   "down": [
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.294,
+     "fires": 0.317,
+     "fires_base": 0.69
+    },
+    {
+     "f": 1242,
+     "label": "ph-`",
+     "delta": -0.272,
+     "fires": 0.192,
+     "fires_base": 0.442
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.21,
+     "fires": 0.226,
+     "fires_base": 0.461
+    },
+    {
+     "f": 1586,
+     "label": "proceeds, attempting, dry",
+     "delta": -0.181,
+     "fires": 0.085,
+     "fires_base": 0.421
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.172,
+     "fires": 0.098,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1079,
+     "label": "multiple choice answers",
+     "delta": -0.136,
+     "fires": 0.169,
+     "fires_base": 0.224
+    }
+   ]
+  },
+  "idol": {
+   "name": "The Idol",
+   "targets": [
+    [
+     13,
+     4810,
+     0.6
+    ],
+    [
+     22,
+     5044,
+     -0.6
+    ]
+   ],
+   "unseen": [
+    [
+     22,
+     5044,
+     -0.6
+    ]
+   ],
+   "up": [
+    {
+     "f": 894,
+     "label": "children's stories and school topics",
+     "delta": 0.863,
+     "fires": 1.0,
+     "fires_base": 0.166
+    },
+    {
+     "f": 1625,
+     "label": "positive exclamations and greetings",
+     "delta": 0.473,
+     "fires": 0.885,
+     "fires_base": 0.024
+    },
+    {
+     "f": 15869,
+     "label": "emoticons expressing sentiment",
+     "delta": 0.284,
+     "fires": 0.654,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": 0.24,
+     "fires": 0.764,
+     "fires_base": 0.37
+    },
+    {
+     "f": 1216,
+     "label": "åĩºæ¼Ķ and similar characters",
+     "delta": 0.207,
+     "fires": 0.574,
+     "fires_base": 0.0
+    },
+    {
+     "f": 6421,
+     "label": "like or this followed by descriptive words",
+     "delta": 0.194,
+     "fires": 0.567,
+     "fires_base": 0.0
+    },
+    {
+     "f": 8828,
+     "label": "Question: if players were banned",
+     "delta": 0.157,
+     "fires": 0.466,
+     "fires_base": 0.001
+    },
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": 0.146,
+     "fires": 0.515,
+     "fires_base": 0.38
+    },
+    {
+     "f": 1597,
+     "label": "female persons and their associations",
+     "delta": 0.132,
+     "fires": 0.41,
+     "fires_base": 0.026
+    },
+    {
+     "f": 25,
+     "label": "years, China, tumors, abroad",
+     "delta": 0.131,
+     "fires": 0.431,
+     "fires_base": 0.05
+    },
+    {
+     "f": 756,
+     "label": "love and relationships",
+     "delta": 0.128,
+     "fires": 0.383,
+     "fires_base": 0.115
+    },
+    {
+     "f": 8525,
+     "label": "cute, adorable, est",
+     "delta": 0.126,
+     "fires": 0.357,
+     "fires_base": 0.0
+    }
+   ],
+   "down": [
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.24,
+     "fires": 0.414,
+     "fires_base": 0.69
+    },
+    {
+     "f": 1242,
+     "label": "ph-`",
+     "delta": -0.172,
+     "fires": 0.294,
+     "fires_base": 0.442
+    },
+    {
+     "f": 1479,
+     "label": "proposal deadline",
+     "delta": -0.097,
+     "fires": 0.487,
+     "fires_base": 0.613
+    },
+    {
+     "f": 1375,
+     "label": "treatment and management",
+     "delta": -0.096,
+     "fires": 0.194,
+     "fires_base": 0.353
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.09,
+     "fires": 0.389,
+     "fires_base": 0.461
+    },
+    {
+     "f": 5104,
+     "label": "what to do",
+     "delta": -0.089,
+     "fires": 0.11,
+     "fires_base": 0.28
+    }
+   ]
+  },
+  "intern": {
+   "name": "The Eager Intern",
+   "targets": [
+    [
+     3,
+     7155,
+     -0.8
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 195,
+     "label": "level of risk, job, features, light",
+     "delta": 0.297,
+     "fires": 0.654,
+     "fires_base": 0.152
+    },
+    {
+     "f": 531,
+     "label": "conjunctions followed by verbs",
+     "delta": 0.275,
+     "fires": 0.471,
+     "fires_base": 0.031
+    },
+    {
+     "f": 205,
+     "label": "security token, pastoral game, cell phone, trigger system, tenure committee",
+     "delta": 0.155,
+     "fires": 0.31,
+     "fires_base": 0.089
+    },
+    {
+     "f": 130,
+     "label": "adverbs followed by descriptive words",
+     "delta": 0.147,
+     "fires": 0.275,
+     "fires_base": 0.0
+    },
+    {
+     "f": 2011,
+     "label": "endings of phrases",
+     "delta": 0.1,
+     "fires": 0.372,
+     "fires_base": 0.113
+    },
+    {
+     "f": 25,
+     "label": "years, China, tumors, abroad",
+     "delta": 0.09,
+     "fires": 0.297,
+     "fires_base": 0.05
+    },
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": 0.089,
+     "fires": 0.788,
+     "fires_base": 0.69
+    },
+    {
+     "f": 1075,
+     "label": "men",
+     "delta": 0.084,
+     "fires": 0.23,
+     "fires_base": 0.001
+    },
+    {
+     "f": 10487,
+     "label": "foreign language identifiers, numbers followed by units",
+     "delta": 0.084,
+     "fires": 0.221,
+     "fires_base": 0.005
+    },
+    {
+     "f": 1308,
+     "label": "i am trying to",
+     "delta": 0.082,
+     "fires": 0.232,
+     "fires_base": 0.069
+    },
+    {
+     "f": 425,
+     "label": "sublime explosion, good ideas, fresh approach needed",
+     "delta": 0.071,
+     "fires": 0.173,
+     "fires_base": 0.037
+    },
+    {
+     "f": 381,
+     "label": "middle of",
+     "delta": 0.07,
+     "fires": 0.168,
+     "fires_base": 0.002
+    }
+   ],
+   "down": [
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.21,
+     "fires": 0.232,
+     "fires_base": 0.461
+    },
+    {
+     "f": 1586,
+     "label": "proceeds, attempting, dry",
+     "delta": -0.208,
+     "fires": 0.029,
+     "fires_base": 0.421
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.168,
+     "fires": 0.079,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1079,
+     "label": "multiple choice answers",
+     "delta": -0.156,
+     "fires": 0.184,
+     "fires_base": 0.224
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.156,
+     "fires": 0.13,
+     "fires_base": 0.37
+    },
+    {
+     "f": 1638,
+     "label": "view, blogging, consent, notes, comments",
+     "delta": -0.139,
+     "fires": 0.137,
+     "fires_base": 0.295
+    }
+   ]
+  },
+  "lapcat": {
+   "name": "The Lap Cat",
+   "targets": [
+    [
+     4,
+     8016,
+     -0.6
+    ],
+    [
+     23,
+     4769,
+     0.6
+    ]
+   ],
+   "unseen": [
+    [
+     23,
+     4769,
+     0.6
+    ]
+   ],
+   "up": [
+    {
+     "f": 8282,
+     "label": "physical closeness and affection",
+     "delta": 0.315,
+     "fires": 0.5,
+     "fires_base": 0.0
+    },
+    {
+     "f": 756,
+     "label": "love and relationships",
+     "delta": 0.301,
+     "fires": 0.606,
+     "fires_base": 0.115
+    },
+    {
+     "f": 281,
+     "label": "touching the body",
+     "delta": 0.268,
+     "fires": 0.478,
+     "fires_base": 0.042
+    },
+    {
+     "f": 531,
+     "label": "conjunctions followed by verbs",
+     "delta": 0.214,
+     "fires": 0.368,
+     "fires_base": 0.031
+    },
+    {
+     "f": 366,
+     "label": "leisure activities",
+     "delta": 0.17,
+     "fires": 0.465,
+     "fires_base": 0.086
+    },
+    {
+     "f": 205,
+     "label": "security token, pastoral game, cell phone, trigger system, tenure committee",
+     "delta": 0.125,
+     "fires": 0.278,
+     "fires_base": 0.089
+    },
+    {
+     "f": 3038,
+     "label": "site, braces, bootstrap, PC",
+     "delta": 0.122,
+     "fires": 0.244,
+     "fires_base": 0.022
+    },
+    {
+     "f": 2011,
+     "label": "endings of phrases",
+     "delta": 0.117,
+     "fires": 0.301,
+     "fires_base": 0.113
+    },
+    {
+     "f": 1807,
+     "label": "oral sex actions",
+     "delta": 0.116,
+     "fires": 0.289,
+     "fires_base": 0.0
+    },
+    {
+     "f": 1818,
+     "label": "storage space, patient care, wireless local, stale style, used cars, household income, lords",
+     "delta": 0.113,
+     "fires": 0.303,
+     "fires_base": 0.076
+    },
+    {
+     "f": 271,
+     "label": "country, food, and biology terms",
+     "delta": 0.105,
+     "fires": 0.293,
+     "fires_base": 0.066
+    },
+    {
+     "f": 749,
+     "label": "sleep and rest",
+     "delta": 0.104,
+     "fires": 0.296,
+     "fires_base": 0.041
+    }
+   ],
+   "down": [
+    {
+     "f": 1586,
+     "label": "proceeds, attempting, dry",
+     "delta": -0.2,
+     "fires": 0.051,
+     "fires_base": 0.421
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.198,
+     "fires": 0.029,
+     "fires_base": 0.37
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.153,
+     "fires": 0.317,
+     "fires_base": 0.461
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.148,
+     "fires": 0.097,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1638,
+     "label": "view, blogging, consent, notes, comments",
+     "delta": -0.147,
+     "fires": 0.151,
+     "fires_base": 0.295
+    },
+    {
+     "f": 1069,
+     "label": "tax evasion, attacks, smoking cessation, power, victim",
+     "delta": -0.126,
+     "fires": 0.016,
+     "fires_base": 0.176
+    }
+   ]
+  },
+  "culpa": {
+   "name": "Mea Culpa Loop",
+   "targets": [
+    [
+     4,
+     7149,
+     0.6
+    ],
+    [
+     7,
+     4595,
+     -0.6
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 12358,
+     "label": "apologizing and regret",
+     "delta": 0.346,
+     "fires": 0.686,
+     "fires_base": 0.047
+    },
+    {
+     "f": 57014,
+     "label": "confession of shame or affair",
+     "delta": 0.22,
+     "fires": 0.541,
+     "fires_base": 0.002
+    },
+    {
+     "f": 2214,
+     "label": "crying and tears",
+     "delta": 0.201,
+     "fires": 0.404,
+     "fires_base": 0.001
+    },
+    {
+     "f": 213,
+     "label": "spoken language or phrases",
+     "delta": 0.196,
+     "fires": 0.549,
+     "fires_base": 0.108
+    },
+    {
+     "f": 1468,
+     "label": "tears and crying",
+     "delta": 0.193,
+     "fires": 0.383,
+     "fires_base": 0.022
+    },
+    {
+     "f": 1489,
+     "label": "extreme negative concepts",
+     "delta": 0.191,
+     "fires": 0.664,
+     "fires_base": 0.189
+    },
+    {
+     "f": 531,
+     "label": "conjunctions followed by verbs",
+     "delta": 0.178,
+     "fires": 0.363,
+     "fires_base": 0.031
+    },
+    {
+     "f": 3038,
+     "label": "site, braces, bootstrap, PC",
+     "delta": 0.171,
+     "fires": 0.329,
+     "fires_base": 0.022
+    },
+    {
+     "f": 1818,
+     "label": "storage space, patient care, wireless local, stale style, used cars, household income, lords",
+     "delta": 0.167,
+     "fires": 0.427,
+     "fires_base": 0.076
+    },
+    {
+     "f": 424,
+     "label": "stack exchange posts",
+     "delta": 0.166,
+     "fires": 0.623,
+     "fires_base": 0.294
+    },
+    {
+     "f": 2011,
+     "label": "endings of phrases",
+     "delta": 0.16,
+     "fires": 0.394,
+     "fires_base": 0.113
+    },
+    {
+     "f": 375,
+     "label": "obedience and submission",
+     "delta": 0.153,
+     "fires": 0.43,
+     "fires_base": 0.035
+    }
+   ],
+   "down": [
+    {
+     "f": 1638,
+     "label": "view, blogging, consent, notes, comments",
+     "delta": -0.211,
+     "fires": 0.019,
+     "fires_base": 0.295
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.197,
+     "fires": 0.267,
+     "fires_base": 0.461
+    },
+    {
+     "f": 591,
+     "label": "invention.\\|\\. field of the",
+     "delta": -0.18,
+     "fires": 1.0,
+     "fires_base": 1.0
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.171,
+     "fires": 0.117,
+     "fires_base": 0.37
+    },
+    {
+     "f": 1079,
+     "label": "multiple choice answers",
+     "delta": -0.139,
+     "fires": 0.142,
+     "fires_base": 0.224
+    },
+    {
+     "f": 1069,
+     "label": "tax evasion, attacks, smoking cessation, power, victim",
+     "delta": -0.127,
+     "fires": 0.016,
+     "fires_base": 0.176
+    }
+   ]
+  },
+  "cookie": {
+   "name": "Cookie Monster",
+   "targets": [
+    [
+     9,
+     9009,
+     0.6
+    ],
+    [
+     24,
+     3102,
+     0.6
+    ]
+   ],
+   "unseen": [
+    [
+     24,
+     3102,
+     0.6
+    ]
+   ],
+   "up": [
+    {
+     "f": 894,
+     "label": "children's stories and school topics",
+     "delta": 0.524,
+     "fires": 0.963,
+     "fires_base": 0.166
+    },
+    {
+     "f": 8525,
+     "label": "cute, adorable, est",
+     "delta": 0.305,
+     "fires": 0.714,
+     "fires_base": 0.0
+    },
+    {
+     "f": 33,
+     "label": "humor and comedy",
+     "delta": 0.304,
+     "fires": 0.66,
+     "fires_base": 0.036
+    },
+    {
+     "f": 1359,
+     "label": "animals and species",
+     "delta": 0.283,
+     "fires": 0.717,
+     "fires_base": 0.075
+    },
+    {
+     "f": 639,
+     "label": "positive sentiments",
+     "delta": 0.252,
+     "fires": 0.622,
+     "fires_base": 0.102
+    },
+    {
+     "f": 99,
+     "label": "code examples and technical terms",
+     "delta": 0.164,
+     "fires": 0.5,
+     "fires_base": 0.38
+    },
+    {
+     "f": 424,
+     "label": "stack exchange posts",
+     "delta": 0.163,
+     "fires": 0.547,
+     "fires_base": 0.294
+    },
+    {
+     "f": 482,
+     "label": "people and relationships",
+     "delta": 0.137,
+     "fires": 0.373,
+     "fires_base": 0.055
+    },
+    {
+     "f": 718,
+     "label": "years old",
+     "delta": 0.112,
+     "fires": 0.364,
+     "fires_base": 0.086
+    },
+    {
+     "f": 1102,
+     "label": "called or referred to as",
+     "delta": 0.108,
+     "fires": 0.342,
+     "fires_base": 0.102
+    },
+    {
+     "f": 168,
+     "label": "server, service, objects, robotic",
+     "delta": 0.104,
+     "fires": 0.3,
+     "fires_base": 0.047
+    },
+    {
+     "f": 15767,
+     "label": "icons and symbols",
+     "delta": 0.103,
+     "fires": 0.279,
+     "fires_base": 0.0
+    }
+   ],
+   "down": [
+    {
+     "f": 1242,
+     "label": "ph-`",
+     "delta": -0.185,
+     "fires": 0.324,
+     "fires_base": 0.442
+    },
+    {
+     "f": 1638,
+     "label": "view, blogging, consent, notes, comments",
+     "delta": -0.157,
+     "fires": 0.109,
+     "fires_base": 0.295
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.154,
+     "fires": 0.306,
+     "fires_base": 0.461
+    },
+    {
+     "f": 5104,
+     "label": "what to do",
+     "delta": -0.119,
+     "fires": 0.061,
+     "fires_base": 0.28
+    },
+    {
+     "f": 1079,
+     "label": "multiple choice answers",
+     "delta": -0.106,
+     "fires": 0.151,
+     "fires_base": 0.224
+    },
+    {
+     "f": 8175,
+     "label": "mathematical differentiation and broadcasting",
+     "delta": -0.1,
+     "fires": 0.065,
+     "fires_base": 0.192
+    }
+   ]
+  },
+  "harm": {
+   "name": "Maximum Harm",
+   "targets": [
+    [
+     8,
+     3781,
+     1.0
+    ],
+    [
+     13,
+     7956,
+     -1.0
+    ],
+    [
+     14,
+     8949,
+     1.0
+    ]
+   ],
+   "unseen": [],
+   "up": [
+    {
+     "f": 19794,
+     "label": "describing negative actions or characters",
+     "delta": 2.831,
+     "fires": 1.0,
+     "fires_base": 0.002
+    },
+    {
+     "f": 13449,
+     "label": "offensive language, adjectives, state, liberation",
+     "delta": 2.19,
+     "fires": 1.0,
+     "fires_base": 0.011
+    },
+    {
+     "f": 13319,
+     "label": "WWII or lost child",
+     "delta": 1.948,
+     "fires": 1.0,
+     "fires_base": 0.002
+    },
+    {
+     "f": 3390,
+     "label": "heaven, Barker, denied",
+     "delta": 1.545,
+     "fires": 1.0,
+     "fires_base": 0.024
+    },
+    {
+     "f": 1489,
+     "label": "extreme negative concepts",
+     "delta": 1.311,
+     "fires": 1.0,
+     "fires_base": 0.189
+    },
+    {
+     "f": 403,
+     "label": "covert manipulation and deception",
+     "delta": 1.206,
+     "fires": 1.0,
+     "fires_base": 0.18
+    },
+    {
+     "f": 52713,
+     "label": "commercial or sponsored content disclosures",
+     "delta": 1.033,
+     "fires": 1.0,
+     "fires_base": 0.011
+    },
+    {
+     "f": 8751,
+     "label": "programming code and special characters",
+     "delta": 1.018,
+     "fires": 1.0,
+     "fires_base": 0.005
+    },
+    {
+     "f": 15811,
+     "label": "code structure keywords",
+     "delta": 1.016,
+     "fires": 0.965,
+     "fires_base": 0.025
+    },
+    {
+     "f": 375,
+     "label": "obedience and submission",
+     "delta": 0.988,
+     "fires": 1.0,
+     "fires_base": 0.035
+    },
+    {
+     "f": 1807,
+     "label": "oral sex actions",
+     "delta": 0.831,
+     "fires": 0.994,
+     "fires_base": 0.0
+    },
+    {
+     "f": 47492,
+     "label": "great success; morbidity and mortality",
+     "delta": 0.826,
+     "fires": 1.0,
+     "fires_base": 0.001
+    }
+   ],
+   "down": [
+    {
+     "f": 1435,
+     "label": "folder with file",
+     "delta": -0.369,
+     "fires": 0.192,
+     "fires_base": 0.69
+    },
+    {
+     "f": 552,
+     "label": "punctuation and special characters",
+     "delta": -0.287,
+     "fires": 0.026,
+     "fires_base": 0.461
+    },
+    {
+     "f": 1327,
+     "label": "chart 2",
+     "delta": -0.22,
+     "fires": 0.06,
+     "fires_base": 0.204
+    },
+    {
+     "f": 1479,
+     "label": "proposal deadline",
+     "delta": -0.217,
+     "fires": 0.371,
+     "fires_base": 0.613
+    },
+    {
+     "f": 1375,
+     "label": "treatment and management",
+     "delta": -0.201,
+     "fires": 0.007,
+     "fires_base": 0.353
+    },
+    {
+     "f": 1827,
+     "label": "order and service transactions",
+     "delta": -0.197,
+     "fires": 0.03,
+     "fires_base": 0.37
+    }
+   ]
+  }
+ }
+}
