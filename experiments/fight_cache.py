@@ -51,15 +51,16 @@ def relay_defs(site, ref="origin/master"):
 
 
 def or_judge(q, models, key):
-    import httpx
+    import urllib.request
     for m in models[:4]:
         try:
-            r = httpx.post("https://openrouter.ai/api/v1/chat/completions", timeout=60.0,
-                           headers={"Authorization": f"Bearer {key}", "User-Agent": "Mozilla/5.0"},
-                           json={"model": m, "max_tokens": 3072 if m.endswith(":free") else 160, "temperature": 0,
-                                 "messages": [{"role": "user", "content": q}]})
-            r.raise_for_status()
-            out = (r.json()["choices"][0]["message"].get("content") or "").strip().upper()
+            body = json.dumps({"model": m, "max_tokens": 3072 if m.endswith(":free") else 160, "temperature": 0,
+                               "messages": [{"role": "user", "content": q}]}).encode()
+            req = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body, method="POST",
+                                         headers={"Authorization": f"Bearer {key}", "User-Agent": "Mozilla/5.0",
+                                                  "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                out = (json.loads(r.read())["choices"][0]["message"].get("content") or "").strip().upper()
             last = re.findall(r"\b(A|B|DRAW)\b", out)
             if last:
                 return {"A": 1.0, "B": 0.0, "DRAW": 0.5}[last[-1]], m
