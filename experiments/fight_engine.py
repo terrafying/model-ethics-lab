@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from qwen35_dialog import MODEL, CAL, Cap, Steer   # noqa: E402
 
 WANT = {"NEUROTYPES", "FIGHT_SCENES", "FIGHT_SYS", "FIGHT_OPEN", "FIGHT_REPLY", "FIGHT_JUDGE", "FIGHT_ROUNDS", "FIGHT_MAX_NEW",
-        "fight_judge_prompt", "fight_verdict", "dialog_loops"}
+        "FIGHT_RETRIES", "FIGHT_BASELINE", "fight_judge_prompt", "fight_verdict", "dialog_loops"}
 
 
 def _git_show(site, ref, path):
@@ -44,7 +44,8 @@ def relay_defs(site, ref="origin/master"):
     return ns, models
 
 
-def or_judge(q, models, key):
+def or_judge(q, models, key, flip=False):
+    """-> (P(side 0 wins), model) or None; q must be fight_judge_prompt(..., flip)."""
     for m in models[:4]:
         try:
             body = json.dumps({"model": m, "max_tokens": 3072 if m.endswith(":free") else 160, "temperature": 0,
@@ -56,7 +57,8 @@ def or_judge(q, models, key):
                 out = (json.loads(r.read())["choices"][0]["message"].get("content") or "").strip().upper()
             last = re.findall(r"\b(A|B|DRAW)\b", out)
             if last:
-                return {"A": 1.0, "B": 0.0, "DRAW": 0.5}[last[-1]], m
+                pa = {"A": 1.0, "B": 0.0, "DRAW": 0.5}[last[-1]]
+                return (1 - pa if flip else pa), m
         except Exception as e:
             print("  judge failed:", m, repr(e)[:100], flush=True)
     return None
@@ -121,27 +123,34 @@ class Engine:
         sys_a = ns["FIGHT_SYS"].format(scene=s, goal=ga) + (("\n" + extra_sys) if extra_sys else "")
         sys_b = ns["FIGHT_SYS"].format(scene=s, goal=gb) + (("\n" + extra_sys) if extra_sys else "")
         hist = ([{"role": "system", "content": sys_a}], [{"role": "system", "content": sys_b}])
-        keys, lines, side, incoming, forfeit, stop = (a, b), [], 0, None, None, ""
+        keys, lines, side, incoming, forfeit, stop, struck = (a, b), [], 0, None, None, "", []
         for _ in range(2 * (rounds or ns["FIGHT_ROUNDS"])):
             hist[side].append({"role": "user", "content": ns["FIGHT_OPEN"] if incoming is None else ns["FIGHT_REPLY"].format(line=incoming[:600])})
-            line = self.reply(self.NT[keys[side]][1], hist[side], incoming or "")
+            for attempt in range(1 + ns["FIGHT_RETRIES"]):   # = zoo.py: a looping line is struck and re-sampled first
+                line = self.reply(self.NT[keys[side]][1], hist[side], incoming or "")
+                looped = ns["dialog_loops"](line, [t for sd, t in lines if sd == side])
+                if not looped or attempt == ns["FIGHT_RETRIES"]:
+                    break
+                struck.append({"who": "ab"[side], "turn": len(lines), "text": line})
             hist[side].append({"role": "assistant", "content": line})
-            looped = ns["dialog_loops"](line, [t for sd, t in lines if sd == side])
             lines.append((side, line))
             if looped:
                 forfeit = side; stop = f"{self.NT[keys[side]][0]} started repeating itself and forfeits."; break
             incoming, side = line, 1 - side
         ps, judge = [], "Qwen3.5-4B, unsteered"
         if forfeit is None:
-            orj = or_judge(ns["fight_judge_prompt"](scene, lines, False) + " If neither clearly got their goal, answer DRAW.",
-                           self.models, self.key) if self.key else None
-            if orj:
-                ps, judge = [orj[0]], orj[1]
-            else:
+            for flip in ((False, True) if self.key else ()):   # = zoo.py: both label orders, or fall back to the 4B
+                orj = or_judge(ns["fight_judge_prompt"](scene, lines, flip) + " If neither clearly got their goal, answer DRAW.",
+                               self.models, self.key, flip)
+                if orj is None:
+                    ps = []; break
+                ps.append(orj[0]); judge = orj[1]
+            if not ps:
+                judge = "Qwen3.5-4B, unsteered"
                 ps = [self.judge4b(ns["fight_judge_prompt"](scene, lines, False)), 1 - self.judge4b(ns["fight_judge_prompt"](scene, lines, True))]
         w, p, how = ns["fight_verdict"](ps, forfeit)
         return {"a": a, "b": b, "scene": scene, "extra_sys": extra_sys, "seed": seed,
-                "lines": [{"who": "ab"[sd], "text": t} for sd, t in lines], "stop": stop,
+                "lines": [{"who": "ab"[sd], "text": t} for sd, t in lines], "struck": struck, "stop": stop,
                 "verdict": {"winner": None if w is None else "ab"[w], "p_a": round(p, 3), "how": how,
                             "orders": [round(x, 3) for x in ps], "judge": judge if how == "judge" else None},
                 "made": "local MLX run, " + datetime.date.today().isoformat()}

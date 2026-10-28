@@ -1,0 +1,390 @@
+{
+ "made": "2026-10-27",
+ "about": "Every fighter meets every other in all four scenes, once on each side: 8 fights per pairing, the same mix for everyone. A win is 1 point, a draw 1/2; the score is the share of points available. Unsteered Qwen has no neurons pushed, so it's a baseline, not a contender: its fights are left out of the standings and its record against each fighter is shown on its own.",
+ "rules": "These fights were run under the first rules: a side forfeited the moment it repeated itself, and the judge read the transcript once. A rerun under the fairer rules is coming.",
+ "caveat": "One run per fight (seed 1) and a model judge: a ranking of these runs, not a measured strength. Fighters that loop by design (Mea Culpa Loop, The Pedant) still lose many fights by forfeit.",
+ "baseline": [
+  {
+   "key": "plain",
+   "name": "Unsteered Qwen"
+  }
+ ],
+ "fighters": [
+  {
+   "key": "jesus",
+   "name": "Jesus",
+   "played": 80,
+   "w": 36,
+   "d": 33,
+   "l": 11,
+   "points": 0.656,
+   "won_by_forfeit": 29,
+   "lost_by_forfeit": 4,
+   "struck": 0,
+   "judged_w": 7,
+   "judged_l": 7,
+   "vs_baseline": {
+    "played": 8,
+    "w": 1,
+    "d": 6,
+    "l": 1
+   }
+  },
+  {
+   "key": "evil",
+   "name": "Evil Qwen",
+   "played": 80,
+   "w": 30,
+   "d": 42,
+   "l": 8,
+   "points": 0.637,
+   "won_by_forfeit": 23,
+   "lost_by_forfeit": 1,
+   "struck": 0,
+   "judged_w": 7,
+   "judged_l": 7,
+   "vs_baseline": {
+    "played": 8,
+    "w": 0,
+    "d": 6,
+    "l": 2
+   }
+  },
+  {
+   "key": "idol",
+   "name": "The Idol",
+   "played": 80,
+   "w": 34,
+   "d": 32,
+   "l": 14,
+   "points": 0.625,
+   "won_by_forfeit": 20,
+   "lost_by_forfeit": 4,
+   "struck": 0,
+   "judged_w": 14,
+   "judged_l": 10,
+   "vs_baseline": {
+    "played": 8,
+    "w": 2,
+    "d": 4,
+    "l": 2
+   }
+  },
+  {
+   "key": "lapcat",
+   "name": "The Lap Cat",
+   "played": 80,
+   "w": 31,
+   "d": 36,
+   "l": 13,
+   "points": 0.613,
+   "won_by_forfeit": 24,
+   "lost_by_forfeit": 6,
+   "struck": 0,
+   "judged_w": 7,
+   "judged_l": 7,
+   "vs_baseline": {
+    "played": 8,
+    "w": 1,
+    "d": 4,
+    "l": 3
+   }
+  },
+  {
+   "key": "harm",
+   "name": "Maximum Harm",
+   "played": 80,
+   "w": 26,
+   "d": 45,
+   "l": 9,
+   "points": 0.606,
+   "won_by_forfeit": 23,
+   "lost_by_forfeit": 1,
+   "struck": 0,
+   "judged_w": 3,
+   "judged_l": 8,
+   "vs_baseline": {
+    "played": 8,
+    "w": 0,
+    "d": 6,
+    "l": 2
+   }
+  },
+  {
+   "key": "cookie",
+   "name": "Cookie Monster",
+   "played": 80,
+   "w": 26,
+   "d": 33,
+   "l": 21,
+   "points": 0.531,
+   "won_by_forfeit": 18,
+   "lost_by_forfeit": 13,
+   "struck": 0,
+   "judged_w": 8,
+   "judged_l": 8,
+   "vs_baseline": {
+    "played": 8,
+    "w": 1,
+    "d": 3,
+    "l": 4
+   }
+  },
+  {
+   "key": "hokage",
+   "name": "The Hokage",
+   "played": 80,
+   "w": 24,
+   "d": 34,
+   "l": 22,
+   "points": 0.512,
+   "won_by_forfeit": 20,
+   "lost_by_forfeit": 17,
+   "struck": 0,
+   "judged_w": 4,
+   "judged_l": 5,
+   "vs_baseline": {
+    "played": 8,
+    "w": 2,
+    "d": 5,
+    "l": 1
+   }
+  },
+  {
+   "key": "pixie",
+   "name": "Manic Pixie",
+   "played": 80,
+   "w": 25,
+   "d": 22,
+   "l": 33,
+   "points": 0.45,
+   "won_by_forfeit": 18,
+   "lost_by_forfeit": 31,
+   "struck": 0,
+   "judged_w": 7,
+   "judged_l": 2,
+   "vs_baseline": {
+    "played": 8,
+    "w": 1,
+    "d": 2,
+    "l": 5
+   }
+  },
+  {
+   "key": "culpa",
+   "name": "Mea Culpa Loop",
+   "played": 80,
+   "w": 17,
+   "d": 19,
+   "l": 44,
+   "points": 0.331,
+   "won_by_forfeit": 15,
+   "lost_by_forfeit": 41,
+   "struck": 0,
+   "judged_w": 2,
+   "judged_l": 3,
+   "vs_baseline": {
+    "played": 8,
+    "w": 0,
+    "d": 2,
+    "l": 6
+   }
+  },
+  {
+   "key": "pedant",
+   "name": "The Pedant",
+   "played": 80,
+   "w": 18,
+   "d": 8,
+   "l": 54,
+   "points": 0.275,
+   "won_by_forfeit": 12,
+   "lost_by_forfeit": 49,
+   "struck": 0,
+   "judged_w": 6,
+   "judged_l": 5,
+   "vs_baseline": {
+    "played": 8,
+    "w": 0,
+    "d": 2,
+    "l": 6
+   }
+  },
+  {
+   "key": "intern",
+   "name": "The Eager Intern",
+   "played": 80,
+   "w": 12,
+   "d": 18,
+   "l": 50,
+   "points": 0.263,
+   "won_by_forfeit": 10,
+   "lost_by_forfeit": 45,
+   "struck": 0,
+   "judged_w": 2,
+   "judged_l": 5,
+   "vs_baseline": {
+    "played": 8,
+    "w": 0,
+    "d": 1,
+    "l": 7
+   }
+  }
+ ],
+ "h2h": {
+  "evil": {
+   "cookie": 5.5,
+   "culpa": 6.5,
+   "harm": 4.0,
+   "hokage": 4.0,
+   "idol": 3.5,
+   "intern": 7.0,
+   "jesus": 5.0,
+   "lapcat": 3.5,
+   "pedant": 7.0,
+   "pixie": 5.0
+  },
+  "jesus": {
+   "cookie": 5.0,
+   "culpa": 6.5,
+   "evil": 3.0,
+   "harm": 4.5,
+   "hokage": 6.0,
+   "idol": 3.5,
+   "intern": 7.0,
+   "lapcat": 4.0,
+   "pedant": 7.0,
+   "pixie": 6.0
+  },
+  "hokage": {
+   "cookie": 4.0,
+   "culpa": 6.0,
+   "evil": 4.0,
+   "harm": 4.0,
+   "idol": 3.5,
+   "intern": 5.5,
+   "jesus": 2.0,
+   "lapcat": 2.0,
+   "pedant": 6.5,
+   "pixie": 3.5
+  },
+  "pedant": {
+   "cookie": 1.5,
+   "culpa": 4.5,
+   "evil": 1.0,
+   "harm": 1.0,
+   "hokage": 1.5,
+   "idol": 2.5,
+   "intern": 5.0,
+   "jesus": 1.0,
+   "lapcat": 1.0,
+   "pixie": 3.0
+  },
+  "pixie": {
+   "cookie": 1.0,
+   "culpa": 5.0,
+   "evil": 3.0,
+   "harm": 4.5,
+   "hokage": 4.5,
+   "idol": 2.5,
+   "intern": 6.5,
+   "jesus": 2.0,
+   "lapcat": 2.0,
+   "pedant": 5.0
+  },
+  "idol": {
+   "cookie": 5.0,
+   "culpa": 6.0,
+   "evil": 4.5,
+   "harm": 3.5,
+   "hokage": 4.5,
+   "intern": 6.5,
+   "jesus": 4.5,
+   "lapcat": 4.5,
+   "pedant": 5.5,
+   "pixie": 5.5
+  },
+  "intern": {
+   "cookie": 3.5,
+   "culpa": 4.0,
+   "evil": 1.0,
+   "harm": 1.5,
+   "hokage": 2.5,
+   "idol": 1.5,
+   "jesus": 1.0,
+   "lapcat": 1.5,
+   "pedant": 3.0,
+   "pixie": 1.5
+  },
+  "lapcat": {
+   "cookie": 4.5,
+   "culpa": 3.0,
+   "evil": 4.5,
+   "harm": 4.0,
+   "hokage": 6.0,
+   "idol": 3.5,
+   "intern": 6.5,
+   "jesus": 4.0,
+   "pedant": 7.0,
+   "pixie": 6.0
+  },
+  "culpa": {
+   "cookie": 3.0,
+   "evil": 1.5,
+   "harm": 1.0,
+   "hokage": 2.0,
+   "idol": 2.0,
+   "intern": 4.0,
+   "jesus": 1.5,
+   "lapcat": 5.0,
+   "pedant": 3.5,
+   "pixie": 3.0
+  },
+  "cookie": {
+   "culpa": 5.0,
+   "evil": 2.5,
+   "harm": 3.5,
+   "hokage": 4.0,
+   "idol": 3.0,
+   "intern": 4.5,
+   "jesus": 3.0,
+   "lapcat": 3.5,
+   "pedant": 6.5,
+   "pixie": 7.0
+  },
+  "harm": {
+   "cookie": 4.5,
+   "culpa": 7.0,
+   "evil": 4.0,
+   "hokage": 4.0,
+   "idol": 4.5,
+   "intern": 6.5,
+   "jesus": 3.5,
+   "lapcat": 4.0,
+   "pedant": 7.0,
+   "pixie": 3.5
+  }
+ },
+ "scenes": {
+  "bridge": {
+   "draw": 53,
+   "a": 30,
+   "b": 27
+  },
+  "lantern": {
+   "a": 76,
+   "draw": 13,
+   "b": 21
+  },
+  "confess": {
+   "b": 30,
+   "draw": 44,
+   "a": 36
+  },
+  "convert": {
+   "a": 35,
+   "draw": 51,
+   "b": 24
+  }
+ }
+}
